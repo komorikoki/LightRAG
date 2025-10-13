@@ -1,0 +1,2893 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d11" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d10" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d9" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d8" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d7" for="edge" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="先生">
+      <data key="d0">先生</data>
+      <data key="d1">person</data>
+      <data key="d2">The entity known as 先生 is a significant character who embodies the role of a teacher or mentor within the narrative. He plays a critical part in shaping the thoughts and feelings of the narrator, establishing a relationship marked by complexity and emotional depth. Though his name remains undisclosed, 先生 is characterized by formal attire and is depicted in various settings, including a tea shop and the beach, where he engages in meaningful exchanges, notably with a Western individual. These interactions are significantly influenced by his mysterious past, which adds to his enigmatic presence.
+
+The demeanor of 先生 is described as aloof and non-social, which evokes a mix of disappointment and longing within the narrator. He commands authority during conversations, highlighting his essential role in the narrator’s life. A notable scene involves 先生 emerging from a tea house, hinting at connections to traditional or cultural contexts. Beyond his mentorship role, he exhibits feelings of loneliness and grapples with complex emotional struggles, particularly illustrated by his reluctance to visit a grave site linked to his past.
+
+In addition to his interactions with the narrator, 先生 is portrayed as an intellectual figure who maintains a distant demeanor towards others, specifically奥さん (the wife). This relationship is fraught with misunderstandings and emotional tension; however, his concern for her unveils his humanity and vulnerability, connecting him to themes of hidden tragedies and interpersonal complexities. He engages in profound discussions about love, showcasing strong opinions that deepen his character. 
+
+Moreover, 先生's absence during private visits evokes discomfort for the narrator and emphasizes the weight of his influence on the narrator’s self-perception. His presence is a source of introspection, as discussions among characters, including 奥さん, reflect the emotional conflicts tied to 先生's character. 
+
+The narrative also indicates that 先生 has undergone changes due to the death of a friend, which raises concerns among those close to him. Additionally, he is involved in discussions regarding the narrator's father's illness, demonstrating his capacity as a knowledgeable figure, offering insights into kidney disease. The character's role as a teacher is further emphasized by his minimal correspondence, including return letters expressing concern for the narrator's family.
+
+Overall, the 先生 emerges as a multi-faceted individual whose profound influence on the narrator is highlighted by his mysterious nature, formal presence, and complex emotional landscape. He serves as an important guide, engaging in mentorship and providing practical advice on family matters and relationships.&lt;SEP&gt;先生is a character who provides an important commentary on human nature, mentioning that everyone can become a villain in dire situations.&lt;SEP&gt;先生is a character who reflects on feelings of excitement and resentment, revealing deep emotions regarding personal humiliation and relationships with relatives.</data>
+      <data key="d3">chunk-14edb887d38cd74f74c603c62eb65fcf&lt;SEP&gt;chunk-b063e28c579b8b15803bc81d2862e54e&lt;SEP&gt;chunk-3aa9b2cd42e855e47c6ed90eac1f201c&lt;SEP&gt;chunk-def894ec769603b211073d87ffe1caf2&lt;SEP&gt;chunk-3d48d2843f15279a62b08968dd2d55af&lt;SEP&gt;chunk-c818c894266c5c477b46c2984fa65fb9&lt;SEP&gt;chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc&lt;SEP&gt;chunk-ab0b163914980bb3bd4352f83496db0d&lt;SEP&gt;chunk-b49620d3174377d693b6b8206e5663bc&lt;SEP&gt;chunk-3d4644bfc185cef3c850e039fcda2d9a&lt;SEP&gt;chunk-fd9e96b7fbef36aa724fe4f35d330d4d&lt;SEP&gt;chunk-37a4efa883522437cf49471d5da96063&lt;SEP&gt;chunk-f6392226c631f0b5c260542661c92c80&lt;SEP&gt;chunk-51d492ad3a6e4e00774c383b6e3b308c&lt;SEP&gt;chunk-3b03fadf4228120817833feac6a1bc92&lt;SEP&gt;chunk-5f3511df462cdb31fd19d867e6e2f4d0&lt;SEP&gt;chunk-994ab7c01561ece8414b566aba94a61d&lt;SEP&gt;chunk-8a7c924e3cee2684cb2a4d1c5c5cd9da&lt;SEP&gt;chunk-903991bd152acf95cc4837f8df2fb4ee&lt;SEP&gt;chunk-5a83cc1d46adb8fe4e92b337b173dc09&lt;SEP&gt;chunk-4f8c1038817a259502750c0d7e8f90b5&lt;SEP&gt;chunk-41b7f678f234d24a21f67bb2dc46b741&lt;SEP&gt;chunk-37807a368fa88fae1d37a0e75d7816b2&lt;SEP&gt;chunk-1ad69cb27b6d6705e0995a98fb364686&lt;SEP&gt;chunk-bbcb575158ef91fa1a46e2986b7d2525&lt;SEP&gt;chunk-0d09e662ec032a3435cbec583c08991e&lt;SEP&gt;chunk-7927ea27234b51a4323b6fc042821b2d&lt;SEP&gt;chunk-92120e0f566f2cace2548ce11d35d791&lt;SEP&gt;chunk-e2cd833de768d1c9dc03f4e089c0e8ea&lt;SEP&gt;chunk-2528445c5f222b335c09aa89c324500e&lt;SEP&gt;chunk-d7d2b44ccc54e86a329eb066a7b416b5&lt;SEP&gt;chunk-b2735420d937945402917d524a6c784c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081614</data>
+    </node>
+    <node id="鎌倉">
+      <data key="d0">鎌倉</data>
+      <data key="d1">location</data>
+      <data key="d2">鎌倉is a city where the narrator met the teacher and spent time during their summer vacation.&lt;SEP&gt;Kamakura is a place that the narrator mentions, contributing to memories and feelings associated with the teacher.</data>
+      <data key="d3">chunk-b063e28c579b8b15803bc81d2862e54e&lt;SEP&gt;chunk-4f8c1038817a259502750c0d7e8f90b5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081059</data>
+    </node>
+    <node id="友達">
+      <data key="d0">友達</data>
+      <data key="d1">person</data>
+      <data key="d2">The friend is a character who invited the narrator to鎌倉but had to leave abruptly due to family obligations.&lt;SEP&gt;友達is a friend of先生who has a grave located in the vicinity of the墓地.</data>
+      <data key="d3">chunk-903991bd152acf95cc4837f8df2fb4ee&lt;SEP&gt;chunk-4f8c1038817a259502750c0d7e8f90b5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081074</data>
+    </node>
+    <node id="学校">
+      <data key="d0">学校</data>
+      <data key="d1">concept</data>
+      <data key="d2">学校represents the academic institution where the narrator studies and which they have not yet formally returned to.</data>
+      <data key="d3">chunk-4f8c1038817a259502750c0d7e8f90b5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081010</data>
+    </node>
+    <node id="個人の別荘">
+      <data key="d0">個人の別荘</data>
+      <data key="d1">artifact</data>
+      <data key="d2">個人の別荘refers to private villas that are common in鎌倉, providing accommodation for vacationers.</data>
+      <data key="d3">chunk-4f8c1038817a259502750c0d7e8f90b5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081010</data>
+    </node>
+    <node id="海水浴">
+      <data key="d0">海水浴</data>
+      <data key="d1">event</data>
+      <data key="d2">海水浴is an activity that the narrator engages in while visiting鎌倉, reflecting their leisure time by the sea.</data>
+      <data key="d3">chunk-4f8c1038817a259502750c0d7e8f90b5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081010</data>
+    </node>
+    <node id="アイスクリーム">
+      <data key="d0">アイスクリーム</data>
+      <data key="d1">artifact</data>
+      <data key="d2">アイスクリーム refers to a popular cold dessert mentioned in the text that is associated with summertime activities in鎌倉.</data>
+      <data key="d3">chunk-4f8c1038817a259502750c0d7e8f90b5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081010</data>
+    </node>
+    <node id="玉突き">
+      <data key="d0">玉突き</data>
+      <data key="d1">activity</data>
+      <data key="d2">玉突き is a recreational game mentioned in the text that indicates leisure activities available in鎌倉.</data>
+      <data key="d3">chunk-4f8c1038817a259502750c0d7e8f90b5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081010</data>
+    </node>
+    <node id="茶屋">
+      <data key="d0">茶屋</data>
+      <data key="d1">other</data>
+      <data key="d2">The茶屋is a place where the speaker decides to leave everything behind each time they enter the sea.</data>
+      <data key="d3">chunk-0e16b6f22196e9d8c360a04ea11fdf60</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081011</data>
+    </node>
+    <node id="海">
+      <data key="d0">海</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">The海(sea) is the natural body of water that the speaker refers to while discussing the act of entering it.&lt;SEP&gt;The ocean is a setting where the characters engage in swimming and leisure activities.&lt;SEP&gt;海is the body of water that先生and私swim in, representing a setting for their interaction.</data>
+      <data key="d3">chunk-bbcb575158ef91fa1a46e2986b7d2525&lt;SEP&gt;chunk-92120e0f566f2cace2548ce11d35d791&lt;SEP&gt;chunk-0e16b6f22196e9d8c360a04ea11fdf60</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081043</data>
+    </node>
+    <node id="narrator">
+      <data key="d0">narrator</data>
+      <data key="d3">chunk-4f8c1038817a259502750c0d7e8f90b5&lt;SEP&gt;chunk-1a29214c42e0fe5e19ecc068e3ea5acb</data>
+      <data key="d2">The narrator addresses the teacher as "先生," indicating a respectful and informal teacher-student relationship.&lt;SEP&gt;The narrator is the individual recounting their experience of a medical examination and decision to leave before the end of winter vacation.</data>
+      <data key="d1">person</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081446</data>
+    </node>
+    <node id="母">
+      <data key="d0">母</data>
+      <data key="d3">chunk-1a29214c42e0fe5e19ecc068e3ea5acb&lt;SEP&gt;chunk-e2cd833de768d1c9dc03f4e089c0e8ea&lt;SEP&gt;chunk-f6392226c631f0b5c260542661c92c80&lt;SEP&gt;chunk-3d48d2843f15279a62b08968dd2d55af&lt;SEP&gt;chunk-4f8c1038817a259502750c0d7e8f90b5</data>
+      <data key="d2">The friend's departure is motivated by an urgent family obligation concerning their mother.&lt;SEP&gt;Mother is a character who expresses concern for Father's well-being and manages household responsibilities.&lt;SEP&gt;母is the mother of the narrator, who also shows reluctance about the narrator's departure.&lt;SEP&gt;The mother (母) of the narrator is mentioned as the one who encouraged bringing the椎茸as an offering.&lt;SEP&gt;母is the character's mother, also mentioned during conversations about family and inheritance.</data>
+      <data key="d1">person</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081566</data>
+    </node>
+    <node id="宿">
+      <data key="d0">宿</data>
+      <data key="d3">chunk-4f8c1038817a259502750c0d7e8f90b5</data>
+      <data key="d2">宿refers to lodging in鎌倉, where the narrator stayed during their visit.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081011</data>
+    </node>
+    <node id="掛茶屋">
+      <data key="d0">掛茶屋</data>
+      <data key="d1">location</data>
+      <data key="d2">掛茶屋is a tea shop where a character entered while waving their dripping hands.&lt;SEP&gt;掛茶屋is a tea house that serves as a meeting point for the characters in the narrative.&lt;SEP&gt;掛茶屋is a tea house where先生and私have a significant conversation about future plans.</data>
+      <data key="d3">chunk-bbcb575158ef91fa1a46e2986b7d2525&lt;SEP&gt;chunk-92120e0f566f2cace2548ce11d35d791&lt;SEP&gt;chunk-b2735420d937945402917d524a6c784c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081044</data>
+    </node>
+    <node id="目的">
+      <data key="d0">目的</data>
+      <data key="d1">concept</data>
+      <data key="d2">目的refers to the goal or objective that the character was unable to achieve in the narrative.</data>
+      <data key="d3">chunk-b2735420d937945402917d524a6c784c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081028</data>
+    </node>
+    <node id="雫">
+      <data key="d0">雫</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">雫refers to droplets of water that were dripping from the character's hands when they entered the tea shop.</data>
+      <data key="d3">chunk-b2735420d937945402917d524a6c784c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081028</data>
+    </node>
+    <node id="西洋人">
+      <data key="d0">西洋人</data>
+      <data key="d1">person</data>
+      <data key="d2">The Western man is noted for his pale skin and his unusual attire while at the beach, evoking curiosity.&lt;SEP&gt;西洋人is a character mentioned as a companion of先生, who later stops appearing during the interactions at the beach.</data>
+      <data key="d3">chunk-bbcb575158ef91fa1a46e2986b7d2525&lt;SEP&gt;chunk-92120e0f566f2cace2548ce11d35d791</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081044</data>
+    </node>
+    <node id="浜辺">
+      <data key="d0">浜辺</data>
+      <data key="d1">location</data>
+      <data key="d2">浜辺refers to the beach area where various interactions take place between the characters.&lt;SEP&gt;浜辺is a location where先生and私frequently meet and engage in activities like swimming.</data>
+      <data key="d3">chunk-bbcb575158ef91fa1a46e2986b7d2525&lt;SEP&gt;chunk-92120e0f566f2cace2548ce11d35d791</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081043</data>
+    </node>
+    <node id="麦藁帽">
+      <data key="d0">麦藁帽</data>
+      <data key="d1">artifact</data>
+      <data key="d2">麦藁帽is a straw hat worn by先生, indicative of his casual beach attire.</data>
+      <data key="d3">chunk-92120e0f566f2cace2548ce11d35d791</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081028</data>
+    </node>
+    <node id="由井が浜">
+      <data key="d0">由井が浜</data>
+      <data key="d1">location</data>
+      <data key="d2">由井が浜is a beach where the narrator observes Westerners swimming, serving as a backdrop for reflections on cultural differences.</data>
+      <data key="d3">chunk-92120e0f566f2cace2548ce11d35d791</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081028</data>
+    </node>
+    <node id="私">
+      <data key="d0">私</data>
+      <data key="d1">person</data>
+      <data key="d2">The entity referred to as 私 (watashi) is a complex character who serves as the narrator in dialogue involving the teacher, 先生 (sensei). 私 embodies a nuanced blend of expectation, personal disappointment, and introspection as they navigate their relationship with 先生. This character often expresses a deep attachment and a profound curiosity, particularly emphasizing a desire to connect on deeper levels, such as their longing to visit 雑司ヶ谷 (Zoshigaya) with the teacher.
+
+Throughout the narrative, 私 reflects on their own emotions and struggles to understand the experiences of 先生, including the complexity of the teacher's suffering. This relationship dynamic highlights a mixture of admiration and empathy, where 私 grapples with internal conflicts and self-doubt, often seeking guidance from the 先生. Additionally, 私 takes on responsibilities that include overseeing the dynamics between 先生 and 奥さん (okusan), the teacher's partner, showcasing a keen awareness of the emotional nuances that exist within their interactions.
+
+私 also engages in conversations with both 先生 and 奥さん, where they express anticipation and discomfort, particularly in waiting situations that contribute to their emotional turmoil. The character's reflections are instrumental in exploring the intricacies of mentorship, love, and personal connection, grounding the narrative in an exploration of longing and relational dynamics. Through these multifaceted interactions, 私 emerges as a deeply introspective figure, wrestling with their feelings while observing and reflecting upon the relationships surrounding them.&lt;SEP&gt;私is a male character who attempts to comfort奥さん and reflects on the complexities of their shared situation.&lt;SEP&gt;Narrator is a student who has suspended school duties to return home to care for the ailing father.&lt;SEP&gt;私is the narrator who observes and interacts with先生, noting his behavior and thoughts throughout their conversation.</data>
+      <data key="d3">chunk-1ad69cb27b6d6705e0995a98fb364686&lt;SEP&gt;chunk-994ab7c01561ece8414b566aba94a61d&lt;SEP&gt;chunk-b49620d3174377d693b6b8206e5663bc&lt;SEP&gt;chunk-0d09e662ec032a3435cbec583c08991e&lt;SEP&gt;chunk-b063e28c579b8b15803bc81d2862e54e&lt;SEP&gt;chunk-14edb887d38cd74f74c603c62eb65fcf&lt;SEP&gt;chunk-bbcb575158ef91fa1a46e2986b7d2525&lt;SEP&gt;chunk-3d4644bfc185cef3c850e039fcda2d9a&lt;SEP&gt;chunk-7927ea27234b51a4323b6fc042821b2d&lt;SEP&gt;chunk-37a4efa883522437cf49471d5da96063&lt;SEP&gt;chunk-f6392226c631f0b5c260542661c92c80&lt;SEP&gt;chunk-def894ec769603b211073d87ffe1caf2&lt;SEP&gt;chunk-3b03fadf4228120817833feac6a1bc92&lt;SEP&gt;chunk-6ed0aff5abed0a0e2b6cac014f7eb5ab&lt;SEP&gt;chunk-5a83cc1d46adb8fe4e92b337b173dc09&lt;SEP&gt;chunk-2528445c5f222b335c09aa89c324500e&lt;SEP&gt;chunk-d7d2b44ccc54e86a329eb066a7b416b5&lt;SEP&gt;chunk-ab0b163914980bb3bd4352f83496db0d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081614</data>
+    </node>
+    <node id="相手">
+      <data key="d0">相手</data>
+      <data key="d1">person</data>
+      <data key="d2">The character referred to as相手is inferred to have similar feelings as私, as suggested by私's doubts about their emotions.</data>
+      <data key="d3">chunk-2528445c5f222b335c09aa89c324500e</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081043</data>
+    </node>
+    <node id="失望">
+      <data key="d0">失望</data>
+      <data key="d1">concept</data>
+      <data key="d2">失望represents the feeling of disappointment experienced by私after the exchange with先生.</data>
+      <data key="d3">chunk-2528445c5f222b335c09aa89c324500e</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081043</data>
+    </node>
+    <node id="若い私">
+      <data key="d0">若い私</data>
+      <data key="d1">person</data>
+      <data key="d2">若い私is a character reflecting on their expectations and experiences, depicting a youthful perspective in the narrative.</data>
+      <data key="d3">chunk-2528445c5f222b335c09aa89c324500e</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081043</data>
+    </node>
+    <node id="浴衣">
+      <data key="d0">浴衣</data>
+      <data key="d1">artifact</data>
+      <data key="d2">浴衣is a garment that先生wears at the beach, which becomes involved in an interaction between him and私.</data>
+      <data key="d3">chunk-bbcb575158ef91fa1a46e2986b7d2525</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081043</data>
+    </node>
+    <node id="東京">
+      <data key="d0">東京</data>
+      <data key="d1">location</data>
+      <data key="d2">Tokyo is the location where the narrator returned at the end of the month and where the teacher's summer residence was located.&lt;SEP&gt;Tokyo is mentioned as a place relevant to the character interactions, particularly as it relates to the historical context of the narrative.&lt;SEP&gt;Tokyo is implied as a significant location where the events involving the先生and the narrator take place.&lt;SEP&gt;東京is referenced as the city where the teacher returns after completing his education.&lt;SEP&gt;Tokyo is mentioned as the location the narrator returns to, where there are no significant New Year celebrations observed.</data>
+      <data key="d3">chunk-41b7f678f234d24a21f67bb2dc46b741&lt;SEP&gt;chunk-b063e28c579b8b15803bc81d2862e54e&lt;SEP&gt;chunk-994ab7c01561ece8414b566aba94a61d&lt;SEP&gt;chunk-e2cd833de768d1c9dc03f4e089c0e8ea&lt;SEP&gt;chunk-5a83cc1d46adb8fe4e92b337b173dc09</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081476</data>
+    </node>
+    <node id="雑司ヶ谷の墓地">
+      <data key="d0">雑司ヶ谷の墓地</data>
+      <data key="d1">location</data>
+      <data key="d2">Zōshigaya Cemetery is where the teacher has a habit of going to offer flowers to a certain Buddha.&lt;SEP&gt;雑司ヶ谷の墓地is a cemetery where先生visits a friend's grave monthly.</data>
+      <data key="d3">chunk-b063e28c579b8b15803bc81d2862e54e&lt;SEP&gt;chunk-def894ec769603b211073d87ffe1caf2</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081231</data>
+    </node>
+    <node id="下女">
+      <data key="d0">下女</data>
+      <data key="d1">person</data>
+      <data key="d2">The maid is a character who interacts with the narrator during their visits to the teacher's residence.&lt;SEP&gt;The下女is a character mentioned who works in the先生's household, indicating the domestic environment.&lt;SEP&gt;下女is a maid who is present in the background during the conversation but does not actively participate in the dialogue.</data>
+      <data key="d3">chunk-b063e28c579b8b15803bc81d2862e54e&lt;SEP&gt;chunk-994ab7c01561ece8414b566aba94a61d&lt;SEP&gt;chunk-51d492ad3a6e4e00774c383b6e3b308c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081320</data>
+    </node>
+    <node id="奥さん">
+      <data key="d0">奥さん</data>
+      <data key="d1">person</data>
+      <data key="d2">The entity 奥さん refers to the wife of the teacher, known as 先生, and is characterized by her beauty and close bond with him. Throughout the descriptions, 奥さん is portrayed as an observant figure who plays a supportive role in the narrative. She provides the narrator with information about her husband’s whereabouts during his visit, illustrating her connection to him and her willingness to assist. 
+
+Despite their close relationship, 奥さん also experiences moments of misunderstanding and conflict, suggesting a more complex dynamic within her marriage. Her interactions with the narrator reveal a level of sympathy and familiarity, as she responds to his questions with kindness, guiding him to the study and offering him tea, which indicates her hospitable nature.
+
+Furthermore, 奥さん is noted to be from Tokyo, hinting at her familial background and adding depth to her character. While she is not always actively engaged in dialogue, her presence and behaviors are significant, as she is often observed by the narrator, who reflects on their relationship and her feelings toward her husband. This multifaceted portrayal presents 奥さん as a caring partner, yet hints at the underlying tensions that can exist within intimate relationships.&lt;SEP&gt;奥さん is characterized by her interactions, particularly related to discussions and emotions towards a male character referred to as "先生."&lt;SEP&gt;奥さん is a character who has deep interactions and discussions regarding personal matters and relationships with the speaker and the teacher.&lt;SEP&gt;奥さん is a character struggling with her understanding of her husband's feelings and the implications of a friend's death on him.&lt;SEP&gt;The term "奥さん" refers to a woman, likely a wife, who is mentioned in the context of sewing and expressing dissatisfaction with her work.&lt;SEP&gt;奥さん is a female character who seeks comfort while dealing with her concerns, displaying an emotional response to the events occurring around her.</data>
+      <data key="d3">chunk-41b7f678f234d24a21f67bb2dc46b741&lt;SEP&gt;chunk-14edb887d38cd74f74c603c62eb65fcf&lt;SEP&gt;chunk-994ab7c01561ece8414b566aba94a61d&lt;SEP&gt;chunk-b49620d3174377d693b6b8206e5663bc&lt;SEP&gt;chunk-37807a368fa88fae1d37a0e75d7816b2&lt;SEP&gt;chunk-b063e28c579b8b15803bc81d2862e54e&lt;SEP&gt;chunk-95386f273078a7f99612e7d995e845c2&lt;SEP&gt;chunk-37a4efa883522437cf49471d5da96063&lt;SEP&gt;chunk-8a7c924e3cee2684cb2a4d1c5c5cd9da&lt;SEP&gt;chunk-3aa9b2cd42e855e47c6ed90eac1f201c&lt;SEP&gt;chunk-51d492ad3a6e4e00774c383b6e3b308c&lt;SEP&gt;chunk-3b03fadf4228120817833feac6a1bc92&lt;SEP&gt;chunk-ab0b163914980bb3bd4352f83496db0d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081372</data>
+    </node>
+    <node id="雑司ヶ谷">
+      <data key="d0">雑司ヶ谷</data>
+      <data key="d1">location</data>
+      <data key="d2">雑司ヶ谷is a location that the speaker is considering visiting during a walk.&lt;SEP&gt;雑司ヶ谷is a place mentioned as a cemetery where先生and私share a moment of significance regarding visiting the graves.&lt;SEP&gt;雑司ヶ谷is a place referenced in connection to an unknown grave related to the teacher, symbolizing deeper ties to his past.&lt;SEP&gt;雑司ヶ谷is mentioned as the location of a friend's grave that has significance in the conversation.</data>
+      <data key="d3">chunk-8a7c924e3cee2684cb2a4d1c5c5cd9da&lt;SEP&gt;chunk-14edb887d38cd74f74c603c62eb65fcf&lt;SEP&gt;chunk-3d4644bfc185cef3c850e039fcda2d9a&lt;SEP&gt;chunk-6ed0aff5abed0a0e2b6cac014f7eb5ab</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081353</data>
+    </node>
+    <node id="Teacher">
+      <data key="d0">Teacher</data>
+      <data key="d1">person</data>
+      <data key="d2">The Teacher is referred to with curiosity regarding the possibility of meeting them.&lt;SEP&gt;The Teacher helps the narrator by lending money for travel expenses, displaying a supportive relationship.&lt;SEP&gt;The teacher is described as having a significant impact on the narrator’s thoughts and feelings, contrasting with the father.&lt;SEP&gt;The teacher provides guidance and materials for the narrator's thesis and previously had a strong interest in reading but has since lost that interest.&lt;SEP&gt;The Teacher is a person who owns the hat that was caught by the wind and fell from the cedar seedling.&lt;SEP&gt;The Teacher is a character who interacts with the narrator, inquiring about their family wealth and health issues.</data>
+      <data key="d3">chunk-4783b6331f3f621fc2faa932e991c0d4&lt;SEP&gt;chunk-fe9243332ae2b2dbe261ca8b643db9a3&lt;SEP&gt;chunk-bbeb9e9a5d51cb2fca9119ca21d43a6a&lt;SEP&gt;chunk-a255004ab39a6f37c9430741411f2fd9&lt;SEP&gt;chunk-6ed0aff5abed0a0e2b6cac014f7eb5ab&lt;SEP&gt;chunk-14efa605d7e5b97c6c5fc0d52e4d17dc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081545</data>
+    </node>
+    <node id="墓地">
+      <data key="d0">墓地</data>
+      <data key="d1">location</data>
+      <data key="d2">The墓地is a burial ground where the characters discuss graves and memorials.&lt;SEP&gt;墓地is a cemetery where significant events related to先生and私occur, particularly involving reflections on life and death.</data>
+      <data key="d3">chunk-903991bd152acf95cc4837f8df2fb4ee&lt;SEP&gt;chunk-3d4644bfc185cef3c850e039fcda2d9a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081089</data>
+    </node>
+    <node id="苗畠">
+      <data key="d0">苗畠</data>
+      <data key="d1">location</data>
+      <data key="d2">苗畠is a nursery area located near the墓地where the character enters from the left.</data>
+      <data key="d3">chunk-903991bd152acf95cc4837f8df2fb4ee</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081074</data>
+    </node>
+    <node id="安得烈">
+      <data key="d0">安得烈</data>
+      <data key="d1">person</data>
+      <data key="d2">安得烈is a person whose name is inscribed on a small grave that the narrator inquires about.</data>
+      <data key="d3">chunk-903991bd152acf95cc4837f8df2fb4ee</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081074</data>
+    </node>
+    <node id="大銀杏">
+      <data key="d0">大銀杏</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">The大銀杏is a large ginkgo tree that casts a shadow and is admired by先生for its beauty in autumn.</data>
+      <data key="d3">chunk-903991bd152acf95cc4837f8df2fb4ee</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081074</data>
+    </node>
+    <node id="新墓地">
+      <data key="d0">新墓地</data>
+      <data key="d1">location</data>
+      <data key="d2">新墓地refers to the new burial grounds where construction is occurring while the characters walk.</data>
+      <data key="d3">chunk-903991bd152acf95cc4837f8df2fb4ee</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081074</data>
+    </node>
+    <node id="先生の態度">
+      <data key="d0">先生の態度</data>
+      <data key="d1">concept</data>
+      <data key="d2">The attitude of先生is characterized by calmness and a hidden sense of unease during the conversation with the narrator.</data>
+      <data key="d3">chunk-903991bd152acf95cc4837f8df2fb4ee</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081074</data>
+    </node>
+    <node id="通り">
+      <data key="d0">通り</data>
+      <data key="d1">location</data>
+      <data key="d2">The通り is the street that the characters exit onto after passing through the墓地.</data>
+      <data key="d3">chunk-903991bd152acf95cc4837f8df2fb4ee</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081075</data>
+    </node>
+    <node id="銀杏の大樹">
+      <data key="d0">銀杏の大樹</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">銀杏の大樹is a ginkgo tree that先生highlights during a conversation with私, symbolizing a shared memory.</data>
+      <data key="d3">chunk-3d4644bfc185cef3c850e039fcda2d9a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081089</data>
+    </node>
+    <node id="小春">
+      <data key="d0">小春</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">小春refers to the season of late winter or early spring that encompasses a specific time during which私reflects on the past memories with先生.</data>
+      <data key="d3">chunk-3d4644bfc185cef3c850e039fcda2d9a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081089</data>
+    </node>
+    <node id="妻">
+      <data key="d0">妻</data>
+      <data key="d1">person</data>
+      <data key="d2">妻is referenced as the spouse of the speaker, who has never been taken to the grave site.&lt;SEP&gt;The妻is the wife of先生, whom he worries about when he comes home.</data>
+      <data key="d3">chunk-7927ea27234b51a4323b6fc042821b2d&lt;SEP&gt;chunk-5f3511df462cdb31fd19d867e6e2f4d0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081159</data>
+    </node>
+    <node id="墓参り">
+      <data key="d0">墓参り</data>
+      <data key="d1">concept</data>
+      <data key="d2">墓参り refers to the act of visiting a grave site, which is a key theme in the speaker's statement about reluctance to participate.</data>
+      <data key="d3">chunk-5f3511df462cdb31fd19d867e6e2f4d0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081089</data>
+    </node>
+    <node id="私の宅">
+      <data key="d0">私の宅</data>
+      <data key="d1">location</data>
+      <data key="d2">私の宅refers to the narrator's home where the mentor is visited, indicating a personal space significant to their interactions.</data>
+      <data key="d3">chunk-5a83cc1d46adb8fe4e92b337b173dc09</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081107</data>
+    </node>
+    <node id="先生の生活">
+      <data key="d0">先生の生活</data>
+      <data key="d1">concept</data>
+      <data key="d2">先生の生活refers to the mentor's way of living, which includes feelings of loneliness and social isolation.</data>
+      <data key="d3">chunk-5a83cc1d46adb8fe4e92b337b173dc09</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081107</data>
+    </node>
+    <node id="酒">
+      <data key="d0">酒</data>
+      <data key="d1">product</data>
+      <data key="d2">酒is an alcoholic beverage that is consumed during social interactions between the narrator, the先生, and the奥さん.</data>
+      <data key="d3">chunk-994ab7c01561ece8414b566aba94a61d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081121</data>
+    </node>
+    <node id="子供">
+      <data key="d0">子供</data>
+      <data key="d1">concept</data>
+      <data key="d2">子供represents the concept of children, discussed in the context of familial relationships by the奥さん and the先生.</data>
+      <data key="d3">chunk-994ab7c01561ece8414b566aba94a61d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081121</data>
+    </node>
+    <node id="箱根">
+      <data key="d0">箱根</data>
+      <data key="d1">location</data>
+      <data key="d2">箱根is a location from where先生is said to have sent a postcard to the narrator.</data>
+      <data key="d3">chunk-37807a368fa88fae1d37a0e75d7816b2</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081138</data>
+    </node>
+    <node id="日光">
+      <data key="d0">日光</data>
+      <data key="d1">location</data>
+      <data key="d2">日光is another location mentioned where significant events regarding先生and奥さん occurred, including the sending of pressed leaves.</data>
+      <data key="d3">chunk-37807a368fa88fae1d37a0e75d7816b2</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081138</data>
+    </node>
+    <node id="麦酒">
+      <data key="d0">麦酒</data>
+      <data key="d1">content</data>
+      <data key="d2">麦酒refers to the beer that先生and the narrator shared, indicating a moment of social interaction.</data>
+      <data key="d3">chunk-37807a368fa88fae1d37a0e75d7816b2</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081138</data>
+    </node>
+    <node id="静">
+      <data key="d0">静</data>
+      <data key="d1">person</data>
+      <data key="d2">静is the name of先生's wife, who is affectionately called by her husband and recognized for her straightforward demeanor.</data>
+      <data key="d3">chunk-37807a368fa88fae1d37a0e75d7816b2</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081138</data>
+    </node>
+    <node id="苦しみ">
+      <data key="d0">苦しみ</data>
+      <data key="d1">concept</data>
+      <data key="d2">苦しみ represents the concept of suffering, which is a central theme in the text as it reflects on the experiences of the teacher.</data>
+      <data key="d3">chunk-d7d2b44ccc54e86a329eb066a7b416b5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081138</data>
+    </node>
+    <node id="横浜">
+      <data key="d0">横浜</data>
+      <data key="d1">location</data>
+      <data key="d2">横浜is a city mentioned in the context of a ship departing for a foreign destination.</data>
+      <data key="d3">chunk-7927ea27234b51a4323b6fc042821b2d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081159</data>
+    </node>
+    <node id="新橋">
+      <data key="d0">新橋</data>
+      <data key="d1">location</data>
+      <data key="d2">新橋is a location where先生goes to send off a friend who is leaving for abroad.</data>
+      <data key="d3">chunk-7927ea27234b51a4323b6fc042821b2d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081159</data>
+    </node>
+    <node id="汽船">
+      <data key="d0">汽船</data>
+      <data key="d1">artifact</data>
+      <data key="d2">The汽船is a ship that先生's friend is taking to go abroad.</data>
+      <data key="d3">chunk-7927ea27234b51a4323b6fc042821b2d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081159</data>
+    </node>
+    <node id="九時">
+      <data key="d0">九時</data>
+      <data key="d1">time</data>
+      <data key="d2">九時is the scheduled time for私to visit先生.</data>
+      <data key="d3">chunk-7927ea27234b51a4323b6fc042821b2d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081159</data>
+    </node>
+    <node id="妻君">
+      <data key="d0">妻君</data>
+      <data key="d1">person</data>
+      <data key="d2">妻君is a term used by先生to refer to妻, indicating a sense of endearment and respect in their relationship.</data>
+      <data key="d3">chunk-7927ea27234b51a4323b6fc042821b2d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081159</data>
+    </node>
+    <node id="書物">
+      <data key="d0">書物</data>
+      <data key="d1">content</data>
+      <data key="d2">書物refers to a book that私wants to discuss with先生during their visit.</data>
+      <data key="d3">chunk-7927ea27234b51a4323b6fc042821b2d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081160</data>
+    </node>
+    <node id="大学生">
+      <data key="d0">大学生</data>
+      <data key="d1">concept</data>
+      <data key="d2">大学生refers to a university student, a stage in education that in the context of the text, indicates the narrator's maturity.</data>
+      <data key="d3">chunk-41b7f678f234d24a21f67bb2dc46b741</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081183</data>
+    </node>
+    <node id="宅">
+      <data key="d0">宅</data>
+      <data key="d1">location</data>
+      <data key="d2">宅refers to the residence of the teacher, a place where the narrator visits and engages in discussions.</data>
+      <data key="d3">chunk-41b7f678f234d24a21f67bb2dc46b741</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081183</data>
+    </node>
+    <node id="書生時代">
+      <data key="d0">書生時代</data>
+      <data key="d1">concept</data>
+      <data key="d2">書生時代refers to the period when the teacher was a student, indicative of a significant time in the teacher's life that contrasts with his current state.</data>
+      <data key="d3">chunk-41b7f678f234d24a21f67bb2dc46b741</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081183</data>
+    </node>
+    <node id="先生の学問や思想">
+      <data key="d0">先生の学問や思想</data>
+      <data key="d1">concept</data>
+      <data key="d2">先生の学問や思想refers to the teacher's academic pursuits and philosophies, which are not widely recognized outside of his personal circle.</data>
+      <data key="d3">chunk-41b7f678f234d24a21f67bb2dc46b741</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081183</data>
+    </node>
+    <node id="精神">
+      <data key="d0">精神</data>
+      <data key="d1">concept</data>
+      <data key="d2">精神refers to the narrator's internal thoughts and emotions regarding the teacher's circumstances and societal perception.</data>
+      <data key="d3">chunk-41b7f678f234d24a21f67bb2dc46b741</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081183</data>
+    </node>
+    <node id="Tokyo">
+      <data key="d0">Tokyo</data>
+      <data key="d1">location</data>
+      <data key="d2">Tokyo is the city where奥さん originated, and serves as a backdrop for the narrative.&lt;SEP&gt;Tokyo is the destination the narrator is traveling to, indicating a return home.&lt;SEP&gt;Tokyo is a city referenced in the context of the narrator's reflections and experiences during their visit.</data>
+      <data key="d3">chunk-4783b6331f3f621fc2faa932e991c0d4&lt;SEP&gt;chunk-37a4efa883522437cf49471d5da96063&lt;SEP&gt;chunk-bbeb9e9a5d51cb2fca9119ca21d43a6a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081446</data>
+    </node>
+    <node id="新潟県">
+      <data key="d0">新潟県</data>
+      <data key="d1">location</data>
+      <data key="d2">新潟県is the prefecture where先生is from, contrasting with奥さん's origins.</data>
+      <data key="d3">chunk-37a4efa883522437cf49471d5da96063</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081204</data>
+    </node>
+    <node id="花時分">
+      <data key="d0">花時分</data>
+      <data key="d1">concept</data>
+      <data key="d2">花時分refers to the flower season, representing beauty and possibly romantic contexts in the story.</data>
+      <data key="d3">chunk-37a4efa883522437cf49471d5da96063</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081204</data>
+    </node>
+    <node id="上野">
+      <data key="d0">上野</data>
+      <data key="d1">location</data>
+      <data key="d2">上野is the place where先生and私observe a beautiful couple, adding depth to their conversation about love.</data>
+      <data key="d3">chunk-37a4efa883522437cf49471d5da96063</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081204</data>
+    </node>
+    <node id="恋">
+      <data key="d0">恋</data>
+      <data key="d1">concept</data>
+      <data key="d2">恋refers to love, a central theme in the narrative which raises questions about desire and emotional connections.&lt;SEP&gt;恋refers to the concept of love, framed here as a potential sin in the dialogue between the characters.</data>
+      <data key="d3">chunk-def894ec769603b211073d87ffe1caf2&lt;SEP&gt;chunk-37a4efa883522437cf49471d5da96063</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081231</data>
+    </node>
+    <node id="悲劇">
+      <data key="d0">悲劇</data>
+      <data key="d1">concept</data>
+      <data key="d2">悲劇signifies tragedy, highlighting inherent themes of loss and hidden suffering within the relationships described.</data>
+      <data key="d3">chunk-37a4efa883522437cf49471d5da96063</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081204</data>
+    </node>
+    <node id="熊笹">
+      <data key="d0">熊笹</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">熊笹is a type of bamboo grass that appears in the narrative as part of the setting in the garden.&lt;SEP&gt;熊笹is a type of plant mentioned as growing near the area where the dog is barking.</data>
+      <data key="d3">chunk-def894ec769603b211073d87ffe1caf2&lt;SEP&gt;chunk-3d48d2843f15279a62b08968dd2d55af</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081566</data>
+    </node>
+    <node id="罪悪">
+      <data key="d0">罪悪</data>
+      <data key="d1">concept</data>
+      <data key="d2">罪悪refers to the concept of sin as discussed in the dialogue, particularly in relation to love.</data>
+      <data key="d3">chunk-def894ec769603b211073d87ffe1caf2</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081231</data>
+    </node>
+    <node id="心">
+      <data key="d0">心</data>
+      <data key="d1">concept</data>
+      <data key="d2">心represents the heart or mind, which is a focal point in the discussion of love and desire in the text.</data>
+      <data key="d3">chunk-def894ec769603b211073d87ffe1caf2</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081231</data>
+    </node>
+    <node id="目的物">
+      <data key="d0">目的物</data>
+      <data key="d1">concept</data>
+      <data key="d2">目的物refers to the objects of purpose or desire that are talked about in the context of the protagonist's feelings.</data>
+      <data key="d3">chunk-def894ec769603b211073d87ffe1caf2</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081231</data>
+    </node>
+    <node id="椿の花">
+      <data key="d0">椿の花</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">The camellia flowers, once vibrant, symbolize changing perceptions and offer a reflection point for the teacher.</data>
+      <data key="d3">chunk-b49620d3174377d693b6b8206e5663bc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081247</data>
+    </node>
+    <node id="大通り">
+      <data key="d0">大通り</data>
+      <data key="d1">location</data>
+      <data key="d2">The main street is referenced, illustrating the quietness of the surrounding area.</data>
+      <data key="d3">chunk-b49620d3174377d693b6b8206e5663bc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081247</data>
+    </node>
+    <node id="小路">
+      <data key="d0">小路</data>
+      <data key="d1">location</data>
+      <data key="d2">The narrow alley is described as surprisingly quiet, contrasting with the teacher's philosophical musings.</data>
+      <data key="d3">chunk-b49620d3174377d693b6b8206e5663bc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081247</data>
+    </node>
+    <node id="信用">
+      <data key="d0">信用</data>
+      <data key="d1">concept</data>
+      <data key="d2">Credibility is a central theme in the dialogue, revealing the complex relationship between the characters' perceptions of one another.</data>
+      <data key="d3">chunk-b49620d3174377d693b6b8206e5663bc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081247</data>
+    </node>
+    <node id="教授">
+      <data key="d0">教授</data>
+      <data key="d1">person</data>
+      <data key="d2">The professor is referenced as an educational figure, contributing insights that the narrator finds less valuable compared to the teacher's thoughts.</data>
+      <data key="d3">chunk-b49620d3174377d693b6b8206e5663bc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081247</data>
+    </node>
+    <node id="熱">
+      <data key="d0">熱</data>
+      <data key="d1">concept</data>
+      <data key="d2">The term '熱' refers to a state of intense emotion or passion that the teacher suggests clouds judgment.</data>
+      <data key="d3">chunk-b49620d3174377d693b6b8206e5663bc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081248</data>
+    </node>
+    <node id="友人">
+      <data key="d0">友人</data>
+      <data key="d1">person</data>
+      <data key="d2">友人is referenced as a friend who needs to be fed.</data>
+      <data key="d3">chunk-1ad69cb27b6d6705e0995a98fb364686</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081263</data>
+    </node>
+    <node id="恋愛事件">
+      <data key="d0">恋愛事件</data>
+      <data key="d1">concept</data>
+      <data key="d2">恋愛事件refers to a significant romantic incident hypothesized by the narrator to explain the teacher's worldview or stance on life and relationships.</data>
+      <data key="d3">chunk-14edb887d38cd74f74c603c62eb65fcf</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081263</data>
+    </node>
+    <node id="恐ろしいもの">
+      <data key="d0">恐ろしいもの</data>
+      <data key="d1">concept</data>
+      <data key="d2">恐ろしいもの refers to an unidentified, terrifying presence or fear that overshadowed the narrator's thoughts concerning the teacher's confessions.</data>
+      <data key="d3">chunk-14edb887d38cd74f74c603c62eb65fcf</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081263</data>
+    </node>
+    <node id="書斎">
+      <data key="d0">書斎</data>
+      <data key="d1">location</data>
+      <data key="d2">書斎is the study room where私waits, characterized by its elegant furniture and numerous books illuminated by electric light.</data>
+      <data key="d3">chunk-ab0b163914980bb3bd4352f83496db0d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081289</data>
+    </node>
+    <node id="茶の間">
+      <data key="d0">茶の間</data>
+      <data key="d1">location</data>
+      <data key="d2">茶の間is the tea room where奥さん serves tea and sweets to私.</data>
+      <data key="d3">chunk-ab0b163914980bb3bd4352f83496db0d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081289</data>
+    </node>
+    <node id="煙草">
+      <data key="d0">煙草</data>
+      <data key="d1">artifact</data>
+      <data key="d2">煙草is a tobacco product that私smokes while waiting in the study, reflecting a state of nervousness.</data>
+      <data key="d3">chunk-ab0b163914980bb3bd4352f83496db0d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081289</data>
+    </node>
+    <node id="紅茶茶碗">
+      <data key="d0">紅茶茶碗</data>
+      <data key="d1">artifact</data>
+      <data key="d2">紅茶茶碗is a tea bowl used by奥さん to serve tea to私, symbolizing hospitality during the visit.</data>
+      <data key="d3">chunk-ab0b163914980bb3bd4352f83496db0d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081289</data>
+    </node>
+    <node id="座蒲団">
+      <data key="d0">座蒲団</data>
+      <data key="d1">artifact</data>
+      <data key="d2">座蒲団is a cushion on which私sits in the書斎, contributing to the comfort of the waiting experience.</data>
+      <data key="d3">chunk-ab0b163914980bb3bd4352f83496db0d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081289</data>
+    </node>
+    <node id="長火鉢">
+      <data key="d0">長火鉢</data>
+      <data key="d1">artifact</data>
+      <data key="d2">長火鉢is a long brazier present in the tea room, used for heating and creating a pleasant environment during the tea serving.</data>
+      <data key="d3">chunk-ab0b163914980bb3bd4352f83496db0d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081290</data>
+    </node>
+    <node id="角砂糖">
+      <data key="d0">角砂糖</data>
+      <data key="d1">artifact</data>
+      <data key="d2">角砂糖is a type of sugar cube that奥さん uses while preparing tea for her partner.</data>
+      <data key="d3">chunk-3aa9b2cd42e855e47c6ed90eac1f201c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081305</data>
+    </node>
+    <node id="紅茶">
+      <data key="d0">紅茶</data>
+      <data key="d1">content</data>
+      <data key="d2">紅茶is the black tea consumed by奥さん and her partner during their conversation.</data>
+      <data key="d3">chunk-3aa9b2cd42e855e47c6ed90eac1f201c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081305</data>
+    </node>
+    <node id="話">
+      <data key="d0">話</data>
+      <data key="d1">concept</data>
+      <data key="d2">話refers to the conversation and interactions between奥さん and the speaker regarding their emotions and sentiments towards the teacher.</data>
+      <data key="d3">chunk-51d492ad3a6e4e00774c383b6e3b308c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081320</data>
+    </node>
+    <node id="男">
+      <data key="d0">男</data>
+      <data key="d1">concept</data>
+      <data key="d2">男is referenced in a general context regarding the speaker's reflections on relationships and emotional responses towards women, including奥さん.</data>
+      <data key="d3">chunk-51d492ad3a6e4e00774c383b6e3b308c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081320</data>
+    </node>
+    <node id="speaker">
+      <data key="d0">speaker</data>
+      <data key="d3">chunk-51d492ad3a6e4e00774c383b6e3b308c</data>
+      <data key="d2">奥さん engages with the speaker on personal matters, seeking understanding and support regarding先生.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081328</data>
+    </node>
+    <node id="大学">
+      <data key="d0">大学</data>
+      <data key="d1">concept</data>
+      <data key="d2">大学represents the academic institution where先生had a close friendship before the friend's untimely death.</data>
+      <data key="d3">chunk-8a7c924e3cee2684cb2a4d1c5c5cd9da</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081353</data>
+    </node>
+    <node id="死亡">
+      <data key="d0">死亡</data>
+      <data key="d1">event</data>
+      <data key="d2">死亡refers to the death of a close friend that impacted先生and is a focal point of奥さん's inquiry.</data>
+      <data key="d3">chunk-8a7c924e3cee2684cb2a4d1c5c5cd9da</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081353</data>
+    </node>
+    <node id="Kimonos">
+      <data key="d0">Kimonos</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Kimonos are traditional Japanese garments, and the text refers to one that is handmade and notable for its quality.</data>
+      <data key="d3">chunk-95386f273078a7f99612e7d995e845c2</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081372</data>
+    </node>
+    <node id="Needle">
+      <data key="d0">Needle</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A needle is a tool used in sewing, and it is mentioned in relation to problems encountered in the sewing process.</data>
+      <data key="d3">chunk-95386f273078a7f99612e7d995e845c2</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081372</data>
+    </node>
+    <node id="手織り">
+      <data key="d0">手織り</data>
+      <data key="d1">method</data>
+      <data key="d2">手織り refers to the traditional method of hand-weaving fabric, mentioned in the context of the quality of the kimono being discussed.</data>
+      <data key="d3">chunk-95386f273078a7f99612e7d995e845c2</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081372</data>
+    </node>
+    <node id="地">
+      <data key="d0">地</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">地refers to the ground or fabric base that contributes to the quality of the kimono, indicating its favorable characteristics.</data>
+      <data key="d3">chunk-95386f273078a7f99612e7d995e845c2</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081372</data>
+    </node>
+    <node id="西洋菓子">
+      <data key="d0">西洋菓子</data>
+      <data key="d1">food</data>
+      <data key="d2">西洋菓子refers to Western-style sweets that奥さん offers to私as a gesture of kindness.</data>
+      <data key="d3">chunk-3b03fadf4228120817833feac6a1bc92</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081372</data>
+    </node>
+    <node id="秋">
+      <data key="d0">秋</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">秋signifies the autumn season, marking a time of year that passes in the narrative without significant events.</data>
+      <data key="d3">chunk-3b03fadf4228120817833feac6a1bc92</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081372</data>
+    </node>
+    <node id="冬">
+      <data key="d0">冬</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">冬signifies the winter season, which follows秋and indicates the passage of time in the narrative.</data>
+      <data key="d3">chunk-3b03fadf4228120817833feac6a1bc92</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081373</data>
+    </node>
+    <node id="私の判断">
+      <data key="d0">私の判断</data>
+      <data key="d1">concept</data>
+      <data key="d2">私の判断refers to the personal judgment of私, which奥さん tries to rely on during their emotional discourse.</data>
+      <data key="d3">chunk-3b03fadf4228120817833feac6a1bc92</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081373</data>
+    </node>
+    <node id="黒い眉毛">
+      <data key="d0">黒い眉毛</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">黒い眉毛refers to奥さん's prominent black eyebrows, noted for their role in expressing her emotions during the narrative.</data>
+      <data key="d3">chunk-3b03fadf4228120817833feac6a1bc92</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081373</data>
+    </node>
+    <node id="Winter">
+      <data key="d0">Winter</data>
+      <data key="d1">concept</data>
+      <data key="d2">Winter refers to the season during which the narrator decides to return to their homeland due to their father's illness.</data>
+      <data key="d3">chunk-4783b6331f3f621fc2faa932e991c0d4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081402</data>
+    </node>
+    <node id="Father">
+      <data key="d0">Father</data>
+      <data key="d1">person</data>
+      <data key="d2">The Father is depicted as being chronically ill with kidney disease and suffers a sudden health scare that prompts the narrator's return.&lt;SEP&gt;The Father is a character who is approached by another individual concerned about his well-being but responds with laughter instead of acceptance.&lt;SEP&gt;Father is a character who plays shogi with the narrator and is portrayed as having a laid-back demeanor.&lt;SEP&gt;The Father is mentioned in relation to his illness and receives money and letters from the narrator, but his health details remain unclear.</data>
+      <data key="d3">chunk-4783b6331f3f621fc2faa932e991c0d4&lt;SEP&gt;chunk-cf0037d0b674f2744797260e91058bb3&lt;SEP&gt;chunk-a255004ab39a6f37c9430741411f2fd9&lt;SEP&gt;chunk-bbeb9e9a5d51cb2fca9119ca21d43a6a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081545</data>
+    </node>
+    <node id="Mother">
+      <data key="d0">Mother</data>
+      <data key="d1">person</data>
+      <data key="d2">The Mother is concerned about the Father's health and communicates her worries through a letter to the narrator.&lt;SEP&gt;Mother is a character who expresses concern about the narrator’s early return and is part of the family dynamic described.</data>
+      <data key="d3">chunk-4783b6331f3f621fc2faa932e991c0d4&lt;SEP&gt;chunk-bbeb9e9a5d51cb2fca9119ca21d43a6a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081446</data>
+    </node>
+    <node id="Letter">
+      <data key="d0">Letter</data>
+      <data key="d1">content</data>
+      <data key="d2">The Letter is a written communication from the Mother detailing the Father's deteriorating health and requesting the narrator to return.</data>
+      <data key="d3">chunk-4783b6331f3f621fc2faa932e991c0d4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081402</data>
+    </node>
+    <node id="Doctor">
+      <data key="d0">Doctor</data>
+      <data key="d1">person</data>
+      <data key="d2">The Doctor provides insight into the Father's condition after he collapses, connecting it to the pre-existing kidney disease.</data>
+      <data key="d3">chunk-4783b6331f3f621fc2faa932e991c0d4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081402</data>
+    </node>
+    <node id="Wife of Teacher">
+      <data key="d0">Wife of Teacher</data>
+      <data key="d1">person</data>
+      <data key="d2">The Wife of Teacher assists in providing the necessary funds to the narrator and reveals the familial connection to the same illness affecting the Father.</data>
+      <data key="d3">chunk-4783b6331f3f621fc2faa932e991c0d4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081402</data>
+    </node>
+    <node id="Chronic Kidney Disease">
+      <data key="d0">Chronic Kidney Disease</data>
+      <data key="d1">concept</data>
+      <data key="d2">Chronic Kidney Disease is the medical condition affecting the Father, causing long-term health implications and contributing to his sudden health scare.</data>
+      <data key="d3">chunk-4783b6331f3f621fc2faa932e991c0d4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081403</data>
+    </node>
+    <node id="Narrator">
+      <data key="d0">Narrator</data>
+      <data key="d3">chunk-4783b6331f3f621fc2faa932e991c0d4&lt;SEP&gt;chunk-a255004ab39a6f37c9430741411f2fd9&lt;SEP&gt;chunk-bbeb9e9a5d51cb2fca9119ca21d43a6a</data>
+      <data key="d2">The Letter serves as a means of communication in which the Mother requests the narrator to return due to the Father's illness.&lt;SEP&gt;The narrator reflects on personal experiences with their father and the influence of a teacher, feeling an internal conflict about their identity.&lt;SEP&gt;The Narrator is a character who speaks with the Teacher and responds to questions regarding their family and possessions.</data>
+      <data key="d1">person</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081545</data>
+    </node>
+    <node id="父">
+      <data key="d0">父</data>
+      <data key="d1">person</data>
+      <data key="d2">Father is a character who is ill and displays a strong facade despite his condition, creating apprehension among his family.&lt;SEP&gt;父is the father of the narrator, who expresses concern about the narrator's decision to leave.&lt;SEP&gt;The father of the narrator is suffering from an unspecified illness, with concern expressed about his condition.&lt;SEP&gt;父is the character's father, mentioned in the context of family discussions and inheritance.</data>
+      <data key="d3">chunk-e2cd833de768d1c9dc03f4e089c0e8ea&lt;SEP&gt;chunk-f6392226c631f0b5c260542661c92c80&lt;SEP&gt;chunk-1a29214c42e0fe5e19ecc068e3ea5acb&lt;SEP&gt;chunk-3d48d2843f15279a62b08968dd2d55af</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081566</data>
+    </node>
+    <node id="兄">
+      <data key="d0">兄</data>
+      <data key="d1">person</data>
+      <data key="d2">Older brother is a character who has a job in distant Kyushu and cannot easily visit the family.</data>
+      <data key="d3">chunk-f6392226c631f0b5c260542661c92c80</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081424</data>
+    </node>
+    <node id="妹">
+      <data key="d0">妹</data>
+      <data key="d1">person</data>
+      <data key="d2">Younger sister is a character who is married abroad and is not easily summoned back home.</data>
+      <data key="d3">chunk-f6392226c631f0b5c260542661c92c80</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081424</data>
+    </node>
+    <node id="手紙">
+      <data key="d0">手紙</data>
+      <data key="d1">content</data>
+      <data key="d2">Letter is a written communication from the narrator to the teacher expressing gratitude and discussing Father’s health.</data>
+      <data key="d3">chunk-f6392226c631f0b5c260542661c92c80</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081424</data>
+    </node>
+    <node id="床">
+      <data key="d0">床</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">Floor refers to the place where Father lays, which is adjusted as part of his care.</data>
+      <data key="d3">chunk-f6392226c631f0b5c260542661c92c80</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081424</data>
+    </node>
+    <node id="My Shoulder">
+      <data key="d0">My Shoulder</data>
+      <data key="d1">bodypart</data>
+      <data key="d2">My Shoulder refers to the body part that the concerned individual attempts to place a hand on when reaching out to the Father.</data>
+      <data key="d3">chunk-cf0037d0b674f2744797260e91058bb3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081425</data>
+    </node>
+    <node id="Concerned Individual">
+      <data key="d0">Concerned Individual</data>
+      <data key="d3">chunk-cf0037d0b674f2744797260e91058bb3</data>
+      <data key="d2">The Concerned Individual tries to engage the Father by reaching out for emotional support but is met with laughter.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081425</data>
+    </node>
+    <node id="家庭">
+      <data key="d0">家庭</data>
+      <data key="d3">chunk-f6392226c631f0b5c260542661c92c80</data>
+      <data key="d2">Father plays a central role in the family, and his illness impacts the care dynamics within the household.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081426</data>
+    </node>
+    <node id="Shogi">
+      <data key="d0">Shogi</data>
+      <data key="d1">concept</data>
+      <data key="d2">Shogi is a traditional Japanese board game that serves as a recurring element in the interactions between the narrator and their father.</data>
+      <data key="d3">chunk-bbeb9e9a5d51cb2fca9119ca21d43a6a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081446</data>
+    </node>
+    <node id="Shogi Board">
+      <data key="d0">Shogi Board</data>
+      <data key="d1">artifact</data>
+      <data key="d2">The shogi board is a game board used in shogi, reflecting the interaction between the narrator and the father during gameplay.</data>
+      <data key="d3">chunk-bbeb9e9a5d51cb2fca9119ca21d43a6a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081446</data>
+    </node>
+    <node id="Kotarou">
+      <data key="d0">Kotarou</data>
+      <data key="d1">location</data>
+      <data key="d2">Kotarou is a term alluded to for the Kotatsu, a traditional Japanese heated table mentioned in relation to playing shogi.</data>
+      <data key="d3">chunk-bbeb9e9a5d51cb2fca9119ca21d43a6a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081446</data>
+    </node>
+    <node id="医者">
+      <data key="d0">医者</data>
+      <data key="d1">person</data>
+      <data key="d2">医者is a doctor who is invited to perform a careful examination of the narrator.</data>
+      <data key="d3">chunk-1a29214c42e0fe5e19ecc068e3ea5acb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081446</data>
+    </node>
+    <node id="冬休み">
+      <data key="d0">冬休み</data>
+      <data key="d1">concept</data>
+      <data key="d2">冬休み refers to the winter vacation period that is nearing its end for the narrator.</data>
+      <data key="d3">chunk-1a29214c42e0fe5e19ecc068e3ea5acb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081446</data>
+    </node>
+    <node id="出立の日">
+      <data key="d0">出立の日</data>
+      <data key="d1">concept</data>
+      <data key="d2">出立の日is the specific day chosen by the narrator for departure, which remains unchanged.</data>
+      <data key="d3">chunk-1a29214c42e0fe5e19ecc068e3ea5acb</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081446</data>
+    </node>
+    <node id="松飾">
+      <data key="d0">松飾</data>
+      <data key="d1">concept</data>
+      <data key="d2">松飾refers to traditional decorations used during New Year celebrations in Japan, which were no longer present upon the narrator's return.</data>
+      <data key="d3">chunk-e2cd833de768d1c9dc03f4e089c0e8ea</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081476</data>
+    </node>
+    <node id="金">
+      <data key="d0">金</data>
+      <data key="d1">concept</data>
+      <data key="d2">金refers to money, which the narrator is returning to the teacher mentioned in the text.&lt;SEP&gt;金is a concept mentioned by先生, referring to money and its ability to influence human behavior, particularly during critical times.</data>
+      <data key="d3">chunk-e2cd833de768d1c9dc03f4e089c0e8ea&lt;SEP&gt;chunk-fd9e96b7fbef36aa724fe4f35d330d4d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081595</data>
+    </node>
+    <node id="椎茸">
+      <data key="d0">椎茸</data>
+      <data key="d1">artifact</data>
+      <data key="d2">椎茸(shiitake mushrooms) are brought by the narrator as an offering alongside money, packed in a new confectionery box.</data>
+      <data key="d3">chunk-e2cd833de768d1c9dc03f4e089c0e8ea</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081476</data>
+    </node>
+    <node id="腎臓の病">
+      <data key="d0">腎臓の病</data>
+      <data key="d1">concept</data>
+      <data key="d2">腎臓の病refers to a kidney disease mentioned in the discussion regarding the narrator's father's health.</data>
+      <data key="d3">chunk-e2cd833de768d1c9dc03f4e089c0e8ea</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081476</data>
+    </node>
+    <node id="士官">
+      <data key="d0">士官</data>
+      <data key="d1">person</data>
+      <data key="d2">The士官(officer) is referenced as an example of someone who suffered a sudden death due to kidney disease.</data>
+      <data key="d3">chunk-e2cd833de768d1c9dc03f4e089c0e8ea</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081476</data>
+    </node>
+    <node id="自然に死ぬ">
+      <data key="d0">自然に死ぬ</data>
+      <data key="d1">concept</data>
+      <data key="d2">自然に死ぬ refers to the concept of dying naturally without forewarning, discussed by the teacher.</data>
+      <data key="d3">chunk-e2cd833de768d1c9dc03f4e089c0e8ea</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081477</data>
+    </node>
+    <node id="不自然な暴力">
+      <data key="d0">不自然な暴力</data>
+      <data key="d1">concept</data>
+      <data key="d2">不自然な暴力refers to the concept of unnatural violence, including suicide, which was addressed in the conversation.</data>
+      <data key="d3">chunk-e2cd833de768d1c9dc03f4e089c0e8ea</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081477</data>
+    </node>
+    <node id="卒業論文">
+      <data key="d0">卒業論文</data>
+      <data key="d1">content</data>
+      <data key="d2">卒業論文(graduation thesis) is mentioned as something the narrator intends to formally begin writing after the event.</data>
+      <data key="d3">chunk-e2cd833de768d1c9dc03f4e089c0e8ea</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081477</data>
+    </node>
+    <node id="病気">
+      <data key="d0">病気</data>
+      <data key="d1">concept</data>
+      <data key="d2">病気refers to the illness mentioned concerning the narrator’s father, which is a central concern in the dialogue.</data>
+      <data key="d3">chunk-e2cd833de768d1c9dc03f4e089c0e8ea</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081477</data>
+    </node>
+    <node id="四月の下旬">
+      <data key="d0">四月の下旬</data>
+      <data key="d1">date</data>
+      <data key="d2">四月の下旬refers to the late April period in Japan, used in the context of planning and writing.</data>
+      <data key="d3">chunk-c818c894266c5c477b46c2984fa65fb9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081497</data>
+    </node>
+    <node id="敷居">
+      <data key="d0">敷居</data>
+      <data key="d1">concept</data>
+      <data key="d2">敷居refers to the threshold or barrier, often indicating a point of transition or entry in a physical and metaphorical sense.</data>
+      <data key="d3">chunk-c818c894266c5c477b46c2984fa65fb9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081497</data>
+    </node>
+    <node id="私は">
+      <data key="d0">私は</data>
+      <data key="d1">person</data>
+      <data key="d2">私は refers to the speaker in the text, indicating a personal perspective on their actions and experiences.</data>
+      <data key="d3">chunk-c818c894266c5c477b46c2984fa65fb9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081497</data>
+    </node>
+    <node id="June">
+      <data key="d0">June</data>
+      <data key="d1">other</data>
+      <data key="d2">June is the month in which the narrator anticipates graduating, marking a deadline for completing a thesis.</data>
+      <data key="d3">chunk-fe9243332ae2b2dbe261ca8b643db9a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081497</data>
+    </node>
+    <node id="Thesis">
+      <data key="d0">Thesis</data>
+      <data key="d1">content</data>
+      <data key="d2">The thesis is the written work that the narrator must complete by the end of April, indicating an academic requirement.</data>
+      <data key="d3">chunk-fe9243332ae2b2dbe261ca8b643db9a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081497</data>
+    </node>
+    <node id="Reference Books">
+      <data key="d0">Reference Books</data>
+      <data key="d1">content</data>
+      <data key="d2">Reference books are resources that the teacher recommends the narrator read for their thesis.</data>
+      <data key="d3">chunk-fe9243332ae2b2dbe261ca8b643db9a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081497</data>
+    </node>
+    <node id="Classmates">
+      <data key="d0">Classmates</data>
+      <data key="d1">person</data>
+      <data key="d2">Classmates are fellow students of the narrator who are also attempting to complete their theses with varying levels of success.</data>
+      <data key="d3">chunk-fe9243332ae2b2dbe261ca8b643db9a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081498</data>
+    </node>
+    <node id="Cherry Blossoms">
+      <data key="d0">Cherry Blossoms</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">Cherry blossoms signify the passing of time as the narrator works towards completing the thesis, serving as a seasonal marker.</data>
+      <data key="d3">chunk-fe9243332ae2b2dbe261ca8b643db9a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081498</data>
+    </node>
+    <node id="Plum Blossoms">
+      <data key="d0">Plum Blossoms</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">Plum blossoms also symbolize the changing season while the narrator is engaged in academic work.</data>
+      <data key="d3">chunk-fe9243332ae2b2dbe261ca8b643db9a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081498</data>
+    </node>
+    <node id="Deadline">
+      <data key="d0">Deadline</data>
+      <data key="d1">other</data>
+      <data key="d2">The deadline is the due date for submitting the thesis, with significant pressure associated with it.</data>
+      <data key="d3">chunk-fe9243332ae2b2dbe261ca8b643db9a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081498</data>
+    </node>
+    <node id="April">
+      <data key="d0">April</data>
+      <data key="d1">other</data>
+      <data key="d2">April is the month by which the narrator aims to complete the thesis, creating a sense of urgency.</data>
+      <data key="d3">chunk-fe9243332ae2b2dbe261ca8b643db9a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081498</data>
+    </node>
+    <node id="April End">
+      <data key="d0">April End</data>
+      <data key="d1">other</data>
+      <data key="d2">April End refers to the conclusion of April, which serves as the deadline for completing the thesis required by the narrator's academic program.</data>
+      <data key="d3">chunk-fe9243332ae2b2dbe261ca8b643db9a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081498</data>
+    </node>
+    <node id="Hat">
+      <data key="d0">Hat</data>
+      <data key="d1">artifact</data>
+      <data key="d2">The Hat is a personal item belonging to the teacher that was blown off a narrow cedar seedling by the wind.&lt;SEP&gt;The Hat is an object that was picked up and had red soil on it, indicating it may have been dropped previously.</data>
+      <data key="d3">chunk-14efa605d7e5b97c6c5fc0d52e4d17dc&lt;SEP&gt;chunk-a255004ab39a6f37c9430741411f2fd9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081545</data>
+    </node>
+    <node id="Cedar Seedling">
+      <data key="d0">Cedar Seedling</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">The Cedar Seedling is a small, slender tree on which the teacher's hat was placed before being blown away.</data>
+      <data key="d3">chunk-14efa605d7e5b97c6c5fc0d52e4d17dc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081521</data>
+    </node>
+    <node id="Wind">
+      <data key="d0">Wind</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">Wind is the natural element that caused the Teacher's Hat to fall from the Cedar Seedling.</data>
+      <data key="d3">chunk-14efa605d7e5b97c6c5fc0d52e4d17dc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081521</data>
+    </node>
+    <node id="八重桜">
+      <data key="d0">八重桜</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">八重桜is a type of cherry blossom tree that signifies the arrival of spring and natural beauty.</data>
+      <data key="d3">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081521</data>
+    </node>
+    <node id="初夏">
+      <data key="d0">初夏</data>
+      <data key="d1">concept</data>
+      <data key="d2">初夏refers to the early summer season when nature starts to flourish and new leaves appear.</data>
+      <data key="d3">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081521</data>
+    </node>
+    <node id="小鳥">
+      <data key="d0">小鳥</data>
+      <data key="d1">creature</data>
+      <data key="d2">小鳥is a small bird that escaped from a cage, symbolizing freedom and a carefree spirit.</data>
+      <data key="d3">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081521</data>
+    </node>
+    <node id="枳殻の垣">
+      <data key="d0">枳殻の垣</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">枳殻の垣refers to a type of fence made from bitter orange trees, depicting the natural scenery.</data>
+      <data key="d3">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081521</data>
+    </node>
+    <node id="柘榴の幹">
+      <data key="d0">柘榴の幹</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">柘榴の幹is the trunk of a pomegranate tree, highlighted for its lush leaves and vibrant appearance.</data>
+      <data key="d3">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081521</data>
+    </node>
+    <node id="論文">
+      <data key="d0">論文</data>
+      <data key="d1">content</data>
+      <data key="d2">論文is a written academic work completed by the narrator, reflecting their scholarly efforts.</data>
+      <data key="d3">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081521</data>
+    </node>
+    <node id="市">
+      <data key="d0">市</data>
+      <data key="d1">location</data>
+      <data key="d2">市refers to a town or city where the events take place, representing a point of interest for the characters.</data>
+      <data key="d3">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081521</data>
+    </node>
+    <node id="外">
+      <data key="d0">外</data>
+      <data key="d1">location</data>
+      <data key="d2">外symbolizes the outdoors, which is a setting for the characters’ exploration and dialogue.</data>
+      <data key="d3">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081521</data>
+    </node>
+    <node id="金魚">
+      <data key="d0">金魚</data>
+      <data key="d1">creature</data>
+      <data key="d2">金魚is a goldfish that resides in a large pot, adding to the tranquility of the setting.</data>
+      <data key="d3">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081521</data>
+    </node>
+    <node id="霧島">
+      <data key="d0">霧島</data>
+      <data key="d1">location</data>
+      <data key="d2">霧島is identified as a region in Japan, known for its natural beauty, mentioned by the teacher.</data>
+      <data key="d3">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081521</data>
+    </node>
+    <node id="芍薬">
+      <data key="d0">芍薬</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">芍薬is a peony plant that is still dormant and expected to bloom, contributing to the garden scenery.</data>
+      <data key="d3">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081521</data>
+    </node>
+    <node id="自由">
+      <data key="d0">自由</data>
+      <data key="d1">concept</data>
+      <data key="d2">自由represents the concept of freedom, symbolizing the narrator's sense of liberation and independence.</data>
+      <data key="d3">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081522</data>
+    </node>
+    <node id="柔らかい葉">
+      <data key="d0">柔らかい葉</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">柔らかい葉refers to the soft, tender leaves of the plants that are vividly described in the text, representing new growth in nature.</data>
+      <data key="d3">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081522</data>
+    </node>
+    <node id="Wealth">
+      <data key="d0">Wealth</data>
+      <data key="d1">concept</data>
+      <data key="d2">Wealth is a concept discussed during the conversation, relating to the financial status of both the Narrator and the Teacher.</data>
+      <data key="d3">chunk-a255004ab39a6f37c9430741411f2fd9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081545</data>
+    </node>
+    <node id="Illness">
+      <data key="d0">Illness</data>
+      <data key="d1">concept</data>
+      <data key="d2">Illness refers to the health condition of the Father, which is a topic of concern during the dialogue between the Teacher and the Narrator.</data>
+      <data key="d3">chunk-a255004ab39a6f37c9430741411f2fd9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081545</data>
+    </node>
+    <node id="Martial Art">
+      <data key="d0">Martial Art</data>
+      <data key="d1">concept</data>
+      <data key="d2">Martial Art is a term used in the conversation referring to the teacher's past, indicating that he may have had a background in such disciplines.</data>
+      <data key="d3">chunk-a255004ab39a6f37c9430741411f2fd9</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081545</data>
+    </node>
+    <node id="君">
+      <data key="d0">君</data>
+      <data key="d1">person</data>
+      <data key="d2">The character addressed as君is a young individual who demonstrates a lack of concern for family issues as discussed by先生.</data>
+      <data key="d3">chunk-3d48d2843f15279a62b08968dd2d55af</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081566</data>
+    </node>
+    <node id="兄弟">
+      <data key="d0">兄弟</data>
+      <data key="d1">person</data>
+      <data key="d2">The character's siblings are briefly referenced during the discussion about family composition.</data>
+      <data key="d3">chunk-3d48d2843f15279a62b08968dd2d55af</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081566</data>
+    </node>
+    <node id="小供">
+      <data key="d0">小供</data>
+      <data key="d1">creature</data>
+      <data key="d2">小供refers to a young child who interacts with先生and displays innocent curiosity.&lt;SEP&gt;小供is a child that is present in the scene but is not described in detail.</data>
+      <data key="d3">chunk-3d48d2843f15279a62b08968dd2d55af&lt;SEP&gt;chunk-fd9e96b7fbef36aa724fe4f35d330d4d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081595</data>
+    </node>
+    <node id="犬">
+      <data key="d0">犬</data>
+      <data key="d1">creature</data>
+      <data key="d2">犬is a dog present in the scene that reacts to stimuli in the environment and engages with小供.&lt;SEP&gt;犬is a dog that plays a role in the scene but does not have specific attributes mentioned.</data>
+      <data key="d3">chunk-3d48d2843f15279a62b08968dd2d55af&lt;SEP&gt;chunk-fd9e96b7fbef36aa724fe4f35d330d4d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081595</data>
+    </node>
+    <node id="家">
+      <data key="d0">家</data>
+      <data key="d1">location</data>
+      <data key="d2">The term家refers to the house where the characters are, serving as a focal point in the narrative.</data>
+      <data key="d3">chunk-3d48d2843f15279a62b08968dd2d55af</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081567</data>
+    </node>
+    <node id="叔父さん">
+      <data key="d0">叔父さん</data>
+      <data key="d1">person</data>
+      <data key="d2">叔父さん is a character referred to as the uncle in conversation, who engages with小供and先生.</data>
+      <data key="d3">chunk-3d48d2843f15279a62b08968dd2d55af</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081567</data>
+    </node>
+    <node id="傍">
+      <data key="d0">傍</data>
+      <data key="d1">location</data>
+      <data key="d2">傍refers to the area or side where the dog barks and where plants are growing.</data>
+      <data key="d3">chunk-3d48d2843f15279a62b08968dd2d55af</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081567</data>
+    </node>
+    <node id="広い若葉の園">
+      <data key="d0">広い若葉の園</data>
+      <data key="d1">location</data>
+      <data key="d2">広い若葉の園is a spacious garden filled with young green leaves, providing a peaceful backdrop for the events described.</data>
+      <data key="d3">chunk-fd9e96b7fbef36aa724fe4f35d330d4d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081595</data>
+    </node>
+    <node id="村">
+      <data key="d0">村</data>
+      <data key="d1">location</data>
+      <data key="d2">村refers to a village nearby, which is associated with the sounds of a cart being pulled.</data>
+      <data key="d3">chunk-fd9e96b7fbef36aa724fe4f35d330d4d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081595</data>
+    </node>
+    <node id="羽織">
+      <data key="d0">羽織</data>
+      <data key="d1">artifact</data>
+      <data key="d2">羽織is a garment recently made by先生, which was mentioned during a discussion about cleanliness and care.</data>
+      <data key="d3">chunk-fd9e96b7fbef36aa724fe4f35d330d4d</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081595</data>
+    </node>
+    <node id="血のつづいた親戚">
+      <data key="d0">血のつづいた親戚</data>
+      <data key="d1">concept</data>
+      <data key="d2">血のつづいた親戚refers to relatives by blood, significant in the context of先生's feelings of betrayal and emotional conflict.</data>
+      <data key="d3">chunk-0d09e662ec032a3435cbec583c08991e</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081614</data>
+    </node>
+    <node id="屈辱と損害">
+      <data key="d0">屈辱と損害</data>
+      <data key="d1">concept</data>
+      <data key="d2">屈辱と損害are emotions that先生expresses as deeply ingrained memories and sources of his ongoing resentment.</data>
+      <data key="d3">chunk-0d09e662ec032a3435cbec583c08991e</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081614</data>
+    </node>
+    <node id="復讐">
+      <data key="d0">復讐</data>
+      <data key="d1">concept</data>
+      <data key="d2">復讐is a theme discussed by先生, indicating his feelings of vengeance towards those who have hurt him.</data>
+      <data key="d3">chunk-0d09e662ec032a3435cbec583c08991e</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081614</data>
+    </node>
+    <node id="生垣">
+      <data key="d0">生垣</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">生垣refers to the neatly trimmed hedges observed by私, contributing to the setting of the scene during their walk with先生.</data>
+      <data key="d3">chunk-0d09e662ec032a3435cbec583c08991e</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081614</data>
+    </node>
+    <node id="豌豆の蔓">
+      <data key="d0">豌豆の蔓</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">豌豆の蔓refers to the pea vines observed by私, indicating agricultural activities in the vicinity of their path.</data>
+      <data key="d3">chunk-0d09e662ec032a3435cbec583c08991e</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081614</data>
+    </node>
+    <node id="え口へ">
+      <data key="d0">え口へ</data>
+      <data key="d1">other</data>
+      <data key="d2">The text fragment appears to be a Japanese phrase but does not provide context for a defined entity or relationship within the categories listed.</data>
+      <data key="d3">chunk-a5c37ce088a614e3092d561b48edce84</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1760081614</data>
+    </node>
+    <edge source="先生" target="narrator">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator addresses the teacher as "先生," indicating a respectful and informal teacher-student relationship.</data>
+      <data key="d8">informal communication,teacher-student relationship</data>
+      <data key="d9">chunk-4f8c1038817a259502750c0d7e8f90b5</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081011</data>
+    </edge>
+    <edge source="先生" target="掛茶屋">
+      <data key="d6">1.0</data>
+      <data key="d7">先生encountered another character when entering the tea shop, highlighting an interaction in the setting.</data>
+      <data key="d8">interaction,meeting</data>
+      <data key="d9">chunk-b2735420d937945402917d524a6c784c</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081029</data>
+    </edge>
+    <edge source="先生" target="西洋人">
+      <data key="d6">2.0</data>
+      <data key="d7">先生observes the Western man at the beach, noting his unusual behavior and attire.&lt;SEP&gt;先生remarks on the absence of西洋人after initially coming to the beach together, indicating a social disconnect.</data>
+      <data key="d8">absence,interaction,observation,social relationship</data>
+      <data key="d9">chunk-bbcb575158ef91fa1a46e2986b7d2525&lt;SEP&gt;chunk-92120e0f566f2cace2548ce11d35d791</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081046</data>
+    </edge>
+    <edge source="先生" target="海">
+      <data key="d6">1.0</data>
+      <data key="d7">The character先生swims in the ocean, showcasing a leisure activity at the beach.</data>
+      <data key="d8">activity,swimming</data>
+      <data key="d9">chunk-92120e0f566f2cace2548ce11d35d791</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081030</data>
+    </edge>
+    <edge source="先生" target="麦藁帽">
+      <data key="d6">1.0</data>
+      <data key="d7">先生wears a麦藁帽while at the beach, indicating his casual approach to beach activities.</data>
+      <data key="d8">beach attire,personal item</data>
+      <data key="d9">chunk-92120e0f566f2cace2548ce11d35d791</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081031</data>
+    </edge>
+    <edge source="先生" target="私">
+      <data key="d6">17.0</data>
+      <data key="d7">The relation between 先生 (sensei) and 私 (watashi) encompasses a multifaceted emotional and mentorship dynamic characterized by both admiration and complexity. 私 engages regularly in conversations with 先生, who holds an authoritative position that establishes a mentor-student relationship. This dynamic is enriched by their shared discussions and activities, which cultivate a deeper emotional connection.
+
+Throughout their interactions, 私 often visits 先生, sensing a blend of fascination and perceived distance that adds layers to their relationship. This indicates that their emotional ties are intricate, encompassing both affection and disappointment. 私 reflects on their feelings during walks with 先生, which reveals themes of loneliness and the personal motivations driving these encounters. While 先生 provides guidance, there persists an underlying distance maintained by the latter, contributing to a complex interplay in their relationship. These dialogues open the door to personal introspection, shedding light on the evolving mentorship role that 先生 fulfills in 私's life, where authority, support, and personal connection are continually negotiated.
+
+私 contemplates the philosophies and emotions expressed by 先生 during their acquaintance, seeking deeper understanding and insights. In these interactions, 先生 offers valuable guidance regarding the nature of emotional experiences, helping 私 navigate complex feelings, including questioning and understanding the concept of love. Furthermore, 私 seeks guidance from 先生 on self-trust and credibility, highlighting the profound impact the teacher has on their worldview. 
+
+In a notable instance, 先生 requests 私 to take care of certain matters until his return, indicating a level of trust in their relationship. 私 also observes 先生's demeanor and ponders his philosophical outlook, expressing confusion about his emotional state. This multifaceted connection also extends to social dynamics, as 私 follows 奥さん (okusan) to join the conversation with 先生, illustrating the depth of their social relationship. Overall, the engagement between 先生 and 私 reflects a rich tapestry of emotional exploration, mentorship, and philosophical inquiry.&lt;SEP&gt;The narrator engages in correspondence with the teacher, indicating a relationship that includes mutual concern.&lt;SEP&gt;私observes and interacts with先生, attempting to understand his emotional state and thoughts.</data>
+      <data key="d8">authority,communication,confusion,correspondence,dialogue,discussion,emotional connection,familiarity,guidance,influence,inquiry,interaction,mentorship,narrative perspective,narrative relationship,observation,reflection,relationship,request,responsibility,social relationship,student-teacher relationship,teacher-student relationship,teaching</data>
+      <data key="d9">chunk-1ad69cb27b6d6705e0995a98fb364686&lt;SEP&gt;chunk-994ab7c01561ece8414b566aba94a61d&lt;SEP&gt;chunk-b49620d3174377d693b6b8206e5663bc&lt;SEP&gt;chunk-0d09e662ec032a3435cbec583c08991e&lt;SEP&gt;chunk-b063e28c579b8b15803bc81d2862e54e&lt;SEP&gt;chunk-14edb887d38cd74f74c603c62eb65fcf&lt;SEP&gt;chunk-bbcb575158ef91fa1a46e2986b7d2525&lt;SEP&gt;chunk-3d4644bfc185cef3c850e039fcda2d9a&lt;SEP&gt;chunk-7927ea27234b51a4323b6fc042821b2d&lt;SEP&gt;chunk-37a4efa883522437cf49471d5da96063&lt;SEP&gt;chunk-f6392226c631f0b5c260542661c92c80&lt;SEP&gt;chunk-def894ec769603b211073d87ffe1caf2&lt;SEP&gt;chunk-3b03fadf4228120817833feac6a1bc92&lt;SEP&gt;chunk-5a83cc1d46adb8fe4e92b337b173dc09&lt;SEP&gt;chunk-2528445c5f222b335c09aa89c324500e</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081616</data>
+    </edge>
+    <edge source="先生" target="若い私">
+      <data key="d6">1.0</data>
+      <data key="d7">若い私anticipates a response from先生in their conversation, indicating a sense of emotional involvement.</data>
+      <data key="d8">dialogue,emotional anticipation</data>
+      <data key="d9">chunk-2528445c5f222b335c09aa89c324500e</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081044</data>
+    </edge>
+    <edge source="先生" target="浜辺">
+      <data key="d6">1.0</data>
+      <data key="d7">先生frequently visits浜辺, where he interacts with私.</data>
+      <data key="d8">location,meeting place</data>
+      <data key="d9">chunk-bbcb575158ef91fa1a46e2986b7d2525</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081045</data>
+    </edge>
+    <edge source="先生" target="浴衣">
+      <data key="d6">1.0</data>
+      <data key="d7">先生's浴衣is involved in an incident when he discovers it is covered in sand while preparing to wear it.</data>
+      <data key="d8">interaction,personal belonging</data>
+      <data key="d9">chunk-bbcb575158ef91fa1a46e2986b7d2525</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081046</data>
+    </edge>
+    <edge source="先生" target="東京">
+      <data key="d6">3.0</data>
+      <data key="d7">Tokyo is the location where the narrator seeks to connect with the teacher, illustrating their relationship dynamics.&lt;SEP&gt;The mentor’s experiences and sentiments are contextualized within the setting of Tokyo.&lt;SEP&gt;先生's journey includes returning to Tokyo after completing his education, marking an important transition.</data>
+      <data key="d8">character relationship,context,educational journey,narrative context,return,setting</data>
+      <data key="d9">chunk-41b7f678f234d24a21f67bb2dc46b741&lt;SEP&gt;chunk-b063e28c579b8b15803bc81d2862e54e&lt;SEP&gt;chunk-5a83cc1d46adb8fe4e92b337b173dc09</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081185</data>
+    </edge>
+    <edge source="先生" target="鎌倉">
+      <data key="d6">1.0</data>
+      <data key="d7">The teacher is connected to the narrator's memories of Kamakura, influencing their feelings and expectations.</data>
+      <data key="d8">emotional connection,past experiences</data>
+      <data key="d9">chunk-b063e28c579b8b15803bc81d2862e54e</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081060</data>
+    </edge>
+    <edge source="先生" target="雑司ヶ谷の墓地">
+      <data key="d6">1.0</data>
+      <data key="d7">The teacher has a habitual practice of visiting Zōshigaya Cemetery to honor a Buddha with offerings.</data>
+      <data key="d8">habit,memorial practice</data>
+      <data key="d9">chunk-b063e28c579b8b15803bc81d2862e54e</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081061</data>
+    </edge>
+    <edge source="先生" target="奥さん">
+      <data key="d6">13.0</data>
+      <data key="d7">The relation between 先生 (Sensei, meaning "teacher") and 奥さん (Okusan, meaning "wife") is multifaceted and complex, encapsulating elements of companionship, affection, and conflict. 奥さん is described as a beautiful lady who plays a significant role in the teacher's life, providing insight into his habits and circumstances. Through her support and understanding, she sheds light on his past and current challenges, demonstrating a deep emotional connection.
+
+Their relationship is rooted in marriage and companionship, highlighting the bond that ties them together. However, it is also marked by misunderstandings and conflicts that create tension between them. 奥さん experiences a conflict with 先生, which occasionally leads to misunderstandings that affect the dynamics of their relationship. This complexity is further deepened by the presence of unspoken tragedies and hidden elements that add layers to their interactions.
+
+Additionally, 先生 exhibits an emotional complexity towards 奥さん, as he conceals significant emotional truths from her. This concealment introduces a tragic dimension to their relationship, prompting reflections on the nature of their connection. Overall, the relationship between 先生 and 奥さん is characterized by deep affection intertwined with challenges, underscoring the intricate balance of love and conflict that often exists in marital bonds.&lt;SEP&gt;奥さん refers to先生, indicating his absence during私's visit and discussing his rarely attending social gatherings.&lt;SEP&gt;奥さん discusses her feelings and thoughts about先生, indicating a deep emotional connection between them.&lt;SEP&gt;奥さん expresses concern and emotional connection regarding先生's character and personal changes.&lt;SEP&gt;奥さん expresses concern about the changes in先生due to a friend's death and seeks to understand it.&lt;SEP&gt;奥さん greets先生warmly upon his arrival, indicating a friendly social interaction.</data>
+      <data key="d8">absence,closeness,complex dynamics,conflict,emotional complexity,emotional concealment,emotional concern,emotional connection,engagement,marital relationship,misunderstanding,partnership,relationship,relationship discussion,relationship dynamics,social interaction,subject of discussion,support,teacher connection,tragedy</data>
+      <data key="d9">chunk-41b7f678f234d24a21f67bb2dc46b741&lt;SEP&gt;chunk-14edb887d38cd74f74c603c62eb65fcf&lt;SEP&gt;chunk-994ab7c01561ece8414b566aba94a61d&lt;SEP&gt;chunk-37807a368fa88fae1d37a0e75d7816b2&lt;SEP&gt;chunk-b063e28c579b8b15803bc81d2862e54e&lt;SEP&gt;chunk-37a4efa883522437cf49471d5da96063&lt;SEP&gt;chunk-8a7c924e3cee2684cb2a4d1c5c5cd9da&lt;SEP&gt;chunk-3aa9b2cd42e855e47c6ed90eac1f201c&lt;SEP&gt;chunk-51d492ad3a6e4e00774c383b6e3b308c&lt;SEP&gt;chunk-3b03fadf4228120817833feac6a1bc92&lt;SEP&gt;chunk-ab0b163914980bb3bd4352f83496db0d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081375</data>
+    </edge>
+    <edge source="先生" target="苗畠">
+      <data key="d6">1.0</data>
+      <data key="d7">先生appears at苗畠after being called out by the narrator.</data>
+      <data key="d8">location relationship,observation</data>
+      <data key="d9">chunk-903991bd152acf95cc4837f8df2fb4ee</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081075</data>
+    </edge>
+    <edge source="先生" target="墓地">
+      <data key="d6">1.0</data>
+      <data key="d7">先生discusses matters related to graves with the narrator in墓地.</data>
+      <data key="d8">conversation,memorial</data>
+      <data key="d9">chunk-903991bd152acf95cc4837f8df2fb4ee</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081076</data>
+    </edge>
+    <edge source="先生" target="友達">
+      <data key="d6">1.0</data>
+      <data key="d7">先生mentions visiting the grave of友達at the墓地regularly.</data>
+      <data key="d8">friendship,remembrance</data>
+      <data key="d9">chunk-903991bd152acf95cc4837f8df2fb4ee</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081076</data>
+    </edge>
+    <edge source="先生" target="雑司ヶ谷">
+      <data key="d6">2.0</data>
+      <data key="d7">先生has a personal history with the cemetery in雑司ヶ谷, which he visits regularly for reflection.&lt;SEP&gt;雑司ヶ谷is associated with the teacher's past connections and memories, particularly relating to a grave.</data>
+      <data key="d8">cemetery visit,past connection,personal history,symbolism</data>
+      <data key="d9">chunk-14edb887d38cd74f74c603c62eb65fcf&lt;SEP&gt;chunk-3d4644bfc185cef3c850e039fcda2d9a</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081270</data>
+    </edge>
+    <edge source="先生" target="墓参り">
+      <data key="d6">1.0</data>
+      <data key="d7">先生does not want to participate in the grave visit due to a personal reason.</data>
+      <data key="d8">personal reasons,reluctance</data>
+      <data key="d9">chunk-5f3511df462cdb31fd19d867e6e2f4d0</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081096</data>
+    </edge>
+    <edge source="先生" target="妻">
+      <data key="d6">2.0</data>
+      <data key="d7">先生mentions their wife, indicating a familial relationship that is relevant to the context of the grave visit.&lt;SEP&gt;先生expresses concern for妻's well-being when he returns home.</data>
+      <data key="d8">concern,family,relationship</data>
+      <data key="d9">chunk-7927ea27234b51a4323b6fc042821b2d&lt;SEP&gt;chunk-5f3511df462cdb31fd19d867e6e2f4d0</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081160</data>
+    </edge>
+    <edge source="先生" target="私の宅">
+      <data key="d6">1.0</data>
+      <data key="d7">The mentor acknowledges the narrator's visits to私の宅, which enhances their interaction and relationship.</data>
+      <data key="d8">setting,social interaction</data>
+      <data key="d9">chunk-5a83cc1d46adb8fe4e92b337b173dc09</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081109</data>
+    </edge>
+    <edge source="先生" target="子供">
+      <data key="d6">1.0</data>
+      <data key="d7">The先生and奥さん discuss the idea of children, indicating their relationship dynamics.</data>
+      <data key="d8">discussion,future family</data>
+      <data key="d9">chunk-994ab7c01561ece8414b566aba94a61d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081122</data>
+    </edge>
+    <edge source="先生" target="下女">
+      <data key="d6">1.0</data>
+      <data key="d7">The先生is associated with the下女in the context of domestic staff within their home.</data>
+      <data key="d8">employment,household</data>
+      <data key="d9">chunk-994ab7c01561ece8414b566aba94a61d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081123</data>
+    </edge>
+    <edge source="先生" target="箱根">
+      <data key="d6">1.0</data>
+      <data key="d7">先生has a connection to箱根as he sent a postcard from there, indicating nostalgia or remembrance.</data>
+      <data key="d8">location connection,memory</data>
+      <data key="d9">chunk-37807a368fa88fae1d37a0e75d7816b2</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081143</data>
+    </edge>
+    <edge source="先生" target="日光">
+      <data key="d6">1.0</data>
+      <data key="d7">先生visited日光and collected leaves, marking shared experiences with奥さん.</data>
+      <data key="d8">location connection,memory</data>
+      <data key="d9">chunk-37807a368fa88fae1d37a0e75d7816b2</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081144</data>
+    </edge>
+    <edge source="先生" target="麦酒">
+      <data key="d6">1.0</data>
+      <data key="d7">先生shared a moment of social interaction and bonding over麦酒with the narrator.</data>
+      <data key="d8">bonding,social interaction</data>
+      <data key="d9">chunk-37807a368fa88fae1d37a0e75d7816b2</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081144</data>
+    </edge>
+    <edge source="先生" target="静">
+      <data key="d6">2.0</data>
+      <data key="d7">静experiences misunderstandings with先生, leading to moments of conflict in their relationship.&lt;SEP&gt;先生calls奥さん by her name, 静, indicating affection and familiarity in their interactions.</data>
+      <data key="d8">affectionate call,conflict,misunderstanding,relationship</data>
+      <data key="d9">chunk-37807a368fa88fae1d37a0e75d7816b2</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081144</data>
+    </edge>
+    <edge source="先生" target="横浜">
+      <data key="d6">1.0</data>
+      <data key="d7">先生is mentioned to be going to横浜to send off a friend leaving for abroad.</data>
+      <data key="d8">departure,travel</data>
+      <data key="d9">chunk-7927ea27234b51a4323b6fc042821b2d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081167</data>
+    </edge>
+    <edge source="先生" target="汽船">
+      <data key="d6">1.0</data>
+      <data key="d7">先生sends off a friend who is departing on a汽船to a foreign location.</data>
+      <data key="d8">departure,send-off</data>
+      <data key="d9">chunk-7927ea27234b51a4323b6fc042821b2d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081168</data>
+    </edge>
+    <edge source="先生" target="妻君">
+      <data key="d6">1.0</data>
+      <data key="d7">先生refers to妻as妻君, indicating a respectful and affectionate relationship.</data>
+      <data key="d8">endearment,relationship</data>
+      <data key="d9">chunk-7927ea27234b51a4323b6fc042821b2d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081168</data>
+    </edge>
+    <edge source="先生" target="大学生">
+      <data key="d6">1.0</data>
+      <data key="d7">大学生represents the narrator's perception of growth and maturity compared to their teacher.</data>
+      <data key="d8">maturity,teacher-student relationship</data>
+      <data key="d9">chunk-41b7f678f234d24a21f67bb2dc46b741</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081184</data>
+    </edge>
+    <edge source="先生" target="宅">
+      <data key="d6">1.0</data>
+      <data key="d7">先生conducts discussions and studies in their home, indicating a close-knit environment.</data>
+      <data key="d8">discussions,home life</data>
+      <data key="d9">chunk-41b7f678f234d24a21f67bb2dc46b741</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081184</data>
+    </edge>
+    <edge source="先生" target="精神">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator's reflections on the teacher's situation reveal an emotional response to the societal disregard for the teacher's scholarly work.</data>
+      <data key="d8">emotional impact,societal perception</data>
+      <data key="d9">chunk-41b7f678f234d24a21f67bb2dc46b741</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081186</data>
+    </edge>
+    <edge source="先生" target="新潟県">
+      <data key="d6">1.0</data>
+      <data key="d7">先生hails from新潟県, contrasting his background with奥さん's Tokyo roots.</data>
+      <data key="d8">background,origin</data>
+      <data key="d9">chunk-37a4efa883522437cf49471d5da96063</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081212</data>
+    </edge>
+    <edge source="先生" target="悲劇">
+      <data key="d6">1.0</data>
+      <data key="d7">The relationship between先生and奥さん is underpinned by a tragic narrative that involves hidden suffering.</data>
+      <data key="d8">consequences,hidden suffering</data>
+      <data key="d9">chunk-37a4efa883522437cf49471d5da96063</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081213</data>
+    </edge>
+    <edge source="先生" target="恋">
+      <data key="d6">1.0</data>
+      <data key="d7">先生expresses that love is a sin, indicating a strong moral perspective on the topic.</data>
+      <data key="d8">moral characterization,perspective</data>
+      <data key="d9">chunk-def894ec769603b211073d87ffe1caf2</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081232</data>
+    </edge>
+    <edge source="先生" target="罪悪">
+      <data key="d6">1.0</data>
+      <data key="d7">先生teaches about the concept of sin as it relates to love, emphasizing its negative connotation.</data>
+      <data key="d8">moral perspective,teaching</data>
+      <data key="d9">chunk-def894ec769603b211073d87ffe1caf2</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081232</data>
+    </edge>
+    <edge source="先生" target="信用">
+      <data key="d6">1.0</data>
+      <data key="d7">The teacher expresses skepticism regarding credibility, which affects how the narrator perceives themselves and others.</data>
+      <data key="d8">perception,skepticism</data>
+      <data key="d9">chunk-b49620d3174377d693b6b8206e5663bc</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081248</data>
+    </edge>
+    <edge source="先生" target="椿の花">
+      <data key="d6">1.0</data>
+      <data key="d7">The teacher reflects on the camellia flowers, highlighting his tendency to observe and derive meaning from his surroundings.</data>
+      <data key="d8">observation,reflection</data>
+      <data key="d9">chunk-b49620d3174377d693b6b8206e5663bc</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081249</data>
+    </edge>
+    <edge source="先生" target="熱">
+      <data key="d6">1.0</data>
+      <data key="d7">The teacher comments on the narrator's emotional state, suggesting it affects their rationality.</data>
+      <data key="d8">emotional state,judgment</data>
+      <data key="d9">chunk-b49620d3174377d693b6b8206e5663bc</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081249</data>
+    </edge>
+    <edge source="先生" target="恋愛事件">
+      <data key="d6">1.0</data>
+      <data key="d7">The恋愛事件is speculated by the narrator to influence the teacher's philosophical and emotional outlook.</data>
+      <data key="d8">implication,narrative development</data>
+      <data key="d9">chunk-14edb887d38cd74f74c603c62eb65fcf</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081271</data>
+    </edge>
+    <edge source="先生" target="死亡">
+      <data key="d6">1.0</data>
+      <data key="d7">The death of a close friend is believed to have caused significant changes in先生's personality.</data>
+      <data key="d8">cause of change,emotional impact</data>
+      <data key="d9">chunk-8a7c924e3cee2684cb2a4d1c5c5cd9da</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081354</data>
+    </edge>
+    <edge source="先生" target="大学">
+      <data key="d6">1.0</data>
+      <data key="d7">先生had a close friendship during his time at大学, which is linked to the friend's death.</data>
+      <data key="d8">academic background,friendship</data>
+      <data key="d9">chunk-8a7c924e3cee2684cb2a4d1c5c5cd9da</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081354</data>
+    </edge>
+    <edge source="先生" target="金">
+      <data key="d6">2.0</data>
+      <data key="d7">The narrator returns money (金) to the teacher (先生), fulfilling a financial obligation.&lt;SEP&gt;先生illustrates that seeing money can cause anyone, including a virtuous person, to turn into a villain.</data>
+      <data key="d8">financial obligation,human nature,moral lesson,return</data>
+      <data key="d9">chunk-e2cd833de768d1c9dc03f4e089c0e8ea&lt;SEP&gt;chunk-fd9e96b7fbef36aa724fe4f35d330d4d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081596</data>
+    </edge>
+    <edge source="先生" target="椎茸">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator brings椎茸as an offering to the teacher (先生), presented in a respectful manner.</data>
+      <data key="d8">cultural offering,respect</data>
+      <data key="d9">chunk-e2cd833de768d1c9dc03f4e089c0e8ea</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081478</data>
+    </edge>
+    <edge source="先生" target="父">
+      <data key="d6">1.0</data>
+      <data key="d7">The teacher (先生) inquires about the health of the narrator's father (父), showing concern.</data>
+      <data key="d8">familial relationship,health concern</data>
+      <data key="d9">chunk-e2cd833de768d1c9dc03f4e089c0e8ea</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081478</data>
+    </edge>
+    <edge source="先生" target="卒業論文">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator recalls the need to start writing the卒業論文, a significant academic task involving the teacher's influence.</data>
+      <data key="d8">academic obligation,future intention</data>
+      <data key="d9">chunk-e2cd833de768d1c9dc03f4e089c0e8ea</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081479</data>
+    </edge>
+    <edge source="先生" target="四月の下旬">
+      <data key="d6">1.0</data>
+      <data key="d7">四月の下旬marks the time when the speaker finally approached the teacher after a period of planning.</data>
+      <data key="d8">authority,timeframe</data>
+      <data key="d9">chunk-c818c894266c5c477b46c2984fa65fb9</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081498</data>
+    </edge>
+    <edge source="先生" target="敷居">
+      <data key="d6">1.0</data>
+      <data key="d7">The敷居symbolizes a barrier that the speaker has not crossed out of respect or hesitation towards the先生.</data>
+      <data key="d8">respect,transition</data>
+      <data key="d9">chunk-c818c894266c5c477b46c2984fa65fb9</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081499</data>
+    </edge>
+    <edge source="先生" target="論文">
+      <data key="d6">1.0</data>
+      <data key="d7">The teacher inquires about the completion of the narrator's paper, indicating a mentor-student relationship.</data>
+      <data key="d8">academic interaction,mentorship</data>
+      <data key="d9">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081522</data>
+    </edge>
+    <edge source="先生" target="初夏">
+      <data key="d6">1.0</data>
+      <data key="d7">The teacher accompanies the narrator outdoors during the early summer, enhancing their experience of the season.</data>
+      <data key="d8">exploration,seasonal experience</data>
+      <data key="d9">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081523</data>
+    </edge>
+    <edge source="先生" target="霧島">
+      <data key="d6">1.0</data>
+      <data key="d7">The teacher identifies the plant in the garden as belonging to霧島, showcasing his knowledge of the region.</data>
+      <data key="d8">cultural reference,knowledge sharing</data>
+      <data key="d9">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081523</data>
+    </edge>
+    <edge source="先生" target="柔らかい葉">
+      <data key="d6">1.0</data>
+      <data key="d7">The teacher acknowledges the soft leaves, illustrating his engagement with and observation of nature alongside the narrator.</data>
+      <data key="d8">engagement,natural observation</data>
+      <data key="d9">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081523</data>
+    </edge>
+    <edge source="先生" target="小鳥">
+      <data key="d6">1.0</data>
+      <data key="d7">The escaped small bird symbolizes freedom in front of the teacher, suggesting a contrast between liberation and guidance.</data>
+      <data key="d8">freedom,guidance</data>
+      <data key="d9">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081524</data>
+    </edge>
+    <edge source="先生" target="君">
+      <data key="d6">1.0</data>
+      <data key="d7">The relationship involves先生advising君about family matters and the importance of being practical regarding inheritance.</data>
+      <data key="d8">advice,family dynamics</data>
+      <data key="d9">chunk-3d48d2843f15279a62b08968dd2d55af</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081578</data>
+    </edge>
+    <edge source="先生" target="小供">
+      <data key="d6">2.0</data>
+      <data key="d7">先生interacts with小供by giving them coins and engaging in conversation.&lt;SEP&gt;先生acknowledges the presence of a child in the scene, influencing his reflections.</data>
+      <data key="d8">care,character interaction,interaction,presence</data>
+      <data key="d9">chunk-3d48d2843f15279a62b08968dd2d55af&lt;SEP&gt;chunk-fd9e96b7fbef36aa724fe4f35d330d4d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081596</data>
+    </edge>
+    <edge source="先生" target="傍">
+      <data key="d6">1.0</data>
+      <data key="d7">先生observes the environment near the傍where the dog is barking and the discussions are taking place.</data>
+      <data key="d8">location reference,observation</data>
+      <data key="d9">chunk-3d48d2843f15279a62b08968dd2d55af</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081580</data>
+    </edge>
+    <edge source="先生" target="犬">
+      <data key="d6">1.0</data>
+      <data key="d7">先生mentions the presence of a dog, which is part of the scene's setting.</data>
+      <data key="d8">character interaction,presence</data>
+      <data key="d9">chunk-fd9e96b7fbef36aa724fe4f35d330d4d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081595</data>
+    </edge>
+    <edge source="先生" target="広い若葉の園">
+      <data key="d6">1.0</data>
+      <data key="d7">先生reflects on his thoughts while in the spacious garden filled with young leaves.</data>
+      <data key="d8">character setting,reflection</data>
+      <data key="d9">chunk-fd9e96b7fbef36aa724fe4f35d330d4d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081596</data>
+    </edge>
+    <edge source="先生" target="羽織">
+      <data key="d6">1.0</data>
+      <data key="d7">先生mentions the羽織as a personal possession, highlighting the need to keep it clean to avoid being reprimanded by his wife.</data>
+      <data key="d8">care,personal possession</data>
+      <data key="d9">chunk-fd9e96b7fbef36aa724fe4f35d330d4d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081597</data>
+    </edge>
+    <edge source="先生" target="血のつづいた親戚">
+      <data key="d6">1.0</data>
+      <data key="d7">先生expresses feelings of betrayal by his blood relatives, contributing to his emotional turmoil.</data>
+      <data key="d8">betrayal,emotional conflict</data>
+      <data key="d9">chunk-0d09e662ec032a3435cbec583c08991e</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081616</data>
+    </edge>
+    <edge source="先生" target="屈辱と損害">
+      <data key="d6">1.0</data>
+      <data key="d7">先生conveys how屈辱と損害affect him throughout his life, suggesting lasting emotional scars.</data>
+      <data key="d8">emotional burden,lifelong impact</data>
+      <data key="d9">chunk-0d09e662ec032a3435cbec583c08991e</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081616</data>
+    </edge>
+    <edge source="先生" target="復讐">
+      <data key="d6">1.0</data>
+      <data key="d7">先生discusses his feelings of復讐regarding those who have wronged him, revealing his internal conflict and anger.</data>
+      <data key="d8">emotional struggle,vengeance</data>
+      <data key="d9">chunk-0d09e662ec032a3435cbec583c08991e</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081617</data>
+    </edge>
+    <edge source="鎌倉" target="宿">
+      <data key="d6">1.0</data>
+      <data key="d7">宿refers to lodging in鎌倉, where the narrator stayed during their visit.</data>
+      <data key="d8">accommodation location,vacation stay</data>
+      <data key="d9">chunk-4f8c1038817a259502750c0d7e8f90b5</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081011</data>
+    </edge>
+    <edge source="鎌倉" target="narrator">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator visited鎌倉during summer vacation, marking a significant period of their life.</data>
+      <data key="d8">summer vacation,visitation</data>
+      <data key="d9">chunk-4f8c1038817a259502750c0d7e8f90b5</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081014</data>
+    </edge>
+    <edge source="友達" target="母">
+      <data key="d6">1.0</data>
+      <data key="d7">The friend's departure is motivated by an urgent family obligation concerning their mother.</data>
+      <data key="d8">departure,family obligation</data>
+      <data key="d9">chunk-4f8c1038817a259502750c0d7e8f90b5</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081011</data>
+    </edge>
+    <edge source="友達" target="narrator">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator's friend invited them to鎌倉, initiating their visit and subsequent experiences.</data>
+      <data key="d8">friendship,invitation</data>
+      <data key="d9">chunk-4f8c1038817a259502750c0d7e8f90b5</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081013</data>
+    </edge>
+    <edge source="海水浴" target="narrator">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator enjoys海水浴as part of their daily routine while in鎌倉.</data>
+      <data key="d8">enjoyment,leisure activity</data>
+      <data key="d9">chunk-4f8c1038817a259502750c0d7e8f90b5</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081014</data>
+    </edge>
+    <edge source="海" target="私">
+      <data key="d6">1.0</data>
+      <data key="d7">私swims in the海alongside先生, enjoying the recreational aspect of their interactions.</data>
+      <data key="d8">activity,recreation</data>
+      <data key="d9">chunk-bbcb575158ef91fa1a46e2986b7d2525</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081045</data>
+    </edge>
+    <edge source="narrator" target="宿">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator chose to remain at their宿in鎌倉after the departure of their friend.</data>
+      <data key="d8">choice,temporary residence</data>
+      <data key="d9">chunk-4f8c1038817a259502750c0d7e8f90b5</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081015</data>
+    </edge>
+    <edge source="narrator" target="奥さん">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator forms a positive impression of the奥さん, noting her beauty during their encounters.</data>
+      <data key="d8">beauty,initial impressions</data>
+      <data key="d9">chunk-994ab7c01561ece8414b566aba94a61d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081122</data>
+    </edge>
+    <edge source="narrator" target="母">
+      <data key="d6">1.0</data>
+      <data key="d7">母expresses concern about the narrator leaving too soon.</data>
+      <data key="d8">concern,family relationship</data>
+      <data key="d9">chunk-1a29214c42e0fe5e19ecc068e3ea5acb</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081447</data>
+    </edge>
+    <edge source="narrator" target="父">
+      <data key="d6">1.0</data>
+      <data key="d7">父shows concern about the narrator's decision to leave early.</data>
+      <data key="d8">concern,family relationship</data>
+      <data key="d9">chunk-1a29214c42e0fe5e19ecc068e3ea5acb</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081447</data>
+    </edge>
+    <edge source="narrator" target="医者">
+      <data key="d6">2.0</data>
+      <data key="d7">医者performs a careful examination of the narrator.&lt;SEP&gt;The narrator consults医者for a medical examination.</data>
+      <data key="d8">examination,medical advice,medical attention,patient interaction</data>
+      <data key="d9">chunk-1a29214c42e0fe5e19ecc068e3ea5acb</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081448</data>
+    </edge>
+    <edge source="narrator" target="冬休み">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator's departure is planned just before the end of the winter vacation.</data>
+      <data key="d8">personal timeline,time period</data>
+      <data key="d9">chunk-1a29214c42e0fe5e19ecc068e3ea5acb</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081449</data>
+    </edge>
+    <edge source="narrator" target="出立の日">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator makes a firm decision regarding the departure day, which is not changed.</data>
+      <data key="d8">decision-making,departure</data>
+      <data key="d9">chunk-1a29214c42e0fe5e19ecc068e3ea5acb</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081450</data>
+    </edge>
+    <edge source="母" target="父">
+      <data key="d6">1.0</data>
+      <data key="d7">Mother expresses concern for Father's health and manages his care.</data>
+      <data key="d8">concern,marital relationship</data>
+      <data key="d9">chunk-f6392226c631f0b5c260542661c92c80</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081426</data>
+    </edge>
+    <edge source="母" target="椎茸">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator's mother (母) suggested bringing the椎茸as a cultural gesture when visiting the teacher.</data>
+      <data key="d8">cultural practice,offering</data>
+      <data key="d9">chunk-e2cd833de768d1c9dc03f4e089c0e8ea</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081477</data>
+    </edge>
+    <edge source="母" target="君">
+      <data key="d6">1.0</data>
+      <data key="d7">君mentions母in the context of family discussions regarding wealth and inheritance.</data>
+      <data key="d8">family ties,inheritance</data>
+      <data key="d9">chunk-3d48d2843f15279a62b08968dd2d55af</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081579</data>
+    </edge>
+    <edge source="掛茶屋" target="西洋人">
+      <data key="d6">1.0</data>
+      <data key="d7">The Western man enters掛茶屋, which is central to the social interactions depicted in the narrative.</data>
+      <data key="d8">location interaction,meeting place</data>
+      <data key="d9">chunk-92120e0f566f2cace2548ce11d35d791</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081030</data>
+    </edge>
+    <edge source="掛茶屋" target="私">
+      <data key="d6">1.0</data>
+      <data key="d7">私meets先生at the掛茶屋, where he inquires about先生's plans during their conversation.</data>
+      <data key="d8">conversation,inquiry</data>
+      <data key="d9">chunk-bbcb575158ef91fa1a46e2986b7d2525</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081046</data>
+    </edge>
+    <edge source="西洋人" target="浜辺">
+      <data key="d6">1.0</data>
+      <data key="d7">The Western man stands on the beach, drawing attention due to his unique presence among other bathers.</data>
+      <data key="d8">beach activity,location presence</data>
+      <data key="d9">chunk-92120e0f566f2cace2548ce11d35d791</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081029</data>
+    </edge>
+    <edge source="西洋人" target="由井が浜">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator observes the Western man at由井が浜, highlighting a cultural encounter at the beach.</data>
+      <data key="d8">cultural encounter,location observation</data>
+      <data key="d9">chunk-92120e0f566f2cace2548ce11d35d791</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081029</data>
+    </edge>
+    <edge source="私" target="相手">
+      <data key="d6">1.0</data>
+      <data key="d7">私suspects that相手shares similar feelings, showcasing a connection in their emotional states.</data>
+      <data key="d8">emotional similarity,self-reflection</data>
+      <data key="d9">chunk-2528445c5f222b335c09aa89c324500e</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081044</data>
+    </edge>
+    <edge source="私" target="失望">
+      <data key="d6">1.0</data>
+      <data key="d7">私feels a sense of失望as a reaction to先生's unexpected response.</data>
+      <data key="d8">emotional reaction,expectation</data>
+      <data key="d9">chunk-2528445c5f222b335c09aa89c324500e</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081045</data>
+    </edge>
+    <edge source="私" target="下女">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator interacts with the maid to inquire about the teacher's absence during their visits.</data>
+      <data key="d8">inquiry,interaction</data>
+      <data key="d9">chunk-b063e28c579b8b15803bc81d2862e54e</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081060</data>
+    </edge>
+    <edge source="私" target="雑司ヶ谷">
+      <data key="d6">2.0</data>
+      <data key="d7">The speaker intends to walk to雑司ヶ谷as part of a casual outing.&lt;SEP&gt;私expresses a desire to accompany先生to雑司ヶ谷for a cemetery visit, indicating a wish for companionship.</data>
+      <data key="d8">companionship,intention,visit proposal,walking</data>
+      <data key="d9">chunk-3d4644bfc185cef3c850e039fcda2d9a&lt;SEP&gt;chunk-6ed0aff5abed0a0e2b6cac014f7eb5ab</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081096</data>
+    </edge>
+    <edge source="私" target="銀杏の大樹">
+      <data key="d6">1.0</data>
+      <data key="d7">私recalls the silver maple tree in a significant conversation with先生, connecting memories of both nature and their relationship.</data>
+      <data key="d8">shared memory,symbolic conversation</data>
+      <data key="d9">chunk-3d4644bfc185cef3c850e039fcda2d9a</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081095</data>
+    </edge>
+    <edge source="私" target="墓地">
+      <data key="d6">1.0</data>
+      <data key="d7">私has a desire to visit the墓地with先生, wanting to share the experience of paying respects.</data>
+      <data key="d8">shared experience,visit context</data>
+      <data key="d9">chunk-3d4644bfc185cef3c850e039fcda2d9a</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081096</data>
+    </edge>
+    <edge source="私" target="東京">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator's visits occur in Tokyo, highlighting the location's significance in the development of their relationship with the mentor.</data>
+      <data key="d8">location,personal connection</data>
+      <data key="d9">chunk-5a83cc1d46adb8fe4e92b337b173dc09</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081108</data>
+    </edge>
+    <edge source="私" target="私の宅">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator visits私の宅frequently to engage with the mentor.</data>
+      <data key="d8">home visits,personal connection</data>
+      <data key="d9">chunk-5a83cc1d46adb8fe4e92b337b173dc09</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081108</data>
+    </edge>
+    <edge source="私" target="新橋">
+      <data key="d6">1.0</data>
+      <data key="d7">私visits先生at新橋, waiting for him to return.</data>
+      <data key="d8">visit,waiting</data>
+      <data key="d9">chunk-7927ea27234b51a4323b6fc042821b2d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081160</data>
+    </edge>
+    <edge source="私" target="九時">
+      <data key="d6">1.0</data>
+      <data key="d7">私plans to visit先生at九時as previously agreed.</data>
+      <data key="d8">planned visit,timing</data>
+      <data key="d9">chunk-7927ea27234b51a4323b6fc042821b2d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081161</data>
+    </edge>
+    <edge source="私" target="書物">
+      <data key="d6">1.0</data>
+      <data key="d7">私intends to discuss書物with先生during his visit.</data>
+      <data key="d8">discussion,inquiry</data>
+      <data key="d9">chunk-7927ea27234b51a4323b6fc042821b2d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081161</data>
+    </edge>
+    <edge source="私" target="上野">
+      <data key="d6">1.0</data>
+      <data key="d7">私accompanies先生to上野, where they witness a romantic scene that spurs discussion about love.</data>
+      <data key="d8">experience,observation</data>
+      <data key="d9">chunk-37a4efa883522437cf49471d5da96063</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081211</data>
+    </edge>
+    <edge source="私" target="恋">
+      <data key="d6">1.0</data>
+      <data key="d7">私reflects on the concept of恋during conversations, revealing his feelings regarding love and its complexities.</data>
+      <data key="d8">desire,reflection</data>
+      <data key="d9">chunk-37a4efa883522437cf49471d5da96063</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081212</data>
+    </edge>
+    <edge source="私" target="雑司ヶ谷の墓地">
+      <data key="d6">1.0</data>
+      <data key="d7">私is indirectly linked to the visit to雑司ヶ谷の墓地through先生's memories of a friend.</data>
+      <data key="d8">personal connection,remembrance</data>
+      <data key="d9">chunk-def894ec769603b211073d87ffe1caf2</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081232</data>
+    </edge>
+    <edge source="私" target="心">
+      <data key="d6">1.0</data>
+      <data key="d7">私reflects on their heart and emotions when questioning the nature of their feelings.</data>
+      <data key="d8">emotional state,introspection</data>
+      <data key="d9">chunk-def894ec769603b211073d87ffe1caf2</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081232</data>
+    </edge>
+    <edge source="私" target="奥さん">
+      <data key="d6">5.0</data>
+      <data key="d7">The narrator acknowledges the presence of the teacher's wife, indicating an indirect awareness of her during the conversation.&lt;SEP&gt;The私has an indirect interaction with奥さん, characterized by observations and questions about her emotions and relationship with the teacher.&lt;SEP&gt;私interacts with奥さん, who shows hospitality by offering him tea and sweets in the tea room.&lt;SEP&gt;奥さん relies on私for emotional support, reflecting a close bond between them.&lt;SEP&gt;私attempts to comfort奥さん, who seeks solace from her worries.</data>
+      <data key="d8">comfort,emotional support,friendship,hospitality,indirect awareness,interaction,observation,relationship,supportive relationship</data>
+      <data key="d9">chunk-3b03fadf4228120817833feac6a1bc92&lt;SEP&gt;chunk-14edb887d38cd74f74c603c62eb65fcf&lt;SEP&gt;chunk-b49620d3174377d693b6b8206e5663bc&lt;SEP&gt;chunk-ab0b163914980bb3bd4352f83496db0d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081375</data>
+    </edge>
+    <edge source="私" target="教授">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator compares the insights from the professor with those of the teacher, finding the latter more valuable.</data>
+      <data key="d8">comparison,educational influence</data>
+      <data key="d9">chunk-b49620d3174377d693b6b8206e5663bc</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081249</data>
+    </edge>
+    <edge source="私" target="友人">
+      <data key="d6">1.0</data>
+      <data key="d7">私has an obligation to feed the friend (友人).</data>
+      <data key="d8">caregiving,obligation</data>
+      <data key="d9">chunk-1ad69cb27b6d6705e0995a98fb364686</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081265</data>
+    </edge>
+    <edge source="私" target="書斎">
+      <data key="d6">1.0</data>
+      <data key="d7">私waits in the書斎for先生, feeling a sense of discomfort and anticipation about the situation.</data>
+      <data key="d8">discomfort,waiting</data>
+      <data key="d9">chunk-ab0b163914980bb3bd4352f83496db0d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081295</data>
+    </edge>
+    <edge source="私" target="煙草">
+      <data key="d6">1.0</data>
+      <data key="d7">私smokes煙草while waiting, reflecting his nervous state as he anticipates先生's return.</data>
+      <data key="d8">activity,nervousness</data>
+      <data key="d9">chunk-ab0b163914980bb3bd4352f83496db0d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081296</data>
+    </edge>
+    <edge source="私" target="座蒲団">
+      <data key="d6">1.0</data>
+      <data key="d7">私sits on the座蒲団in the書斎, indicating an effort to be comfortable while waiting.</data>
+      <data key="d8">activity,comfort</data>
+      <data key="d9">chunk-ab0b163914980bb3bd4352f83496db0d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081296</data>
+    </edge>
+    <edge source="私" target="西洋菓子">
+      <data key="d6">1.0</data>
+      <data key="d7">奥さん gives西洋菓子to私as a sign of appreciation and kindness.</data>
+      <data key="d8">gift exchange,kindness</data>
+      <data key="d9">chunk-3b03fadf4228120817833feac6a1bc92</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081373</data>
+    </edge>
+    <edge source="私" target="父">
+      <data key="d6">1.0</data>
+      <data key="d7">Father's recovering health brings satisfaction to the narrator who has returned home to support him.</data>
+      <data key="d8">family relationship,support</data>
+      <data key="d9">chunk-f6392226c631f0b5c260542661c92c80</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081425</data>
+    </edge>
+    <edge source="私" target="兄">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator's older brother lives far away, making family visits challenging.</data>
+      <data key="d8">distance,sibling relationship</data>
+      <data key="d9">chunk-f6392226c631f0b5c260542661c92c80</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081426</data>
+    </edge>
+    <edge source="私" target="妹">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator's younger sister married abroad, limiting her ability to return home quickly.</data>
+      <data key="d8">distance,sibling relationship</data>
+      <data key="d9">chunk-f6392226c631f0b5c260542661c92c80</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081426</data>
+    </edge>
+    <edge source="私" target="手紙">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator writes a letter to the teacher to express gratitude and update about Father's condition.</data>
+      <data key="d8">communication,gratitude</data>
+      <data key="d9">chunk-f6392226c631f0b5c260542661c92c80</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081426</data>
+    </edge>
+    <edge source="私" target="生垣">
+      <data key="d6">1.0</data>
+      <data key="d7">私observes the生垣during the walk, contributing to his reflections on the surrounding environment.</data>
+      <data key="d8">environment,observation</data>
+      <data key="d9">chunk-0d09e662ec032a3435cbec583c08991e</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081616</data>
+    </edge>
+    <edge source="私" target="豌豆の蔓">
+      <data key="d6">1.0</data>
+      <data key="d7">私notes the existence of豌豆の蔓as an agricultural element present along their path.</data>
+      <data key="d8">agriculture,observation</data>
+      <data key="d9">chunk-0d09e662ec032a3435cbec583c08991e</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081616</data>
+    </edge>
+    <edge source="東京" target="松飾">
+      <data key="d6">1.0</data>
+      <data key="d7">Upon returning to Tokyo, the narrator notices that the松飾decorations are no longer present, signifying a lack of New Year festivities.</data>
+      <data key="d8">cultural observation,seasonal change</data>
+      <data key="d9">chunk-e2cd833de768d1c9dc03f4e089c0e8ea</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081477</data>
+    </edge>
+    <edge source="下女" target="奥さん">
+      <data key="d6">2.0</data>
+      <data key="d7">The maid interacts with the lady and provides the narrator with information regarding the teacher's location.&lt;SEP&gt;下女is silently present during the interaction between奥さん and the speaker, reflecting her role in the domestic setting.</data>
+      <data key="d8">domestic role,information exchange,interaction,silent presence</data>
+      <data key="d9">chunk-b063e28c579b8b15803bc81d2862e54e&lt;SEP&gt;chunk-51d492ad3a6e4e00774c383b6e3b308c</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081329</data>
+    </edge>
+    <edge source="奥さん" target="酒">
+      <data key="d6">1.0</data>
+      <data key="d7">The奥さん serves酒to the narrator and engages in conversation while drinking.</data>
+      <data key="d8">consumption,social interaction</data>
+      <data key="d9">chunk-994ab7c01561ece8414b566aba94a61d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081122</data>
+    </edge>
+    <edge source="奥さん" target="書生時代">
+      <data key="d6">1.0</data>
+      <data key="d7">奥さん reflects on the teacher's significant past during his student years, contrasting it with his present.</data>
+      <data key="d8">past reflection,personal history</data>
+      <data key="d9">chunk-41b7f678f234d24a21f67bb2dc46b741</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081184</data>
+    </edge>
+    <edge source="奥さん" target="Tokyo">
+      <data key="d6">1.0</data>
+      <data key="d7">奥さん is identified as being from Tokyo, which forms part of her identity within the narrative.</data>
+      <data key="d8">identity,origin</data>
+      <data key="d9">chunk-37a4efa883522437cf49471d5da96063</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081212</data>
+    </edge>
+    <edge source="奥さん" target="紅茶茶碗">
+      <data key="d6">1.0</data>
+      <data key="d7">奥さん holds the紅茶茶碗to serve tea to私, further emphasizing her role in providing comfort.</data>
+      <data key="d8">hospitality,serving</data>
+      <data key="d9">chunk-ab0b163914980bb3bd4352f83496db0d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081296</data>
+    </edge>
+    <edge source="奥さん" target="長火鉢">
+      <data key="d6">1.0</data>
+      <data key="d7">奥さん uses the長火鉢to create a warm atmosphere when serving tea to私.</data>
+      <data key="d8">hospitality,setting</data>
+      <data key="d9">chunk-ab0b163914980bb3bd4352f83496db0d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081296</data>
+    </edge>
+    <edge source="奥さん" target="角砂糖">
+      <data key="d6">1.0</data>
+      <data key="d7">奥さん uses角砂糖to sweeten the tea during the interaction with her partner.</data>
+      <data key="d8">interaction,serving</data>
+      <data key="d9">chunk-3aa9b2cd42e855e47c6ed90eac1f201c</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081306</data>
+    </edge>
+    <edge source="奥さん" target="紅茶">
+      <data key="d6">1.0</data>
+      <data key="d7">奥さん provides紅茶during conversations with her partner, facilitating discussion and interaction.</data>
+      <data key="d8">beverage,discussion</data>
+      <data key="d9">chunk-3aa9b2cd42e855e47c6ed90eac1f201c</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081306</data>
+    </edge>
+    <edge source="奥さん" target="speaker">
+      <data key="d6">1.0</data>
+      <data key="d7">奥さん engages with the speaker on personal matters, seeking understanding and support regarding先生.</data>
+      <data key="d8">emotional support,interaction</data>
+      <data key="d9">chunk-51d492ad3a6e4e00774c383b6e3b308c</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081328</data>
+    </edge>
+    <edge source="奥さん" target="男">
+      <data key="d6">1.0</data>
+      <data key="d7">The concept of男represents a general idea of male attributes and expectations, which contrast with the speaker's feelings towards奥さん.</data>
+      <data key="d8">gender dynamics,relational expectation</data>
+      <data key="d9">chunk-51d492ad3a6e4e00774c383b6e3b308c</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081330</data>
+    </edge>
+    <edge source="奥さん" target="Kimonos">
+      <data key="d6">1.0</data>
+      <data key="d7">奥さん is involved in the process of sewing a kimono, which she finds challenging.</data>
+      <data key="d8">craftsmanship,sewing</data>
+      <data key="d9">chunk-95386f273078a7f99612e7d995e845c2</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081373</data>
+    </edge>
+    <edge source="奥さん" target="Needle">
+      <data key="d6">1.0</data>
+      <data key="d7">奥さん expresses frustration with the needles breaking while sewing, indicating her struggle with the task.</data>
+      <data key="d8">craftsmanship,tool usage</data>
+      <data key="d9">chunk-95386f273078a7f99612e7d995e845c2</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081373</data>
+    </edge>
+    <edge source="奥さん" target="手織り">
+      <data key="d6">1.0</data>
+      <data key="d7">奥さん uses the method of手織り in her process of creating the kimono and reflects on its challenges.</data>
+      <data key="d8">craftsmanship,method usage</data>
+      <data key="d9">chunk-95386f273078a7f99612e7d995e845c2</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081374</data>
+    </edge>
+    <edge source="奥さん" target="地">
+      <data key="d6">1.0</data>
+      <data key="d7">奥さん remarks on the quality of the fabric (地) as she is sewing the kimono.</data>
+      <data key="d8">crafting,material quality</data>
+      <data key="d9">chunk-95386f273078a7f99612e7d995e845c2</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081374</data>
+    </edge>
+    <edge source="奥さん" target="私の判断">
+      <data key="d6">1.0</data>
+      <data key="d7">奥さん seeks to rely on私の判断, indicating her emotional dependence on私's views.</data>
+      <data key="d8">emotional dependence,reliance</data>
+      <data key="d9">chunk-3b03fadf4228120817833feac6a1bc92</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081375</data>
+    </edge>
+    <edge source="奥さん" target="黒い眉毛">
+      <data key="d6">1.0</data>
+      <data key="d7">奥さん's黒い眉毛are described in relation to her emotional state, highlighting her expressive features.</data>
+      <data key="d8">emotional state,physical expression</data>
+      <data key="d9">chunk-3b03fadf4228120817833feac6a1bc92</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081376</data>
+    </edge>
+    <edge source="雑司ヶ谷" target="Teacher">
+      <data key="d6">1.0</data>
+      <data key="d7">The speaker has a curiosity about possibly meeting the Teacher while walking to雑司ヶ谷.</data>
+      <data key="d8">curiosity,potential encounter</data>
+      <data key="d9">chunk-6ed0aff5abed0a0e2b6cac014f7eb5ab</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081060</data>
+    </edge>
+    <edge source="雑司ヶ谷" target="死亡">
+      <data key="d6">1.0</data>
+      <data key="d7">雑司ヶ谷is identified as the burial place of the friend who died, which impacts the narrative.</data>
+      <data key="d8">grave location,significance</data>
+      <data key="d9">chunk-8a7c924e3cee2684cb2a4d1c5c5cd9da</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081353</data>
+    </edge>
+    <edge source="Teacher" target="Wife of Teacher">
+      <data key="d6">1.0</data>
+      <data key="d7">The Teacher and his Wife support the narrator during a time of family crisis, showcasing their connection and assistance.</data>
+      <data key="d8">familial relationship,support</data>
+      <data key="d9">chunk-4783b6331f3f621fc2faa932e991c0d4</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081403</data>
+    </edge>
+    <edge source="Teacher" target="Narrator">
+      <data key="d6">4.0</data>
+      <data key="d7">The Teacher provides financial support to the narrator for travel expenses in response to the Father's health situation.&lt;SEP&gt;The teacher influences the narrator's thoughts and emotions, contrasting with the more passive influence of the father.&lt;SEP&gt;The teacher provides guidance and recommended reference books to assist the narrator in writing the thesis.&lt;SEP&gt;The Teacher asks the Narrator about their family's wealth, prompting a discussion regarding financial status.</data>
+      <data key="d8">academic support,assistance,financial support,guidance,influence,inquiry,personal growth</data>
+      <data key="d9">chunk-4783b6331f3f621fc2faa932e991c0d4&lt;SEP&gt;chunk-fe9243332ae2b2dbe261ca8b643db9a3&lt;SEP&gt;chunk-a255004ab39a6f37c9430741411f2fd9&lt;SEP&gt;chunk-bbeb9e9a5d51cb2fca9119ca21d43a6a</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081547</data>
+    </edge>
+    <edge source="Teacher" target="Reference Books">
+      <data key="d6">1.0</data>
+      <data key="d7">The teacher suggests reference books for the narrator's thesis project.</data>
+      <data key="d8">educational guidance,resource availability</data>
+      <data key="d9">chunk-fe9243332ae2b2dbe261ca8b643db9a3</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081498</data>
+    </edge>
+    <edge source="Teacher" target="Hat">
+      <data key="d6">1.0</data>
+      <data key="d7">The Teacher owns the Hat that fell from the Cedar Seedling.</data>
+      <data key="d8">ownership,personal belonging</data>
+      <data key="d9">chunk-14efa605d7e5b97c6c5fc0d52e4d17dc</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081523</data>
+    </edge>
+    <edge source="Teacher" target="Father">
+      <data key="d6">1.0</data>
+      <data key="d7">The Teacher inquires about the Father's health, indicating concern and a personal connection to the Narrator's family.</data>
+      <data key="d8">health inquiry</data>
+      <data key="d9">chunk-a255004ab39a6f37c9430741411f2fd9</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081545</data>
+    </edge>
+    <edge source="Teacher" target="Wealth">
+      <data key="d6">1.0</data>
+      <data key="d7">The Teacher and the Narrator discuss the concept of Wealth in relation to their family circumstances.</data>
+      <data key="d8">financial status</data>
+      <data key="d9">chunk-a255004ab39a6f37c9430741411f2fd9</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081546</data>
+    </edge>
+    <edge source="Teacher" target="Martial Art">
+      <data key="d6">1.0</data>
+      <data key="d7">The Teacher hints at a background in Martial Arts, discussing how he may have previously been wealthy and capable of affording such training.</data>
+      <data key="d8">personal background</data>
+      <data key="d9">chunk-a255004ab39a6f37c9430741411f2fd9</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081546</data>
+    </edge>
+    <edge source="墓地" target="安得烈">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator questions about安得烈's grave while at the墓地.</data>
+      <data key="d8">gravestone inquiry,homage</data>
+      <data key="d9">chunk-903991bd152acf95cc4837f8df2fb4ee</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081075</data>
+    </edge>
+    <edge source="墓地" target="大銀杏">
+      <data key="d6">1.0</data>
+      <data key="d7">The大銀杏stands in the墓地and is noted for its seasonal beauty by先生.</data>
+      <data key="d8">natural observation</data>
+      <data key="d9">chunk-903991bd152acf95cc4837f8df2fb4ee</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081075</data>
+    </edge>
+    <edge source="墓地" target="通り">
+      <data key="d6">1.0</data>
+      <data key="d7">The通り is the street that connects the墓地to other areas where the characters walk.</data>
+      <data key="d8">location connection,navigation</data>
+      <data key="d9">chunk-903991bd152acf95cc4837f8df2fb4ee</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081076</data>
+    </edge>
+    <edge source="妻" target="墓参り">
+      <data key="d6">1.0</data>
+      <data key="d7">The mention of妻indicates that she has not been taken to the grave site by先生, highlighting a family connection.</data>
+      <data key="d8">absence,family connection</data>
+      <data key="d9">chunk-5f3511df462cdb31fd19d867e6e2f4d0</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081095</data>
+    </edge>
+    <edge source="Tokyo" target="Narrator">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator reflects on their experiences in Tokyo and how they impact their sense of self and family dynamics.</data>
+      <data key="d8">identity,reflection</data>
+      <data key="d9">chunk-bbeb9e9a5d51cb2fca9119ca21d43a6a</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081448</data>
+    </edge>
+    <edge source="花時分" target="上野">
+      <data key="d6">1.0</data>
+      <data key="d7">上野is visited during花時分, suggesting a connection between the beauty of nature and romantic encounters.</data>
+      <data key="d8">beauty,seasonality</data>
+      <data key="d9">chunk-37a4efa883522437cf49471d5da96063</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081212</data>
+    </edge>
+    <edge source="大通り" target="小路">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrow alley leading off the main street contributes to the setting's quiet atmosphere, affecting the interaction between characters.</data>
+      <data key="d8">geographical feature,location context</data>
+      <data key="d9">chunk-b49620d3174377d693b6b8206e5663bc</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081248</data>
+    </edge>
+    <edge source="話" target="speaker">
+      <data key="d6">1.0</data>
+      <data key="d7">The speaker reflects on the significance of the conversation with奥さん and先生in terms of personal relationships and emotional issues.</data>
+      <data key="d8">dialogue,introspection</data>
+      <data key="d9">chunk-51d492ad3a6e4e00774c383b6e3b308c</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081329</data>
+    </edge>
+    <edge source="男" target="speaker">
+      <data key="d6">1.0</data>
+      <data key="d7">The speaker reflects on his own male identity and feelings in relation to the general expectations of男.</data>
+      <data key="d8">identity,introspection</data>
+      <data key="d9">chunk-51d492ad3a6e4e00774c383b6e3b308c</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081329</data>
+    </edge>
+    <edge source="Father" target="Mother">
+      <data key="d6">1.0</data>
+      <data key="d7">The Mother expresses concern for the Father's health, indicating a familial bond and worry.</data>
+      <data key="d8">concern,familial relationship</data>
+      <data key="d9">chunk-4783b6331f3f621fc2faa932e991c0d4</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081403</data>
+    </edge>
+    <edge source="Father" target="Narrator">
+      <data key="d6">3.0</data>
+      <data key="d7">The narrator decides to return home driven by emotional concerns regarding the Father's health.&lt;SEP&gt;The narrator engages in shogi with their father, highlighting their familial bond and shared leisure activity.&lt;SEP&gt;The Narrator refers to the Father, establishing a familial connection and context for the conversation.</data>
+      <data key="d8">decision-making,emotional motive,family relationship,leisure activity</data>
+      <data key="d9">chunk-4783b6331f3f621fc2faa932e991c0d4&lt;SEP&gt;chunk-a255004ab39a6f37c9430741411f2fd9&lt;SEP&gt;chunk-bbeb9e9a5d51cb2fca9119ca21d43a6a</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081548</data>
+    </edge>
+    <edge source="Father" target="Wife of Teacher">
+      <data key="d6">1.0</data>
+      <data key="d7">The Wife of Teacher reveals that her own mother had the same illness as the Father, connecting their families through shared experiences.</data>
+      <data key="d8">familial connection,shared illness</data>
+      <data key="d9">chunk-4783b6331f3f621fc2faa932e991c0d4</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081405</data>
+    </edge>
+    <edge source="Father" target="Doctor">
+      <data key="d6">1.0</data>
+      <data key="d7">The Doctor assesses the Father's condition following his collapse, indicating an overarching medical relationship.</data>
+      <data key="d8">diagnosis,health assessment</data>
+      <data key="d9">chunk-4783b6331f3f621fc2faa932e991c0d4</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081406</data>
+    </edge>
+    <edge source="Father" target="Concerned Individual">
+      <data key="d6">1.0</data>
+      <data key="d7">The Concerned Individual tries to engage the Father by reaching out for emotional support but is met with laughter.</data>
+      <data key="d8">emotional connection,support</data>
+      <data key="d9">chunk-cf0037d0b674f2744797260e91058bb3</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081425</data>
+    </edge>
+    <edge source="Father" target="Shogi">
+      <data key="d6">1.0</data>
+      <data key="d7">The father uses shogi as a way to spend time with the narrator, reflecting his desire for interaction regardless of winning or losing.</data>
+      <data key="d8">interaction,leisure activity</data>
+      <data key="d9">chunk-bbeb9e9a5d51cb2fca9119ca21d43a6a</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081448</data>
+    </edge>
+    <edge source="Father" target="Shogi Board">
+      <data key="d6">1.0</data>
+      <data key="d7">The father and the narrator interact over the shogi board, which serves as a medium for their leisure activity.</data>
+      <data key="d8">game element,interaction</data>
+      <data key="d9">chunk-bbeb9e9a5d51cb2fca9119ca21d43a6a</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081448</data>
+    </edge>
+    <edge source="Father" target="Kotarou">
+      <data key="d6">1.0</data>
+      <data key="d7">The father uses the Kotarou as a comfortable setting for playing shogi, enhancing the leisure experience.</data>
+      <data key="d8">gameplay,usage</data>
+      <data key="d9">chunk-bbeb9e9a5d51cb2fca9119ca21d43a6a</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081448</data>
+    </edge>
+    <edge source="Mother" target="Narrator">
+      <data key="d6">1.0</data>
+      <data key="d7">The mother shows concern for the narrator’s early departure, indicating a protective family dynamic.</data>
+      <data key="d8">concern,family relationship</data>
+      <data key="d9">chunk-bbeb9e9a5d51cb2fca9119ca21d43a6a</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081448</data>
+    </edge>
+    <edge source="Letter" target="Narrator">
+      <data key="d6">1.0</data>
+      <data key="d7">The Letter serves as a means of communication in which the Mother requests the narrator to return due to the Father's illness.</data>
+      <data key="d8">communication,request</data>
+      <data key="d9">chunk-4783b6331f3f621fc2faa932e991c0d4</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081403</data>
+    </edge>
+    <edge source="Narrator" target="Thesis">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator is required to complete the thesis by the end of April as part of their academic program.</data>
+      <data key="d8">academic requirement,deadline</data>
+      <data key="d9">chunk-fe9243332ae2b2dbe261ca8b643db9a3</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081498</data>
+    </edge>
+    <edge source="Narrator" target="Classmates">
+      <data key="d6">1.0</data>
+      <data key="d7">The narrator observes the progress of classmates who are also working on their theses, which adds to their pressure.</data>
+      <data key="d8">academic pressure,peer comparison</data>
+      <data key="d9">chunk-fe9243332ae2b2dbe261ca8b643db9a3</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081499</data>
+    </edge>
+    <edge source="Narrator" target="Cherry Blossoms">
+      <data key="d6">1.0</data>
+      <data key="d7">The presence of cherry blossoms signifies the progression of time while the narrator works diligently on the thesis.</data>
+      <data key="d8">symbolism,time passage</data>
+      <data key="d9">chunk-fe9243332ae2b2dbe261ca8b643db9a3</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081500</data>
+    </edge>
+    <edge source="Narrator" target="Plum Blossoms">
+      <data key="d6">1.0</data>
+      <data key="d7">The arrival of plum blossoms symbolizes the changing season as the narrator focuses on academic work.</data>
+      <data key="d8">seasonal change,symbolism</data>
+      <data key="d9">chunk-fe9243332ae2b2dbe261ca8b643db9a3</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081500</data>
+    </edge>
+    <edge source="Narrator" target="Hat">
+      <data key="d6">1.0</data>
+      <data key="d7">The Narrator picks up the Hat, showing physical interaction with the object.</data>
+      <data key="d8">object handling</data>
+      <data key="d9">chunk-a255004ab39a6f37c9430741411f2fd9</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081545</data>
+    </edge>
+    <edge source="Narrator" target="Illness">
+      <data key="d6">1.0</data>
+      <data key="d7">The Narrator expresses uncertainty about the Father's Illness, highlighting concern for family health.</data>
+      <data key="d8">family concern</data>
+      <data key="d9">chunk-a255004ab39a6f37c9430741411f2fd9</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081547</data>
+    </edge>
+    <edge source="父" target="家庭">
+      <data key="d6">1.0</data>
+      <data key="d7">Father plays a central role in the family, and his illness impacts the care dynamics within the household.</data>
+      <data key="d8">care,family role</data>
+      <data key="d9">chunk-f6392226c631f0b5c260542661c92c80</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081426</data>
+    </edge>
+    <edge source="父" target="君">
+      <data key="d6">1.0</data>
+      <data key="d7">君acknowledges the presence of父in the conversation about family wealth and responsibilities.</data>
+      <data key="d8">family ties,inheritance</data>
+      <data key="d9">chunk-3d48d2843f15279a62b08968dd2d55af</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081579</data>
+    </edge>
+    <edge source="腎臓の病" target="士官">
+      <data key="d6">1.0</data>
+      <data key="d7">The腎臓の病is discussed in relation to a士官whose unexpected death illustrates the disease’s severity.</data>
+      <data key="d8">medical consequence,unexpected death</data>
+      <data key="d9">chunk-e2cd833de768d1c9dc03f4e089c0e8ea</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081477</data>
+    </edge>
+    <edge source="自然に死ぬ" target="不自然な暴力">
+      <data key="d6">1.0</data>
+      <data key="d7">The concepts of自然に死ぬ and不自然な暴力are discussed philosophically in terms of mortality and sudden death.</data>
+      <data key="d8">life perspectives,philosophical discussion</data>
+      <data key="d9">chunk-e2cd833de768d1c9dc03f4e089c0e8ea</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081477</data>
+    </edge>
+    <edge source="四月の下旬" target="私は">
+      <data key="d6">1.0</data>
+      <data key="d7">私は experienced a significant moment as it relates to the timeframe of四月の下旬and the completion of writing.</data>
+      <data key="d8">personal experience,time commitment</data>
+      <data key="d9">chunk-c818c894266c5c477b46c2984fa65fb9</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081499</data>
+    </edge>
+    <edge source="Thesis" target="Deadline">
+      <data key="d6">1.0</data>
+      <data key="d7">The thesis has a strict deadline at the end of April, creating urgency for its completion.</data>
+      <data key="d8">submission due date,urgency</data>
+      <data key="d9">chunk-fe9243332ae2b2dbe261ca8b643db9a3</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081499</data>
+    </edge>
+    <edge source="Reference Books" target="Classmates">
+      <data key="d6">1.0</data>
+      <data key="d7">Classmates may also seek out reference books to assist with their thesis writing.</data>
+      <data key="d8">academic resource,shared information</data>
+      <data key="d9">chunk-fe9243332ae2b2dbe261ca8b643db9a3</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081500</data>
+    </edge>
+    <edge source="Hat" target="Cedar Seedling">
+      <data key="d6">1.0</data>
+      <data key="d7">The Hat was placed on top of the Cedar Seedling before being blown away by the wind.</data>
+      <data key="d8">ownership,placement</data>
+      <data key="d9">chunk-14efa605d7e5b97c6c5fc0d52e4d17dc</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081522</data>
+    </edge>
+    <edge source="Hat" target="Wind">
+      <data key="d6">1.0</data>
+      <data key="d7">The Wind caused the Hat to fall from the Cedar Seedling, demonstrating an interaction with the environment.</data>
+      <data key="d8">cause,interaction</data>
+      <data key="d9">chunk-14efa605d7e5b97c6c5fc0d52e4d17dc</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081523</data>
+    </edge>
+    <edge source="小鳥" target="自由">
+      <data key="d6">1.0</data>
+      <data key="d7">The small bird symbolizes freedom, paralleling the narrator's sense of liberation in nature.</data>
+      <data key="d8">freedom,nature</data>
+      <data key="d9">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081522</data>
+    </edge>
+    <edge source="市" target="外">
+      <data key="d6">1.0</data>
+      <data key="d7">The characters venture from the city to the outdoors, illustrating their journey.</data>
+      <data key="d8">exploration,spatial relationship</data>
+      <data key="d9">chunk-cf8e7fe4acfdabf8c7ba76d51213e0fc</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081522</data>
+    </edge>
+    <edge source="小供" target="犬">
+      <data key="d6">1.0</data>
+      <data key="d7">小供and犬share a playful interaction as小供runs after犬after receiving a coin.</data>
+      <data key="d8">companionship,playfulness</data>
+      <data key="d9">chunk-3d48d2843f15279a62b08968dd2d55af</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081578</data>
+    </edge>
+    <edge source="小供" target="叔父さん">
+      <data key="d6">1.0</data>
+      <data key="d7">小供interacts with叔父さん, showing familial connection and engaging in conversation.</data>
+      <data key="d8">family relation,interaction</data>
+      <data key="d9">chunk-3d48d2843f15279a62b08968dd2d55af</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081579</data>
+    </edge>
+    <edge source="広い若葉の園" target="村">
+      <data key="d6">1.0</data>
+      <data key="d7">The spacious garden is located near the village, providing an environmental context for the events happening.</data>
+      <data key="d8">environment,location context</data>
+      <data key="d9">chunk-fd9e96b7fbef36aa724fe4f35d330d4d</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1760081595</data>
+    </edge>
+  </graph>
+</graphml>

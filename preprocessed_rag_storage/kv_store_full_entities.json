@@ -1,0 +1,520 @@
+{
+  "doc-4f8c1038817a259502750c0d7e8f90b5": {
+    "entity_names": [
+      "先生",
+      "友達",
+      "アイスクリーム",
+      "鎌倉",
+      "narrator",
+      "茶屋",
+      "玉突き",
+      "宿",
+      "海水浴",
+      "海",
+      "学校",
+      "母",
+      "個人の別荘"
+    ],
+    "count": 13,
+    "create_time": 1760081015,
+    "update_time": 1760081015,
+    "_id": "doc-4f8c1038817a259502750c0d7e8f90b5"
+  },
+  "doc-92120e0f566f2cace2548ce11d35d791": {
+    "entity_names": [
+      "先生",
+      "由井が浜",
+      "麦藁帽",
+      "掛茶屋",
+      "西洋人",
+      "目的",
+      "雫",
+      "海",
+      "浜辺"
+    ],
+    "count": 9,
+    "create_time": 1760081031,
+    "update_time": 1760081031,
+    "_id": "doc-92120e0f566f2cace2548ce11d35d791"
+  },
+  "doc-7fd97d3eba4d6ddd61b13259a7fa3233": {
+    "entity_names": [
+      "先生",
+      "若い私",
+      "私",
+      "掛茶屋",
+      "西洋人",
+      "相手",
+      "海",
+      "失望",
+      "浜辺",
+      "浴衣"
+    ],
+    "count": 10,
+    "create_time": 1760081046,
+    "update_time": 1760081046,
+    "_id": "doc-7fd97d3eba4d6ddd61b13259a7fa3233"
+  },
+  "doc-b063e28c579b8b15803bc81d2862e54e": {
+    "entity_names": [
+      "下女",
+      "先生",
+      "私",
+      "雑司ヶ谷の墓地",
+      "東京",
+      "鎌倉",
+      "Teacher",
+      "雑司ヶ谷",
+      "奥さん"
+    ],
+    "count": 9,
+    "create_time": 1760081062,
+    "update_time": 1760081062,
+    "_id": "doc-b063e28c579b8b15803bc81d2862e54e"
+  },
+  "doc-903991bd152acf95cc4837f8df2fb4ee": {
+    "entity_names": [
+      "先生",
+      "友達",
+      "安得烈",
+      "新墓地",
+      "苗畠",
+      "墓地",
+      "先生の態度",
+      "通り",
+      "大銀杏"
+    ],
+    "count": 9,
+    "create_time": 1760081077,
+    "update_time": 1760081077,
+    "_id": "doc-903991bd152acf95cc4837f8df2fb4ee"
+  },
+  "doc-3d4644bfc185cef3c850e039fcda2d9a": {
+    "entity_names": [
+      "墓参り",
+      "先生",
+      "私",
+      "銀杏の大樹",
+      "小春",
+      "雑司ヶ谷",
+      "妻",
+      "墓地"
+    ],
+    "count": 8,
+    "create_time": 1760081096,
+    "update_time": 1760081096,
+    "_id": "doc-3d4644bfc185cef3c850e039fcda2d9a"
+  },
+  "doc-5a83cc1d46adb8fe4e92b337b173dc09": {
+    "entity_names": [
+      "先生",
+      "私",
+      "東京",
+      "私の宅",
+      "先生の生活"
+    ],
+    "count": 5,
+    "create_time": 1760081109,
+    "update_time": 1760081109,
+    "_id": "doc-5a83cc1d46adb8fe4e92b337b173dc09"
+  },
+  "doc-994ab7c01561ece8414b566aba94a61d": {
+    "entity_names": [
+      "下女",
+      "先生",
+      "私",
+      "子供",
+      "東京",
+      "奥さん",
+      "酒"
+    ],
+    "count": 7,
+    "create_time": 1760081123,
+    "update_time": 1760081123,
+    "_id": "doc-994ab7c01561ece8414b566aba94a61d"
+  },
+  "doc-37807a368fa88fae1d37a0e75d7816b2": {
+    "entity_names": [
+      "先生",
+      "静",
+      "私",
+      "日光",
+      "麦酒",
+      "苦しみ",
+      "箱根",
+      "奥さん"
+    ],
+    "count": 8,
+    "create_time": 1760081145,
+    "update_time": 1760081145,
+    "_id": "doc-37807a368fa88fae1d37a0e75d7816b2"
+  },
+  "doc-7927ea27234b51a4323b6fc042821b2d": {
+    "entity_names": [
+      "横浜",
+      "先生",
+      "私",
+      "新橋",
+      "妻",
+      "汽船",
+      "書物",
+      "九時",
+      "妻君"
+    ],
+    "count": 9,
+    "create_time": 1760081168,
+    "update_time": 1760081168,
+    "_id": "doc-7927ea27234b51a4323b6fc042821b2d"
+  },
+  "doc-41b7f678f234d24a21f67bb2dc46b741": {
+    "entity_names": [
+      "大学生",
+      "先生",
+      "精神",
+      "先生の学問や思想",
+      "東京",
+      "書生時代",
+      "宅",
+      "奥さん"
+    ],
+    "count": 8,
+    "create_time": 1760081186,
+    "update_time": 1760081186,
+    "_id": "doc-41b7f678f234d24a21f67bb2dc46b741"
+  },
+  "doc-37a4efa883522437cf49471d5da96063": {
+    "entity_names": [
+      "悲劇",
+      "先生",
+      "上野",
+      "私",
+      "恋",
+      "奥さん",
+      "Tokyo",
+      "花時分",
+      "新潟県"
+    ],
+    "count": 9,
+    "create_time": 1760081213,
+    "update_time": 1760081213,
+    "_id": "doc-37a4efa883522437cf49471d5da96063"
+  },
+  "doc-def894ec769603b211073d87ffe1caf2": {
+    "entity_names": [
+      "先生",
+      "罪悪",
+      "熊笹",
+      "私",
+      "恋",
+      "心",
+      "雑司ヶ谷の墓地",
+      "目的物"
+    ],
+    "count": 8,
+    "create_time": 1760081233,
+    "update_time": 1760081233,
+    "_id": "doc-def894ec769603b211073d87ffe1caf2"
+  },
+  "doc-b49620d3174377d693b6b8206e5663bc": {
+    "entity_names": [
+      "先生",
+      "椿の花",
+      "私",
+      "信用",
+      "小路",
+      "大通り",
+      "教授",
+      "奥さん",
+      "熱"
+    ],
+    "count": 9,
+    "create_time": 1760081250,
+    "update_time": 1760081250,
+    "_id": "doc-b49620d3174377d693b6b8206e5663bc"
+  },
+  "doc-14edb887d38cd74f74c603c62eb65fcf": {
+    "entity_names": [
+      "先生",
+      "私",
+      "恋愛事件",
+      "恐ろしいもの",
+      "雑司ヶ谷",
+      "奥さん",
+      "友人"
+    ],
+    "count": 7,
+    "create_time": 1760081271,
+    "update_time": 1760081271,
+    "_id": "doc-14edb887d38cd74f74c603c62eb65fcf"
+  },
+  "doc-ab0b163914980bb3bd4352f83496db0d": {
+    "entity_names": [
+      "先生",
+      "書斎",
+      "私",
+      "煙草",
+      "長火鉢",
+      "茶の間",
+      "紅茶茶碗",
+      "奥さん",
+      "座蒲団"
+    ],
+    "count": 9,
+    "create_time": 1760081297,
+    "update_time": 1760081297,
+    "_id": "doc-ab0b163914980bb3bd4352f83496db0d"
+  },
+  "doc-3aa9b2cd42e855e47c6ed90eac1f201c": {
+    "entity_names": [
+      "先生",
+      "角砂糖",
+      "紅茶",
+      "奥さん"
+    ],
+    "count": 4,
+    "create_time": 1760081307,
+    "update_time": 1760081307,
+    "_id": "doc-3aa9b2cd42e855e47c6ed90eac1f201c"
+  },
+  "doc-51d492ad3a6e4e00774c383b6e3b308c": {
+    "entity_names": [
+      "下女",
+      "先生",
+      "話",
+      "男",
+      "奥さん",
+      "speaker"
+    ],
+    "count": 6,
+    "create_time": 1760081330,
+    "update_time": 1760081330,
+    "_id": "doc-51d492ad3a6e4e00774c383b6e3b308c"
+  },
+  "doc-8a7c924e3cee2684cb2a4d1c5c5cd9da": {
+    "entity_names": [
+      "先生",
+      "大学",
+      "雑司ヶ谷",
+      "死亡",
+      "奥さん"
+    ],
+    "count": 5,
+    "create_time": 1760081355,
+    "update_time": 1760081355,
+    "_id": "doc-8a7c924e3cee2684cb2a4d1c5c5cd9da"
+  },
+  "doc-3b03fadf4228120817833feac6a1bc92": {
+    "entity_names": [
+      "秋",
+      "手織り",
+      "先生",
+      "私",
+      "西洋菓子",
+      "Kimonos",
+      "私の判断",
+      "地",
+      "奥さん",
+      "黒い眉毛",
+      "冬",
+      "Needle"
+    ],
+    "count": 12,
+    "create_time": 1760081383,
+    "update_time": 1760081383,
+    "_id": "doc-3b03fadf4228120817833feac6a1bc92"
+  },
+  "doc-4783b6331f3f621fc2faa932e991c0d4": {
+    "entity_names": [
+      "Doctor",
+      "Father",
+      "Letter",
+      "Chronic Kidney Disease",
+      "Mother",
+      "Teacher",
+      "Winter",
+      "Wife of Teacher",
+      "Narrator",
+      "Tokyo"
+    ],
+    "count": 10,
+    "create_time": 1760081406,
+    "update_time": 1760081406,
+    "_id": "doc-4783b6331f3f621fc2faa932e991c0d4"
+  },
+  "doc-f6392226c631f0b5c260542661c92c80": {
+    "entity_names": [
+      "先生",
+      "私",
+      "Father",
+      "My Shoulder",
+      "父",
+      "家庭",
+      "床",
+      "Concerned Individual",
+      "兄",
+      "妹",
+      "母",
+      "手紙"
+    ],
+    "count": 12,
+    "create_time": 1760081427,
+    "update_time": 1760081427,
+    "_id": "doc-f6392226c631f0b5c260542661c92c80"
+  },
+  "doc-9ad65c26342389c67e894e1d85cc0583": {
+    "entity_names": [
+      "Shogi Board",
+      "Father",
+      "医者",
+      "Mother",
+      "Teacher",
+      "出立の日",
+      "narrator",
+      "父",
+      "Narrator",
+      "Tokyo",
+      "冬休み",
+      "Kotarou",
+      "母",
+      "Shogi"
+    ],
+    "count": 14,
+    "create_time": 1760081450,
+    "update_time": 1760081450,
+    "_id": "doc-9ad65c26342389c67e894e1d85cc0583"
+  },
+  "doc-e2cd833de768d1c9dc03f4e089c0e8ea": {
+    "entity_names": [
+      "腎臓の病",
+      "病気",
+      "先生",
+      "金",
+      "自然に死ぬ",
+      "卒業論文",
+      "東京",
+      "父",
+      "士官",
+      "不自然な暴力",
+      "椎茸",
+      "松飾",
+      "母"
+    ],
+    "count": 13,
+    "create_time": 1760081479,
+    "update_time": 1760081479,
+    "_id": "doc-e2cd833de768d1c9dc03f4e089c0e8ea"
+  },
+  "doc-fe9243332ae2b2dbe261ca8b643db9a3": {
+    "entity_names": [
+      "先生",
+      "Deadline",
+      "Thesis",
+      "四月の下旬",
+      "April",
+      "June",
+      "Teacher",
+      "Classmates",
+      "April End",
+      "敷居",
+      "Plum Blossoms",
+      "私は",
+      "Reference Books",
+      "Cherry Blossoms"
+    ],
+    "count": 14,
+    "create_time": 1760081500,
+    "update_time": 1760081500,
+    "_id": "doc-fe9243332ae2b2dbe261ca8b643db9a3"
+  },
+  "doc-cf8e7fe4acfdabf8c7ba76d51213e0fc": {
+    "entity_names": [
+      "論文",
+      "先生",
+      "柔らかい葉",
+      "市",
+      "外",
+      "小鳥",
+      "芍薬",
+      "Teacher",
+      "枳殻の垣",
+      "柘榴の幹",
+      "初夏",
+      "八重桜",
+      "金魚",
+      "Hat",
+      "Wind",
+      "霧島",
+      "自由",
+      "Cedar Seedling"
+    ],
+    "count": 18,
+    "create_time": 1760081524,
+    "update_time": 1760081524,
+    "_id": "doc-cf8e7fe4acfdabf8c7ba76d51213e0fc"
+  },
+  "doc-a255004ab39a6f37c9430741411f2fd9": {
+    "entity_names": [
+      "Illness",
+      "Father",
+      "Teacher",
+      "Martial Art",
+      "Narrator",
+      "Hat",
+      "Wealth"
+    ],
+    "count": 7,
+    "create_time": 1760081548,
+    "update_time": 1760081548,
+    "_id": "doc-a255004ab39a6f37c9430741411f2fd9"
+  },
+  "doc-3d48d2843f15279a62b08968dd2d55af": {
+    "entity_names": [
+      "先生",
+      "熊笹",
+      "犬",
+      "小供",
+      "兄弟",
+      "叔父さん",
+      "父",
+      "家",
+      "傍",
+      "母",
+      "君"
+    ],
+    "count": 11,
+    "create_time": 1760081580,
+    "update_time": 1760081580,
+    "_id": "doc-3d48d2843f15279a62b08968dd2d55af"
+  },
+  "doc-fd9e96b7fbef36aa724fe4f35d330d4d": {
+    "entity_names": [
+      "先生",
+      "金",
+      "犬",
+      "小供",
+      "羽織",
+      "広い若葉の園",
+      "村"
+    ],
+    "count": 7,
+    "create_time": 1760081597,
+    "update_time": 1760081597,
+    "_id": "doc-fd9e96b7fbef36aa724fe4f35d330d4d"
+  },
+  "doc-0d09e662ec032a3435cbec583c08991e": {
+    "entity_names": [
+      "先生",
+      "私",
+      "生垣",
+      "え口へ",
+      "復讐",
+      "豌豆の蔓",
+      "血のつづいた親戚",
+      "屈辱と損害"
+    ],
+    "count": 8,
+    "create_time": 1760081617,
+    "update_time": 1760081617,
+    "_id": "doc-0d09e662ec032a3435cbec583c08991e"
+  }
+}
