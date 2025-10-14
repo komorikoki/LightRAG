@@ -27,11 +27,7 @@ async def initialize_rag():
     return rag
 
 async def main():
-    """
-    指定されたディレクトリからpart_1.txtからpart_30.txtまでを読み込み、
-    LightRAGに投入するメインの処理。
-    """
-    rag = None  # finallyブロックで参照できるよう、tryの外で定義
+    rag = None
     try:
         # LightRAGインスタンスを一度だけ初期化
         rag = await initialize_rag()
@@ -56,8 +52,6 @@ async def main():
                 print(f"Error processing {filepath}: {e}")
         
         print("\nすべてのファイルの処理が完了しました。")
-
-        # 必要であれば、ここでクエリを実行できます
         # results = await rag.aquery("物語の主題は何ですか？")
         # print(results)
 
