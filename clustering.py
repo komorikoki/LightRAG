@@ -3,8 +3,8 @@ import networkx as nx
 import networkx.algorithms.community as nx_comm
 from pyvis.network import Network
 
-GRAPH_FILE_PATH = "./preprocessed_rag_storage/graph_chunk_entity_relation.graphml"
-OUTPUT_FILENAME = "./clustered_graph.html"
+GRAPH_FILE_PATH = "./archive_rag_storage_jp_v2_part_3/graph_chunk_entity_relation.graphml"
+OUTPUT_FILENAME = "./clustered_graph_jp_v2_2.html"
 
 def main():
     try:
@@ -27,6 +27,11 @@ def main():
     for i, community in enumerate(communities):
         for node in community:
             node_to_community[node] = i
+    
+    for node in net.nodes:
+        node_id = node["id"]
+        # 辞書からコミュニティIDを取得して、ノードのgroup属性に設定
+        node["group"] = node_to_community.get(node_id)
     
     print("Assigning colors to nodes based on communities...")
     net.show_buttons(filter_=["physics", "nodes", "edges"])

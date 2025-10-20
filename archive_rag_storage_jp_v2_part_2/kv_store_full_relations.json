@@ -1,0 +1,1694 @@
+{
+  "doc-4f8c1038817a259502750c0d7e8f90b5": {
+    "relation_pairs": [
+      [
+        "友達",
+        "鎌倉"
+      ],
+      [
+        "掛茶屋",
+        "海水浴"
+      ],
+      [
+        "先生",
+        "書生"
+      ],
+      [
+        "海",
+        "海水浴"
+      ],
+      [
+        "先生",
+        "友達"
+      ],
+      [
+        "別荘",
+        "鎌倉"
+      ],
+      [
+        "I",
+        "Tea House"
+      ],
+      [
+        "友達",
+        "海水浴"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1760426153,
+    "update_time": 1760426153,
+    "_id": "doc-4f8c1038817a259502750c0d7e8f90b5"
+  },
+  "doc-92120e0f566f2cace2548ce11d35d791": {
+    "relation_pairs": [
+      [
+        "掛茶屋",
+        "水"
+      ],
+      [
+        "掛茶屋",
+        "海"
+      ],
+      [
+        "先生",
+        "西洋人"
+      ],
+      [
+        "海",
+        "砂"
+      ],
+      [
+        "先生",
+        "由井が浜"
+      ],
+      [
+        "掛茶屋",
+        "西洋人"
+      ],
+      [
+        "先生",
+        "麦藁帽"
+      ],
+      [
+        "猿股",
+        "西洋人"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1760426171,
+    "update_time": 1760426171,
+    "_id": "doc-92120e0f566f2cace2548ce11d35d791"
+  },
+  "doc-7fd97d3eba4d6ddd61b13259a7fa3233": {
+    "relation_pairs": [
+      [
+        "ナレーター",
+        "先生"
+      ],
+      [
+        "ナレーター",
+        "海"
+      ],
+      [
+        "ナレーター",
+        "浜"
+      ],
+      [
+        "先生",
+        "眼鏡"
+      ],
+      [
+        "先生",
+        "寺の境内"
+      ],
+      [
+        "先生",
+        "若い私"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1760426194,
+    "update_time": 1760426194,
+    "_id": "doc-7fd97d3eba4d6ddd61b13259a7fa3233"
+  },
+  "doc-b063e28c579b8b15803bc81d2862e54e": {
+    "relation_pairs": [
+      [
+        "先生",
+        "奥さん"
+      ],
+      [
+        "大都会",
+        "私"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "先生",
+        "雑司ヶ谷"
+      ],
+      [
+        "先生",
+        "鎌倉"
+      ],
+      [
+        "私",
+        "雑司ヶ谷"
+      ],
+      [
+        "先生",
+        "東京"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1760426211,
+    "update_time": 1760426211,
+    "_id": "doc-b063e28c579b8b15803bc81d2862e54e"
+  },
+  "doc-903991bd152acf95cc4837f8df2fb4ee": {
+    "relation_pairs": [
+      [
+        "先生",
+        "月に一度"
+      ],
+      [
+        "先生",
+        "安得烈"
+      ],
+      [
+        "先生",
+        "友達"
+      ],
+      [
+        "先生",
+        "墓地"
+      ],
+      [
+        "先生らしい人",
+        "墓地"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1760426231,
+    "update_time": 1760426231,
+    "_id": "doc-903991bd152acf95cc4837f8df2fb4ee"
+  },
+  "doc-3d4644bfc185cef3c850e039fcda2d9a": {
+    "relation_pairs": [
+      [
+        "あなた",
+        "先生"
+      ],
+      [
+        "墓参り",
+        "私"
+      ],
+      [
+        "先生",
+        "墓参り"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "先生",
+        "雑司ヶ谷"
+      ],
+      [
+        "先生",
+        "銀杏の大樹"
+      ],
+      [
+        "先生",
+        "妻"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1760426248,
+    "update_time": 1760426248,
+    "_id": "doc-3d4644bfc185cef3c850e039fcda2d9a"
+  },
+  "doc-5a83cc1d46adb8fe4e92b337b173dc09": {
+    "relation_pairs": [
+      [
+        "東京",
+        "私"
+      ],
+      [
+        "淋しさ",
+        "私"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "学生",
+        "私"
+      ],
+      [
+        "先生",
+        "淋しさ"
+      ],
+      [
+        "先生",
+        "学生"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1760426261,
+    "update_time": 1760426261,
+    "_id": "doc-5a83cc1d46adb8fe4e92b337b173dc09"
+  },
+  "doc-994ab7c01561ece8414b566aba94a61d": {
+    "relation_pairs": [
+      [
+        "narrator",
+        "奥さん"
+      ],
+      [
+        "先生",
+        "奥さん"
+      ],
+      [
+        "先生",
+        "書生"
+      ],
+      [
+        "先生",
+        "宅"
+      ],
+      [
+        "宅",
+        "酒"
+      ],
+      [
+        "奥さん",
+        "書生"
+      ],
+      [
+        "noun",
+        "困難"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1760426275,
+    "update_time": 1760426275,
+    "_id": "doc-994ab7c01561ece8414b566aba94a61d"
+  },
+  "doc-37807a368fa88fae1d37a0e75d7816b2": {
+    "relation_pairs": [
+      [
+        "先生",
+        "静"
+      ],
+      [
+        "先生",
+        "奥さん"
+      ],
+      [
+        "emotional conflict",
+        "先生"
+      ],
+      [
+        "先生",
+        "日光"
+      ],
+      [
+        "先生",
+        "箱根"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1760426288,
+    "update_time": 1760426288,
+    "_id": "doc-37807a368fa88fae1d37a0e75d7816b2"
+  },
+  "doc-7927ea27234b51a4323b6fc042821b2d": {
+    "relation_pairs": [
+      [
+        "先生",
+        "書物"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "先生",
+        "横浜"
+      ],
+      [
+        "妻",
+        "私"
+      ],
+      [
+        "新橋",
+        "汽船"
+      ],
+      [
+        "先生",
+        "妻"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1760426313,
+    "update_time": 1760426313,
+    "_id": "doc-7927ea27234b51a4323b6fc042821b2d"
+  },
+  "doc-41b7f678f234d24a21f67bb2dc46b741": {
+    "relation_pairs": [
+      [
+        "奥さん",
+        "書生時代"
+      ],
+      [
+        "先生",
+        "奥さん"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "奥さん",
+        "私"
+      ],
+      [
+        "先生",
+        "大学"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1760426326,
+    "update_time": 1760426326,
+    "_id": "doc-41b7f678f234d24a21f67bb2dc46b741"
+  },
+  "doc-37a4efa883522437cf49471d5da96063": {
+    "relation_pairs": [
+      [
+        "先生",
+        "奥さん"
+      ],
+      [
+        "先生",
+        "花やかなロマンス"
+      ],
+      [
+        "先生",
+        "悲劇"
+      ],
+      [
+        "先生",
+        "恋"
+      ],
+      [
+        "奥さん",
+        "東京"
+      ],
+      [
+        "奥さん",
+        "新潟県"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1760426344,
+    "update_time": 1760426344,
+    "_id": "doc-37a4efa883522437cf49471d5da96063"
+  },
+  "doc-def894ec769603b211073d87ffe1caf2": {
+    "relation_pairs": [
+      [
+        "恋",
+        "私"
+      ],
+      [
+        "先生",
+        "雑司ヶ谷の墓地"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "先生",
+        "恋"
+      ],
+      [
+        "熊笹",
+        "私"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1760426360,
+    "update_time": 1760426360,
+    "_id": "doc-def894ec769603b211073d87ffe1caf2"
+  },
+  "doc-b49620d3174377d693b6b8206e5663bc": {
+    "relation_pairs": [
+      [
+        "先生",
+        "奥さん"
+      ],
+      [
+        "生垣",
+        "金魚売り"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "先生",
+        "庭"
+      ],
+      [
+        "先生",
+        "椿"
+      ],
+      [
+        "教授",
+        "私"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1760426385,
+    "update_time": 1760426385,
+    "_id": "doc-b49620d3174377d693b6b8206e5663bc"
+  },
+  "doc-14edb887d38cd74f74c603c62eb65fcf": {
+    "relation_pairs": [
+      [
+        "先生",
+        "奥さん"
+      ],
+      [
+        "奥さん",
+        "秋"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "友人",
+        "私"
+      ],
+      [
+        "先生",
+        "雑司ヶ谷"
+      ],
+      [
+        "奥さん",
+        "私"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1760426408,
+    "update_time": 1760426408,
+    "_id": "doc-14edb887d38cd74f74c603c62eb65fcf"
+  },
+  "doc-ab0b163914980bb3bd4352f83496db0d": {
+    "relation_pairs": [
+      [
+        "先生",
+        "奥さん"
+      ],
+      [
+        "主人",
+        "奥さん"
+      ],
+      [
+        "奥さん",
+        "茶の間"
+      ],
+      [
+        "書斎",
+        "書物"
+      ],
+      [
+        "奥さん",
+        "紅茶茶碗"
+      ],
+      [
+        "奥さん",
+        "書斎"
+      ],
+      [
+        "narrato",
+        "奥さん"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1760426443,
+    "update_time": 1760426443,
+    "_id": "doc-ab0b163914980bb3bd4352f83496db0d"
+  },
+  "doc-3aa9b2cd42e855e47c6ed90eac1f201c": {
+    "relation_pairs": [
+      [
+        "奥さん",
+        "茶"
+      ],
+      [
+        "先生",
+        "奥さん"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "茶",
+        "角砂糖"
+      ],
+      [
+        "奥さん",
+        "私"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1760426458,
+    "update_time": 1760426458,
+    "_id": "doc-3aa9b2cd42e855e47c6ed90eac1f201c"
+  },
+  "doc-51d492ad3a6e4e00774c383b6e3b308c": {
+    "relation_pairs": [
+      [
+        "先生",
+        "奥さん"
+      ],
+      [
+        "下女",
+        "奥さん"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "理解力",
+        "私"
+      ],
+      [
+        "奥さん",
+        "私"
+      ],
+      [
+        "旧式の日本の女らしさ",
+        "私"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1760426474,
+    "update_time": 1760426474,
+    "_id": "doc-51d492ad3a6e4e00774c383b6e3b308c"
+  },
+  "doc-8a7c924e3cee2684cb2a4d1c5c5cd9da": {
+    "relation_pairs": [
+      [
+        "先生",
+        "奥さん"
+      ],
+      [
+        "先生",
+        "親友"
+      ],
+      [
+        "先生",
+        "雑司ヶ谷"
+      ],
+      [
+        "先生",
+        "大学"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1760426488,
+    "update_time": 1760426488,
+    "_id": "doc-8a7c924e3cee2684cb2a4d1c5c5cd9da"
+  },
+  "doc-3b03fadf4228120817833feac6a1bc92": {
+    "relation_pairs": [
+      [
+        "カステラ",
+        "私"
+      ],
+      [
+        "奥さん",
+        "縫い悪い"
+      ],
+      [
+        "先生",
+        "奥さん"
+      ],
+      [
+        "冬",
+        "私"
+      ],
+      [
+        "奥さん",
+        "西洋菓子"
+      ],
+      [
+        "奥さん",
+        "私"
+      ],
+      [
+        "奥さん",
+        "手織り"
+      ],
+      [
+        "奥さん",
+        "着物"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1760426507,
+    "update_time": 1760426507,
+    "_id": "doc-3b03fadf4228120817833feac6a1bc92"
+  },
+  "doc-4783b6331f3f621fc2faa932e991c0d4": {
+    "relation_pairs": [
+      [
+        "Doctor",
+        "Father"
+      ],
+      [
+        "Protagonist",
+        "Teacher"
+      ],
+      [
+        "Mother",
+        "Protagonist"
+      ],
+      [
+        "Father",
+        "Protagonist"
+      ],
+      [
+        "Letter",
+        "Protagonist"
+      ],
+      [
+        "Fainting Incident",
+        "Father"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1760426527,
+    "update_time": 1760426527,
+    "_id": "doc-4783b6331f3f621fc2faa932e991c0d4"
+  },
+  "doc-f6392226c631f0b5c260542661c92c80": {
+    "relation_pairs": [
+      [
+        "父",
+        "私"
+      ],
+      [
+        "母",
+        "私"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "兄",
+        "私"
+      ],
+      [
+        "妹",
+        "私"
+      ],
+      [
+        "母",
+        "病気"
+      ],
+      [
+        "床",
+        "父"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1760426546,
+    "update_time": 1760426546,
+    "_id": "doc-f6392226c631f0b5c260542661c92c80"
+  },
+  "doc-9ad65c26342389c67e894e1d85cc0583": {
+    "relation_pairs": [
+      [
+        "父",
+        "金"
+      ],
+      [
+        "narrator",
+        "夏休み"
+      ],
+      [
+        "将碁盤",
+        "父"
+      ],
+      [
+        "narrator",
+        "東京"
+      ],
+      [
+        "父",
+        "香車"
+      ],
+      [
+        "character",
+        "国"
+      ],
+      [
+        "character",
+        "医者"
+      ],
+      [
+        "narrator",
+        "先生"
+      ],
+      [
+        "母",
+        "父"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1760426564,
+    "update_time": 1760426564,
+    "_id": "doc-9ad65c26342389c67e894e1d85cc0583"
+  },
+  "doc-e2cd833de768d1c9dc03f4e089c0e8ea": {
+    "relation_pairs": [
+      [
+        "Doctor",
+        "Father"
+      ],
+      [
+        "Mother",
+        "Shiitake"
+      ],
+      [
+        "Speaker",
+        "Tokyo"
+      ],
+      [
+        "Mother",
+        "Speaker"
+      ],
+      [
+        "Natural Death",
+        "Violent Death"
+      ],
+      [
+        "Father",
+        "Illness"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1760426580,
+    "update_time": 1760426580,
+    "_id": "doc-e2cd833de768d1c9dc03f4e089c0e8ea"
+  },
+  "doc-fe9243332ae2b2dbe261ca8b643db9a3": {
+    "relation_pairs": [
+      [
+        "The Deadline",
+        "The Thesis"
+      ],
+      [
+        "The Narrator",
+        "The Professors"
+      ],
+      [
+        "Sensei",
+        "The Reference Books"
+      ],
+      [
+        "先生",
+        "書"
+      ],
+      [
+        "Cherry Blossoms",
+        "The Narrator"
+      ],
+      [
+        "Sensei",
+        "The Narrator"
+      ],
+      [
+        "先生",
+        "四月"
+      ],
+      [
+        "The Narrator",
+        "The Thesis"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1760426605,
+    "update_time": 1760426605,
+    "_id": "doc-fe9243332ae2b2dbe261ca8b643db9a3"
+  },
+  "doc-cf8e7fe4acfdabf8c7ba76d51213e0fc": {
+    "relation_pairs": [
+      [
+        "先生",
+        "八重桜"
+      ],
+      [
+        "市",
+        "郊外"
+      ],
+      [
+        "市を離れて",
+        "私"
+      ],
+      [
+        "先生",
+        "金魚"
+      ],
+      [
+        "私",
+        "若い柔らかい葉"
+      ],
+      [
+        "Cedar Seedling",
+        "Hat"
+      ],
+      [
+        "八重桜",
+        "初夏の季節"
+      ],
+      [
+        "先生",
+        "霧島"
+      ],
+      [
+        "先生",
+        "初夏の季節"
+      ],
+      [
+        "Hat",
+        "Teacher"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1760426631,
+    "update_time": 1760426631,
+    "_id": "doc-cf8e7fe4acfdabf8c7ba76d51213e0fc"
+  },
+  "doc-a255004ab39a6f37c9430741411f2fd9": {
+    "relation_pairs": [
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "先生",
+        "財産家"
+      ],
+      [
+        "先生",
+        "財産"
+      ],
+      [
+        "病気",
+        "私"
+      ],
+      [
+        "私",
+        "財産"
+      ],
+      [
+        "先生",
+        "病気"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1760426647,
+    "update_time": 1760426647,
+    "_id": "doc-a255004ab39a6f37c9430741411f2fd9"
+  },
+  "doc-3d48d2843f15279a62b08968dd2d55af": {
+    "relation_pairs": [
+      [
+        "Tokyo",
+        "World Athletics Championship"
+      ],
+      [
+        "Family Members",
+        "Teacher"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Neighboring Children",
+        "Teacher"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1760426665,
+    "update_time": 1760426665,
+    "_id": "doc-3d48d2843f15279a62b08968dd2d55af"
+  },
+  "doc-fd9e96b7fbef36aa724fe4f35d330d4d": {
+    "relation_pairs": [
+      [
+        "先生",
+        "小供"
+      ],
+      [
+        "先生",
+        "広い若葉の園"
+      ],
+      [
+        "先生",
+        "奥さん"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "小供",
+        "金魚鉢"
+      ],
+      [
+        "先生",
+        "犬"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1760426688,
+    "update_time": 1760426688,
+    "_id": "doc-fd9e96b7fbef36aa724fe4f35d330d4d"
+  },
+  "doc-0d09e662ec032a3435cbec583c08991e": {
+    "relation_pairs": [
+      [
+        "先生",
+        "親戚"
+      ],
+      [
+        "先生",
+        "財産"
+      ],
+      [
+        "生垣",
+        "私"
+      ],
+      [
+        "先生",
+        "私"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1760426709,
+    "update_time": 1760426709,
+    "_id": "doc-0d09e662ec032a3435cbec583c08991e"
+  },
+  "doc-0ef5035fa2e6008a46e0392bfcf138c2": {
+    "relation_pairs": [
+      [
+        "思想",
+        "私"
+      ],
+      [
+        "先生",
+        "六月"
+      ],
+      [
+        "先生",
+        "郊外の談話"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "私",
+        "電車"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1760429695,
+    "update_time": 1760429695,
+    "_id": "doc-0ef5035fa2e6008a46e0392bfcf138c2"
+  },
+  "doc-56444760c7d83145f480b2293ff11828": {
+    "relation_pairs": [
+      [
+        "Narrator",
+        "Professor"
+      ],
+      [
+        "Graduation Certificate",
+        "Narrator"
+      ],
+      [
+        "Dinner Table",
+        "Professor"
+      ],
+      [
+        "Narrator",
+        "Thick Tablecloth"
+      ],
+      [
+        "Cleanliness Standards",
+        "Professor"
+      ],
+      [
+        "Graduation Ceremony",
+        "Narrator"
+      ],
+      [
+        "Narrator",
+        "Wife"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1760429725,
+    "update_time": 1760429725,
+    "_id": "doc-56444760c7d83145f480b2293ff11828"
+  },
+  "doc-7ede3b8308157fd8f9d4121e05e78a15": {
+    "relation_pairs": [
+      [
+        "アイスクリーム",
+        "奥さん"
+      ],
+      [
+        "奥さん",
+        "私"
+      ],
+      [
+        "先生",
+        "財産"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "先生",
+        "奥さん"
+      ],
+      [
+        "下女",
+        "奥さん"
+      ],
+      [
+        "narrator",
+        "先生"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1760429760,
+    "update_time": 1760429760,
+    "_id": "doc-7ede3b8308157fd8f9d4121e05e78a15"
+  },
+  "doc-d98df739bb77eccd16665a2997e43834": {
+    "relation_pairs": [
+      [
+        "奥さん",
+        "私"
+      ],
+      [
+        "奥さん",
+        "父"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "先生",
+        "奥さん"
+      ],
+      [
+        "先生",
+        "父"
+      ],
+      [
+        "尿毒症",
+        "父"
+      ],
+      [
+        "死亡",
+        "母"
+      ],
+      [
+        "父",
+        "私"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1760429785,
+    "update_time": 1760429785,
+    "_id": "doc-d98df739bb77eccd16665a2997e43834"
+  },
+  "doc-469e623bbb704a98631daca633f5dd1a": {
+    "relation_pairs": [
+      [
+        "奥さん",
+        "私"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "先生",
+        "奥さん"
+      ],
+      [
+        "木犀",
+        "秋の花と香"
+      ],
+      [
+        "先生",
+        "寿命"
+      ],
+      [
+        "木犀",
+        "玄関"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1760429816,
+    "update_time": 1760429816,
+    "_id": "doc-469e623bbb704a98631daca633f5dd1a"
+  },
+  "doc-06e25ec85a298078f981e4e9fa397c20": {
+    "relation_pairs": [
+      [
+        "No Name Provided",
+        "Train"
+      ],
+      [
+        "Maruzen",
+        "No Name Provided"
+      ],
+      [
+        "No Name Provided",
+        "Tokyo"
+      ],
+      [
+        "Brother",
+        "No Name Provided"
+      ],
+      [
+        "両親",
+        "私"
+      ],
+      [
+        "私",
+        "軽薄"
+      ],
+      [
+        "No Name Provided",
+        "Teacher's Wife"
+      ],
+      [
+        "No Name Provided",
+        "Teacher"
+      ],
+      [
+        "Father",
+        "No Name Provided"
+      ],
+      [
+        "父",
+        "私"
+      ],
+      [
+        "Mother",
+        "No Name Provided"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1760429838,
+    "update_time": 1760429838,
+    "_id": "doc-06e25ec85a298078f981e4e9fa397c20"
+  },
+  "doc-d59507c40bc77b352e43d17434b54c11": {
+    "relation_pairs": [
+      [
+        "Father",
+        "Son"
+      ],
+      [
+        "Graduation Certificate",
+        "Son"
+      ],
+      [
+        "Father",
+        "Graduation Certificate"
+      ],
+      [
+        "Father",
+        "Graduation"
+      ],
+      [
+        "Graduation",
+        "Son"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1760429851,
+    "update_time": 1760429851,
+    "_id": "doc-d59507c40bc77b352e43d17434b54c11"
+  },
+  "doc-52ab31de599cc0d0d6cd723edbe7819d": {
+    "relation_pairs": [
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "母",
+        "父"
+      ],
+      [
+        "母",
+        "私"
+      ],
+      [
+        "卒業",
+        "私"
+      ],
+      [
+        "東京",
+        "田舎家"
+      ],
+      [
+        "父",
+        "私"
+      ],
+      [
+        "母",
+        "統計"
+      ],
+      [
+        "母",
+        "理屈"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1760429875,
+    "update_time": 1760429875,
+    "_id": "doc-52ab31de599cc0d0d6cd723edbe7819d"
+  },
+  "doc-ab55fe523cac794517cc94c292068ecc": {
+    "relation_pairs": [
+      [
+        "Father",
+        "No Name Given"
+      ],
+      [
+        "Graduation Celebration",
+        "Meiji Emperor"
+      ],
+      [
+        "Mother",
+        "No Name Given"
+      ],
+      [
+        "Father",
+        "Tokyo"
+      ],
+      [
+        "Graduation Celebration",
+        "No Name Given"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1760429890,
+    "update_time": 1760429890,
+    "_id": "doc-ab55fe523cac794517cc94c292068ecc"
+  },
+  "doc-2b028cd3e857851869317f2426196961": {
+    "relation_pairs": [
+      [
+        "古い家",
+        "私"
+      ],
+      [
+        "私",
+        "黒い煤けた棚"
+      ],
+      [
+        "先生",
+        "私"
+      ],
+      [
+        "旗竿",
+        "私"
+      ],
+      [
+        "手紙",
+        "私"
+      ],
+      [
+        "母",
+        "父"
+      ],
+      [
+        "卒業",
+        "私"
+      ],
+      [
+        "事件",
+        "私"
+      ],
+      [
+        "天子様",
+        "父"
+      ],
+      [
+        "父",
+        "私"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1760429914,
+    "update_time": 1760429914,
+    "_id": "doc-2b028cd3e857851869317f2426196961"
+  },
+  "doc-0a3a63523c0a0faa85007262b986a690": {
+    "relation_pairs": [
+      [
+        "私",
+        "返事"
+      ],
+      [
+        "出し",
+        "私"
+      ],
+      [
+        "Father",
+        "Narrator"
+      ],
+      [
+        "Mother",
+        "Narrator"
+      ],
+      [
+        "席",
+        "私"
+      ],
+      [
+        "Friend",
+        "Local Junior High School"
+      ],
+      [
+        "Father",
+        "Stable Job"
+      ],
+      [
+        "Narrator",
+        "Teacher"
+      ],
+      [
+        "Narrator",
+        "University"
+      ],
+      [
+        "好い",
+        "私"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1760429924,
+    "update_time": 1760429924,
+    "_id": "doc-0a3a63523c0a0faa85007262b986a690"
+  },
+  "doc-73a4023aa3e6da6141dc25d1ecb971fd": {
+    "relation_pairs": [
+      [
+        "Father",
+        "Illness"
+      ],
+      [
+        "Brother",
+        "Narator"
+      ],
+      [
+        "Narator",
+        "Teacher"
+      ],
+      [
+        "Father",
+        "Mother"
+      ],
+      [
+        "Father",
+        "Narator"
+      ],
+      [
+        "Narator",
+        "Tokyo"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1760429942,
+    "update_time": 1760429942,
+    "_id": "doc-73a4023aa3e6da6141dc25d1ecb971fd"
+  },
+  "doc-e67ce336de02bc867340518d6fe24380": {
+    "relation_pairs": [
+      [
+        "Cicadas",
+        "Narrator"
+      ],
+      [
+        "Father",
+        "Narrator"
+      ],
+      [
+        "Narrator",
+        "Tokyo"
+      ],
+      [
+        "Mother",
+        "Narrator"
+      ],
+      [
+        "Cicadas",
+        "哀愁"
+      ],
+      [
+        "Narrator",
+        "Teacher"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1760429954,
+    "update_time": 1760429954,
+    "_id": "doc-e67ce336de02bc867340518d6fe24380"
+  },
+  "doc-2946d245aa3a525ad2854b5dca46ef7a": {
+    "relation_pairs": [
+      [
+        "父",
+        "行李"
+      ],
+      [
+        "妹",
+        "父"
+      ],
+      [
+        "医者",
+        "父"
+      ],
+      [
+        "母",
+        "父"
+      ],
+      [
+        "医者",
+        "母"
+      ],
+      [
+        "母",
+        "行李"
+      ],
+      [
+        "兄",
+        "父"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1760429974,
+    "update_time": 1760429974,
+    "_id": "doc-2946d245aa3a525ad2854b5dca46ef7a"
+  },
+  "doc-a07f3fe89cf0d2b43a3d024df81e382c": {
+    "relation_pairs": [
+      [
+        "Aunt",
+        "Father"
+      ],
+      [
+        "Doctor",
+        "Father"
+      ],
+      [
+        "Father",
+        "Uncle"
+      ],
+      [
+        "Brother",
+        "Sister"
+      ],
+      [
+        "Death",
+        "Father"
+      ],
+      [
+        "Father",
+        "Mother"
+      ],
+      [
+        "Mother",
+        "Tokyo"
+      ],
+      [
+        "その夫",
+        "妹"
+      ],
+      [
+        "Father",
+        "Nurse"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1760429996,
+    "update_time": 1760429996,
+    "_id": "doc-a07f3fe89cf0d2b43a3d024df81e382c"
+  },
+  "doc-6f0159fc41264dbf08ac45a5de4fce35": {
+    "relation_pairs": [
+      [
+        "Narrator",
+        "Professor"
+      ],
+      [
+        "Father",
+        "Narrator"
+      ],
+      [
+        "Father's Illness",
+        "Narrator"
+      ],
+      [
+        "Elderly Parent",
+        "Narrator"
+      ],
+      [
+        "Mother",
+        "Narrator"
+      ],
+      [
+        "Father",
+        "Mother"
+      ],
+      [
+        "Father's Illness",
+        "Mother"
+      ],
+      [
+        "Letter",
+        "Narrator"
+      ],
+      [
+        "先生",
+        "憐れな私"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1760430011,
+    "update_time": 1760430011,
+    "_id": "doc-6f0159fc41264dbf08ac45a5de4fce35"
+  },
+  "doc-a635594ac1aec1dba1f03431acd815b2": {
+    "relation_pairs": [
+      [
+        "Father",
+        "No. 1 General Nogi"
+      ],
+      [
+        "Brother",
+        "Father"
+      ],
+      [
+        "Mother",
+        "Telegram"
+      ],
+      [
+        "Father",
+        "Narrator"
+      ],
+      [
+        "Father",
+        "Sister's Husband"
+      ],
+      [
+        "Mother",
+        "Narrator"
+      ],
+      [
+        "時",
+        "母"
+      ],
+      [
+        "Father",
+        "Mother"
+      ],
+      [
+        "Sister",
+        "Sister's Husband"
+      ],
+      [
+        "Father",
+        "Newspaper"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1760430028,
+    "update_time": 1760430028,
+    "_id": "doc-a635594ac1aec1dba1f03431acd815b2"
+  },
+  "doc-509f8632548aba376d33695ece97d17e": {
+    "relation_pairs": [
+      [
+        "母",
+        "私"
+      ],
+      [
+        "先生",
+        "母"
+      ],
+      [
+        "作さん",
+        "父"
+      ],
+      [
+        "私",
+        "電報"
+      ],
+      [
+        "主治医",
+        "父"
+      ],
+      [
+        "父",
+        "私"
+      ],
+      [
+        "母",
+        "病人"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1760430040,
+    "update_time": 1760430040,
+    "_id": "doc-509f8632548aba376d33695ece97d17e"
+  }
+}

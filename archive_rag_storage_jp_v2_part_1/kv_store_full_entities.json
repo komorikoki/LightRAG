@@ -1,0 +1,646 @@
+{
+  "doc-4f8c1038817a259502750c0d7e8f90b5": {
+    "entity_names": [
+      "先生",
+      "Tea House",
+      "掛茶屋",
+      "鎌倉",
+      "Sea",
+      "書生",
+      "海水浴",
+      "別荘",
+      "友達",
+      "海",
+      "I"
+    ],
+    "count": 11,
+    "create_time": 1760426153,
+    "update_time": 1760426153,
+    "_id": "doc-4f8c1038817a259502750c0d7e8f90b5"
+  },
+  "doc-92120e0f566f2cace2548ce11d35d791": {
+    "entity_names": [
+      "先生",
+      "掛茶屋",
+      "水",
+      "ホテル",
+      "目的",
+      "由井が浜",
+      "麦藁帽",
+      "砂",
+      "西洋人",
+      "猿股",
+      "海"
+    ],
+    "count": 11,
+    "create_time": 1760426171,
+    "update_time": 1760426171,
+    "_id": "doc-92120e0f566f2cace2548ce11d35d791"
+  },
+  "doc-7fd97d3eba4d6ddd61b13259a7fa3233": {
+    "entity_names": [
+      "眼鏡",
+      "先生",
+      "人違い",
+      "若い私",
+      "ナレーター",
+      "寺の境内",
+      "浜",
+      "腹の中",
+      "海"
+    ],
+    "count": 9,
+    "create_time": 1760426194,
+    "update_time": 1760426194,
+    "_id": "doc-7fd97d3eba4d6ddd61b13259a7fa3233"
+  },
+  "doc-b063e28c579b8b15803bc81d2862e54e": {
+    "entity_names": [
+      "私",
+      "先生",
+      "雑司ヶ谷",
+      "大都会",
+      "鎌倉",
+      "奥さん",
+      "東京",
+      "二週間"
+    ],
+    "count": 8,
+    "create_time": 1760426211,
+    "update_time": 1760426211,
+    "_id": "doc-b063e28c579b8b15803bc81d2862e54e"
+  },
+  "doc-903991bd152acf95cc4837f8df2fb4ee": {
+    "entity_names": [
+      "先生",
+      "苗畠",
+      "墓地",
+      "月に一度",
+      "安得烈",
+      "先生らしい人",
+      "友達"
+    ],
+    "count": 7,
+    "create_time": 1760426231,
+    "update_time": 1760426231,
+    "_id": "doc-903991bd152acf95cc4837f8df2fb4ee"
+  },
+  "doc-3d4644bfc185cef3c850e039fcda2d9a": {
+    "entity_names": [
+      "私",
+      "先生",
+      "妻",
+      "銀杏の大樹",
+      "雑司ヶ谷",
+      "墓参り",
+      "あなた"
+    ],
+    "count": 7,
+    "create_time": 1760426248,
+    "update_time": 1760426248,
+    "_id": "doc-3d4644bfc185cef3c850e039fcda2d9a"
+  },
+  "doc-5a83cc1d46adb8fe4e92b337b173dc09": {
+    "entity_names": [
+      "私",
+      "先生",
+      "淋しさ",
+      "東京",
+      "学生"
+    ],
+    "count": 5,
+    "create_time": 1760426261,
+    "update_time": 1760426261,
+    "_id": "doc-5a83cc1d46adb8fe4e92b337b173dc09"
+  },
+  "doc-994ab7c01561ece8414b566aba94a61d": {
+    "entity_names": [
+      "先生",
+      "酒",
+      "困難",
+      "narrator",
+      "奥さん",
+      "書生",
+      "noun",
+      "宅"
+    ],
+    "count": 8,
+    "create_time": 1760426275,
+    "update_time": 1760426275,
+    "_id": "doc-994ab7c01561ece8414b566aba94a61d"
+  },
+  "doc-37807a368fa88fae1d37a0e75d7816b2": {
+    "entity_names": [
+      "先生",
+      "emotional conflict",
+      "箱根",
+      "苦しみ",
+      "奥さん",
+      "静",
+      "日光"
+    ],
+    "count": 7,
+    "create_time": 1760426288,
+    "update_time": 1760426288,
+    "_id": "doc-37807a368fa88fae1d37a0e75d7816b2"
+  },
+  "doc-7927ea27234b51a4323b6fc042821b2d": {
+    "entity_names": [
+      "書物",
+      "私",
+      "先生",
+      "妻",
+      "汽船",
+      "横浜",
+      "新橋"
+    ],
+    "count": 7,
+    "create_time": 1760426313,
+    "update_time": 1760426313,
+    "_id": "doc-7927ea27234b51a4323b6fc042821b2d"
+  },
+  "doc-41b7f678f234d24a21f67bb2dc46b741": {
+    "entity_names": [
+      "私",
+      "先生",
+      "書生時代",
+      "奥さん",
+      "大学"
+    ],
+    "count": 5,
+    "create_time": 1760426326,
+    "update_time": 1760426326,
+    "_id": "doc-41b7f678f234d24a21f67bb2dc46b741"
+  },
+  "doc-37a4efa883522437cf49471d5da96063": {
+    "entity_names": [
+      "先生",
+      "新潟県",
+      "Tokyo",
+      "江戸",
+      "奥さん",
+      "花やかなロマンス",
+      "恋",
+      "悲劇",
+      "鳥取"
+    ],
+    "count": 9,
+    "create_time": 1760426344,
+    "update_time": 1760426344,
+    "_id": "doc-37a4efa883522437cf49471d5da96063"
+  },
+  "doc-def894ec769603b211073d87ffe1caf2": {
+    "entity_names": [
+      "私",
+      "先生",
+      "恋は罪悪",
+      "雑司ヶ谷の墓地",
+      "熊笹",
+      "恋",
+      "博物館"
+    ],
+    "count": 7,
+    "create_time": 1760426360,
+    "update_time": 1760426360,
+    "_id": "doc-def894ec769603b211073d87ffe1caf2"
+  },
+  "doc-b49620d3174377d693b6b8206e5663bc": {
+    "entity_names": [
+      "私",
+      "先生",
+      "椿",
+      "膝",
+      "生垣",
+      "奥さん",
+      "教授",
+      "庭",
+      "金魚売り"
+    ],
+    "count": 9,
+    "create_time": 1760426385,
+    "update_time": 1760426385,
+    "_id": "doc-b49620d3174377d693b6b8206e5663bc"
+  },
+  "doc-14edb887d38cd74f74c603c62eb65fcf": {
+    "entity_names": [
+      "私",
+      "先生",
+      "雑司ヶ谷",
+      "秋",
+      "奥さん",
+      "強烈な恋愛事件",
+      "友人"
+    ],
+    "count": 7,
+    "create_time": 1760426408,
+    "update_time": 1760426408,
+    "_id": "doc-14edb887d38cd74f74c603c62eb65fcf"
+  },
+  "doc-ab0b163914980bb3bd4352f83496db0d": {
+    "entity_names": [
+      "書物",
+      "書斎",
+      "先生",
+      "主人",
+      "茶の間",
+      "紅茶茶碗",
+      "narrato",
+      "奥さん",
+      "煙草",
+      "会"
+    ],
+    "count": 10,
+    "create_time": 1760426443,
+    "update_time": 1760426443,
+    "_id": "doc-ab0b163914980bb3bd4352f83496db0d"
+  },
+  "doc-3aa9b2cd42e855e47c6ed90eac1f201c": {
+    "entity_names": [
+      "私",
+      "先生",
+      "角砂糖",
+      "茶",
+      "奥さん"
+    ],
+    "count": 5,
+    "create_time": 1760426458,
+    "update_time": 1760426458,
+    "_id": "doc-3aa9b2cd42e855e47c6ed90eac1f201c"
+  },
+  "doc-51d492ad3a6e4e00774c383b6e3b308c": {
+    "entity_names": [
+      "私",
+      "理解力",
+      "先生",
+      "奥さん",
+      "旧式の日本の女らしさ",
+      "下女"
+    ],
+    "count": 6,
+    "create_time": 1760426474,
+    "update_time": 1760426474,
+    "_id": "doc-51d492ad3a6e4e00774c383b6e3b308c"
+  },
+  "doc-8a7c924e3cee2684cb2a4d1c5c5cd9da": {
+    "entity_names": [
+      "先生",
+      "親友",
+      "雑司ヶ谷",
+      "奥さん",
+      "大学"
+    ],
+    "count": 5,
+    "create_time": 1760426488,
+    "update_time": 1760426488,
+    "_id": "doc-8a7c924e3cee2684cb2a4d1c5c5cd9da"
+  },
+  "doc-3b03fadf4228120817833feac6a1bc92": {
+    "entity_names": [
+      "私",
+      "事実",
+      "先生",
+      "着物",
+      "縫い悪い",
+      "秋",
+      "西洋菓子",
+      "冬",
+      "奥さん",
+      "カステラ",
+      "手織り"
+    ],
+    "count": 11,
+    "create_time": 1760426507,
+    "update_time": 1760426507,
+    "_id": "doc-3b03fadf4228120817833feac6a1bc92"
+  },
+  "doc-4783b6331f3f621fc2faa932e991c0d4": {
+    "entity_names": [
+      "Doctor",
+      "Teacher",
+      "Chronic Kidney Disease",
+      "Tokyo",
+      "Winter",
+      "Protagonist",
+      "Mother",
+      "Money",
+      "Letter",
+      "Father",
+      "Fainting Incident"
+    ],
+    "count": 11,
+    "create_time": 1760426527,
+    "update_time": 1760426527,
+    "_id": "doc-4783b6331f3f621fc2faa932e991c0d4"
+  },
+  "doc-f6392226c631f0b5c260542661c92c80": {
+    "entity_names": [
+      "母",
+      "私",
+      "先生",
+      "Speaker",
+      "九州",
+      "床",
+      "父",
+      "妹",
+      "兄",
+      "病気",
+      "Father",
+      "手紙"
+    ],
+    "count": 12,
+    "create_time": 1760426546,
+    "update_time": 1760426546,
+    "_id": "doc-f6392226c631f0b5c260542661c92c80"
+  },
+  "doc-9ad65c26342389c67e894e1d85cc0583": {
+    "entity_names": [
+      "母",
+      "先生",
+      "金",
+      "医者",
+      "将碁盤",
+      "夏休み",
+      "character",
+      "国",
+      "父",
+      "冬休み",
+      "東京",
+      "香車"
+    ],
+    "count": 12,
+    "create_time": 1760426564,
+    "update_time": 1760426564,
+    "_id": "doc-9ad65c26342389c67e894e1d85cc0583"
+  },
+  "doc-e2cd833de768d1c9dc03f4e089c0e8ea": {
+    "entity_names": [
+      "Doctor",
+      "Shiitake",
+      "Natural Death",
+      "Speaker",
+      "Tokyo",
+      "Mother",
+      "Illness",
+      "Violent Death",
+      "Father"
+    ],
+    "count": 9,
+    "create_time": 1760426580,
+    "update_time": 1760426580,
+    "_id": "doc-e2cd833de768d1c9dc03f4e089c0e8ea"
+  },
+  "doc-fe9243332ae2b2dbe261ca8b643db9a3": {
+    "entity_names": [
+      "Sensei",
+      "June",
+      "先生",
+      "The Professors",
+      "書",
+      "四月",
+      "The Thesis",
+      "Cherry Blossoms",
+      "The Narrator",
+      "敷居",
+      "The Reference Books",
+      "April",
+      "The Deadline"
+    ],
+    "count": 13,
+    "create_time": 1760426605,
+    "update_time": 1760426605,
+    "_id": "doc-fe9243332ae2b2dbe261ca8b643db9a3"
+  },
+  "doc-cf8e7fe4acfdabf8c7ba76d51213e0fc": {
+    "entity_names": [
+      "先生",
+      "若い柔らかい葉",
+      "郊外",
+      "Teacher",
+      "霧島",
+      "金魚",
+      "Hat",
+      "柘榴",
+      "Cedar Seedling",
+      "枳殻の垣",
+      "初夏の季節",
+      "市を離れて",
+      "八重桜",
+      "市",
+      "芍薬"
+    ],
+    "count": 15,
+    "create_time": 1760426631,
+    "update_time": 1760426631,
+    "_id": "doc-cf8e7fe4acfdabf8c7ba76d51213e0fc"
+  },
+  "doc-a255004ab39a6f37c9430741411f2fd9": {
+    "entity_names": [
+      "私",
+      "先生",
+      "財産",
+      "財産家",
+      "家",
+      "病気"
+    ],
+    "count": 6,
+    "create_time": 1760426647,
+    "update_time": 1760426647,
+    "_id": "doc-a255004ab39a6f37c9430741411f2fd9"
+  },
+  "doc-3d48d2843f15279a62b08968dd2d55af": {
+    "entity_names": [
+      "Family Members",
+      "Teacher",
+      "Tokyo",
+      "100m Sprint Record",
+      "Noah Carter",
+      "Carbon-Fiber Spikes",
+      "World Athletics Federation",
+      "World Athletics Championship",
+      "Neighboring Children"
+    ],
+    "count": 9,
+    "create_time": 1760426665,
+    "update_time": 1760426665,
+    "_id": "doc-3d48d2843f15279a62b08968dd2d55af"
+  },
+  "doc-fd9e96b7fbef36aa724fe4f35d330d4d": {
+    "entity_names": [
+      "私",
+      "先生",
+      "犬",
+      "広い若葉の園",
+      "金魚鉢",
+      "小供",
+      "奥さん"
+    ],
+    "count": 7,
+    "create_time": 1760426688,
+    "update_time": 1760426688,
+    "_id": "doc-fd9e96b7fbef36aa724fe4f35d330d4d"
+  },
+  "doc-0d09e662ec032a3435cbec583c08991e": {
+    "entity_names": [
+      "私",
+      "先生",
+      "財産",
+      "生垣",
+      "金網",
+      "豌豆の蔓",
+      "親戚"
+    ],
+    "count": 7,
+    "create_time": 1760426709,
+    "update_time": 1760426709,
+    "_id": "doc-0d09e662ec032a3435cbec583c08991e"
+  },
+  "doc-0ef5035fa2e6008a46e0392bfcf138c2": {
+    "entity_names": [
+      "すぐ",
+      "思想",
+      "先生",
+      "私",
+      "郊外の談話",
+      "六月",
+      "電車"
+    ],
+    "count": 7,
+    "create_time": 1760429695,
+    "update_time": 1760429695,
+    "_id": "doc-0ef5035fa2e6008a46e0392bfcf138c2"
+  },
+  "doc-56444760c7d83145f480b2293ff11828": {
+    "entity_names": [
+      "卒業証書",
+      "Wife",
+      "My Thesis",
+      "先生",
+      "Dinner Invitation",
+      "Dinner Table",
+      "Narrator",
+      "Professor",
+      "Thick Tablecloth",
+      "Cleanliness Standards",
+      "Graduation Certificate",
+      "奥さん",
+      "Graduation Ceremony"
+    ],
+    "count": 13,
+    "create_time": 1760429725,
+    "update_time": 1760429725,
+    "_id": "doc-56444760c7d83145f480b2293ff11828"
+  },
+  "doc-7ede3b8308157fd8f9d4121e05e78a15": {
+    "entity_names": [
+      "アイスクリーム",
+      "先生",
+      "下女",
+      "私",
+      "奥さん",
+      "水菓子",
+      "財産"
+    ],
+    "count": 7,
+    "create_time": 1760429760,
+    "update_time": 1760429760,
+    "_id": "doc-7ede3b8308157fd8f9d4121e05e78a15"
+  },
+  "doc-d98df739bb77eccd16665a2997e43834": {
+    "entity_names": [
+      "母",
+      "先生",
+      "尿毒症",
+      "私",
+      "奥さん",
+      "父",
+      "死亡"
+    ],
+    "count": 7,
+    "create_time": 1760429785,
+    "update_time": 1760429785,
+    "_id": "doc-d98df739bb77eccd16665a2997e43834"
+  },
+  "doc-469e623bbb704a98631daca633f5dd1a": {
+    "entity_names": [
+      "No Input Entities",
+      "先生",
+      "私",
+      "奥さん",
+      "玄関",
+      "秋の花と香",
+      "木犀",
+      "寿命"
+    ],
+    "count": 8,
+    "create_time": 1760429816,
+    "update_time": 1760429816,
+    "_id": "doc-469e623bbb704a98631daca633f5dd1a"
+  },
+  "doc-06e25ec85a298078f981e4e9fa397c20": {
+    "entity_names": [
+      "Tokyo",
+      "Shopping for Gifts",
+      "両親",
+      "軽薄",
+      "Teacher",
+      "Train",
+      "私",
+      "Teacher's Wife",
+      "父",
+      "Father",
+      "Mother",
+      "Maruzen",
+      "Brother",
+      "No Name Provided"
+    ],
+    "count": 14,
+    "create_time": 1760429838,
+    "update_time": 1760429838,
+    "_id": "doc-06e25ec85a298078f981e4e9fa397c20"
+  },
+  "doc-d59507c40bc77b352e43d17434b54c11": {
+    "entity_names": [
+      "Tokyo",
+      "Graduation Certificate",
+      "Father",
+      "Son",
+      "Graduation"
+    ],
+    "count": 5,
+    "create_time": 1760429851,
+    "update_time": 1760429851,
+    "_id": "doc-d59507c40bc77b352e43d17434b54c11"
+  },
+  "doc-52ab31de599cc0d0d6cd723edbe7819d": {
+    "entity_names": [
+      "母",
+      "先生",
+      "統計",
+      "東京",
+      "病気",
+      "私",
+      "理屈",
+      "父",
+      "卒業",
+      "田舎家"
+    ],
+    "count": 10,
+    "create_time": 1760429875,
+    "update_time": 1760429875,
+    "_id": "doc-52ab31de599cc0d0d6cd723edbe7819d"
+  },
+  "doc-ab55fe523cac794517cc94c292068ecc": {
+    "entity_names": [
+      "Tokyo",
+      "No Name Given",
+      "Father",
+      "Mother",
+      "Graduation Celebration",
+      "Meiji Emperor"
+    ],
+    "count": 6,
+    "create_time": 1760429890,
+    "update_time": 1760429890,
+    "_id": "doc-ab55fe523cac794517cc94c292068ecc"
+  }
+}
