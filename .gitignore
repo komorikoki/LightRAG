@@ -75,3 +75,4 @@ memory-bank/
 #Add ignored files
 .data/
 .env/
+venv-lbf/
