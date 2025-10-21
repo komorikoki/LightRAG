@@ -8,7 +8,7 @@ PAST_GRAPH = "preprocessed_rag_storage_jp_v2/graph_chunk_entity_relation.graphml
 NEW_GRAPH = "archive_rag_storage_jp_v2_part_3/graph_chunk_entity_relation.graphml"
 
 def louvain_partition(graph):
-    partition = community_louvain.best_partition(graph)
+    partition = community_louvain.best_partition(graph, resolution=2.0)
     return partition
 
 def invert_partition(partition):
@@ -117,7 +117,7 @@ for u, v in G_Past.edges():
     net.add_edge(u, v)
 
 html = net.generate_html()    # ← これで HTML を文字列として取得
-with open("G_Past_louvain.html", "w", encoding="utf-8") as f:
+with open("G_Past_louvainR2.html", "w", encoding="utf-8") as f:
     f.write(html)
 
 com_ids = set(new_partition.values())
@@ -133,5 +133,5 @@ for u, v in G_New.edges():
     net.add_edge(u, v)
 
 html = net.generate_html()    # ← これで HTML を文字列として取得
-with open("G_New_louvain.html", "w", encoding="utf-8") as f:
+with open("G_New_louvainR2.html", "w", encoding="utf-8") as f:
     f.write(html)

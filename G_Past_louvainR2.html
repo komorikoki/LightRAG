@@ -1,0 +1,259 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 800px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 800px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u5148\u751f", "label": "\u5148\u751f", "shape": "dot", "title": "Community 0"}, {"color": "#693141", "font": {"color": "#343434"}, "id": "\u938c\u5009", "label": "\u938c\u5009", "shape": "dot", "title": "Community 1"}, {"color": "#693141", "font": {"color": "#343434"}, "id": "\u53cb\u9054", "label": "\u53cb\u9054", "shape": "dot", "title": "Community 1"}, {"color": "#693141", "font": {"color": "#343434"}, "id": "\u5225\u8358", "label": "\u5225\u8358", "shape": "dot", "title": "Community 1"}, {"color": "#693141", "font": {"color": "#343434"}, "id": "\u6d77\u6c34\u6d74", "label": "\u6d77\u6c34\u6d74", "shape": "dot", "title": "Community 1"}, {"color": "#693141", "font": {"color": "#343434"}, "id": "\u639b\u8336\u5c4b", "label": "\u639b\u8336\u5c4b", "shape": "dot", "title": "Community 1"}, {"color": "#59d337", "font": {"color": "#343434"}, "id": "\u66f8\u751f", "label": "\u66f8\u751f", "shape": "dot", "title": "Community 2"}, {"color": "#693141", "font": {"color": "#343434"}, "id": "\u6d77", "label": "\u6d77", "shape": "dot", "title": "Community 1"}, {"color": "#54d1a5", "font": {"color": "#343434"}, "id": "Sea", "label": "Sea", "shape": "dot", "title": "Community 3"}, {"color": "#22eb89", "font": {"color": "#343434"}, "id": "Tea House", "label": "Tea House", "shape": "dot", "title": "Community 4"}, {"color": "#22eb89", "font": {"color": "#343434"}, "id": "I", "label": "I", "shape": "dot", "title": "Community 4"}, {"color": "#693141", "font": {"color": "#343434"}, "id": "\u897f\u6d0b\u4eba", "label": "\u897f\u6d0b\u4eba", "shape": "dot", "title": "Community 1"}, {"color": "#586ef8", "font": {"color": "#343434"}, "id": "\u30db\u30c6\u30eb", "label": "\u30db\u30c6\u30eb", "shape": "dot", "title": "Community 5"}, {"color": "#693141", "font": {"color": "#343434"}, "id": "\u7802", "label": "\u7802", "shape": "dot", "title": "Community 1"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u9ea6\u85c1\u5e3d", "label": "\u9ea6\u85c1\u5e3d", "shape": "dot", "title": "Community 0"}, {"color": "#693141", "font": {"color": "#343434"}, "id": "\u733f\u80a1", "label": "\u733f\u80a1", "shape": "dot", "title": "Community 1"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u7531\u4e95\u304c\u6d5c", "label": "\u7531\u4e95\u304c\u6d5c", "shape": "dot", "title": "Community 0"}, {"color": "#693141", "font": {"color": "#343434"}, "id": "\u6c34", "label": "\u6c34", "shape": "dot", "title": "Community 1"}, {"color": "#67158f", "font": {"color": "#343434"}, "id": "\u76ee\u7684", "label": "\u76ee\u7684", "shape": "dot", "title": "Community 6"}, {"color": "#693141", "font": {"color": "#343434"}, "id": "\u6d5c", "label": "\u6d5c", "shape": "dot", "title": "Community 1"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u773c\u93e1", "label": "\u773c\u93e1", "shape": "dot", "title": "Community 0"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u5bfa\u306e\u5883\u5185", "label": "\u5bfa\u306e\u5883\u5185", "shape": "dot", "title": "Community 0"}, {"color": "#693141", "font": {"color": "#343434"}, "id": "\u30ca\u30ec\u30fc\u30bf\u30fc", "label": "\u30ca\u30ec\u30fc\u30bf\u30fc", "shape": "dot", "title": "Community 1"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u82e5\u3044\u79c1", "label": "\u82e5\u3044\u79c1", "shape": "dot", "title": "Community 0"}, {"color": "#bf6786", "font": {"color": "#343434"}, "id": "\u8179\u306e\u4e2d", "label": "\u8179\u306e\u4e2d", "shape": "dot", "title": "Community 7"}, {"color": "#cd40de", "font": {"color": "#343434"}, "id": "\u4eba\u9055\u3044", "label": "\u4eba\u9055\u3044", "shape": "dot", "title": "Community 8"}, {"color": "#f8a4ab", "font": {"color": "#343434"}, "id": "\u6771\u4eac", "label": "\u6771\u4eac", "shape": "dot", "title": "Community 9"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u96d1\u53f8\u30f6\u8c37", "label": "\u96d1\u53f8\u30f6\u8c37", "shape": "dot", "title": "Community 0"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u5927\u90fd\u4f1a", "label": "\u5927\u90fd\u4f1a", "shape": "dot", "title": "Community 10"}, {"color": "#59d337", "font": {"color": "#343434"}, "id": "\u5965\u3055\u3093", "label": "\u5965\u3055\u3093", "shape": "dot", "title": "Community 2"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u79c1", "label": "\u79c1", "shape": "dot", "title": "Community 10"}, {"color": "#ebb624", "font": {"color": "#343434"}, "id": "\u4e8c\u9031\u9593", "label": "\u4e8c\u9031\u9593", "shape": "dot", "title": "Community 11"}, {"color": "#ada3a4", "font": {"color": "#343434"}, "id": "\u5893\u5730", "label": "\u5893\u5730", "shape": "dot", "title": "Community 12"}, {"color": "#4bc967", "font": {"color": "#343434"}, "id": "\u82d7\u7560", "label": "\u82d7\u7560", "shape": "dot", "title": "Community 13"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u5b89\u5f97\u70c8", "label": "\u5b89\u5f97\u70c8", "shape": "dot", "title": "Community 0"}, {"color": "#ada3a4", "font": {"color": "#343434"}, "id": "\u5148\u751f\u3089\u3057\u3044\u4eba", "label": "\u5148\u751f\u3089\u3057\u3044\u4eba", "shape": "dot", "title": "Community 12"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u6708\u306b\u4e00\u5ea6", "label": "\u6708\u306b\u4e00\u5ea6", "shape": "dot", "title": "Community 0"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u5893\u53c2\u308a", "label": "\u5893\u53c2\u308a", "shape": "dot", "title": "Community 10"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u59bb", "label": "\u59bb", "shape": "dot", "title": "Community 10"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u3042\u306a\u305f", "label": "\u3042\u306a\u305f", "shape": "dot", "title": "Community 0"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u9280\u674f\u306e\u5927\u6a39", "label": "\u9280\u674f\u306e\u5927\u6a39", "shape": "dot", "title": "Community 0"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u6dcb\u3057\u3055", "label": "\u6dcb\u3057\u3055", "shape": "dot", "title": "Community 10"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u5b66\u751f", "label": "\u5b66\u751f", "shape": "dot", "title": "Community 10"}, {"color": "#dfeefb", "font": {"color": "#343434"}, "id": "\u5b85", "label": "\u5b85", "shape": "dot", "title": "Community 14"}, {"color": "#dfeefb", "font": {"color": "#343434"}, "id": "\u9152", "label": "\u9152", "shape": "dot", "title": "Community 14"}, {"color": "#995225", "font": {"color": "#343434"}, "id": "noun", "label": "noun", "shape": "dot", "title": "Community 15"}, {"color": "#995225", "font": {"color": "#343434"}, "id": "\u56f0\u96e3", "label": "\u56f0\u96e3", "shape": "dot", "title": "Community 15"}, {"color": "#f8a4ab", "font": {"color": "#343434"}, "id": "narrator", "label": "narrator", "shape": "dot", "title": "Community 9"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u7bb1\u6839", "label": "\u7bb1\u6839", "shape": "dot", "title": "Community 0"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u65e5\u5149", "label": "\u65e5\u5149", "shape": "dot", "title": "Community 0"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u9759", "label": "\u9759", "shape": "dot", "title": "Community 0"}, {"color": "#f2ba0e", "font": {"color": "#343434"}, "id": "\u82e6\u3057\u307f", "label": "\u82e6\u3057\u307f", "shape": "dot", "title": "Community 16"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "emotional conflict", "label": "emotional conflict", "shape": "dot", "title": "Community 0"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u6a2a\u6d5c", "label": "\u6a2a\u6d5c", "shape": "dot", "title": "Community 0"}, {"color": "#ad2f0e", "font": {"color": "#343434"}, "id": "\u65b0\u6a4b", "label": "\u65b0\u6a4b", "shape": "dot", "title": "Community 17"}, {"color": "#ad2f0e", "font": {"color": "#343434"}, "id": "\u6c7d\u8239", "label": "\u6c7d\u8239", "shape": "dot", "title": "Community 17"}, {"color": "#49d064", "font": {"color": "#343434"}, "id": "\u66f8\u7269", "label": "\u66f8\u7269", "shape": "dot", "title": "Community 18"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u5927\u5b66", "label": "\u5927\u5b66", "shape": "dot", "title": "Community 0"}, {"color": "#59d337", "font": {"color": "#343434"}, "id": "\u66f8\u751f\u6642\u4ee3", "label": "\u66f8\u751f\u6642\u4ee3", "shape": "dot", "title": "Community 2"}, {"color": "#696ac4", "font": {"color": "#343434"}, "id": "Tokyo", "label": "Tokyo", "shape": "dot", "title": "Community 19"}, {"color": "#e8d0d4", "font": {"color": "#343434"}, "id": "\u9ce5\u53d6", "label": "\u9ce5\u53d6", "shape": "dot", "title": "Community 20"}, {"color": "#fc7d3c", "font": {"color": "#343434"}, "id": "\u6c5f\u6238", "label": "\u6c5f\u6238", "shape": "dot", "title": "Community 21"}, {"color": "#59d337", "font": {"color": "#343434"}, "id": "\u65b0\u6f5f\u770c", "label": "\u65b0\u6f5f\u770c", "shape": "dot", "title": "Community 2"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u82b1\u3084\u304b\u306a\u30ed\u30de\u30f3\u30b9", "label": "\u82b1\u3084\u304b\u306a\u30ed\u30de\u30f3\u30b9", "shape": "dot", "title": "Community 0"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u60b2\u5287", "label": "\u60b2\u5287", "shape": "dot", "title": "Community 0"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u604b", "label": "\u604b", "shape": "dot", "title": "Community 0"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u718a\u7b39", "label": "\u718a\u7b39", "shape": "dot", "title": "Community 10"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u96d1\u53f8\u30f6\u8c37\u306e\u5893\u5730", "label": "\u96d1\u53f8\u30f6\u8c37\u306e\u5893\u5730", "shape": "dot", "title": "Community 0"}, {"color": "#2ba3d1", "font": {"color": "#343434"}, "id": "\u604b\u306f\u7f6a\u60aa", "label": "\u604b\u306f\u7f6a\u60aa", "shape": "dot", "title": "Community 22"}, {"color": "#5e3eca", "font": {"color": "#343434"}, "id": "\u535a\u7269\u9928", "label": "\u535a\u7269\u9928", "shape": "dot", "title": "Community 23"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u5ead", "label": "\u5ead", "shape": "dot", "title": "Community 0"}, {"color": "#688ac4", "font": {"color": "#343434"}, "id": "\u751f\u57a3", "label": "\u751f\u57a3", "shape": "dot", "title": "Community 24"}, {"color": "#c6f728", "font": {"color": "#343434"}, "id": "\u819d", "label": "\u819d", "shape": "dot", "title": "Community 25"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u6559\u6388", "label": "\u6559\u6388", "shape": "dot", "title": "Community 10"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u693f", "label": "\u693f", "shape": "dot", "title": "Community 0"}, {"color": "#688ac4", "font": {"color": "#343434"}, "id": "\u91d1\u9b5a\u58f2\u308a", "label": "\u91d1\u9b5a\u58f2\u308a", "shape": "dot", "title": "Community 24"}, {"color": "#59d337", "font": {"color": "#343434"}, "id": "\u79cb", "label": "\u79cb", "shape": "dot", "title": "Community 2"}, {"color": "#5df817", "font": {"color": "#343434"}, "id": "\u5f37\u70c8\u306a\u604b\u611b\u4e8b\u4ef6", "label": "\u5f37\u70c8\u306a\u604b\u611b\u4e8b\u4ef6", "shape": "dot", "title": "Community 26"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u53cb\u4eba", "label": "\u53cb\u4eba", "shape": "dot", "title": "Community 10"}, {"color": "#49d064", "font": {"color": "#343434"}, "id": "\u66f8\u658e", "label": "\u66f8\u658e", "shape": "dot", "title": "Community 18"}, {"color": "#59d337", "font": {"color": "#343434"}, "id": "\u8336\u306e\u9593", "label": "\u8336\u306e\u9593", "shape": "dot", "title": "Community 2"}, {"color": "#4ecb43", "font": {"color": "#343434"}, "id": "\u7159\u8349", "label": "\u7159\u8349", "shape": "dot", "title": "Community 27"}, {"color": "#240b62", "font": {"color": "#343434"}, "id": "\u4f1a", "label": "\u4f1a", "shape": "dot", "title": "Community 28"}, {"color": "#59d337", "font": {"color": "#343434"}, "id": "\u4e3b\u4eba", "label": "\u4e3b\u4eba", "shape": "dot", "title": "Community 2"}, {"color": "#59d337", "font": {"color": "#343434"}, "id": "\u7d05\u8336\u8336\u7897", "label": "\u7d05\u8336\u8336\u7897", "shape": "dot", "title": "Community 2"}, {"color": "#59d337", "font": {"color": "#343434"}, "id": "narrato", "label": "narrato", "shape": "dot", "title": "Community 2"}, {"color": "#59d337", "font": {"color": "#343434"}, "id": "\u8336", "label": "\u8336", "shape": "dot", "title": "Community 2"}, {"color": "#59d337", "font": {"color": "#343434"}, "id": "\u89d2\u7802\u7cd6", "label": "\u89d2\u7802\u7cd6", "shape": "dot", "title": "Community 2"}, {"color": "#59d337", "font": {"color": "#343434"}, "id": "\u4e0b\u5973", "label": "\u4e0b\u5973", "shape": "dot", "title": "Community 2"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u7406\u89e3\u529b", "label": "\u7406\u89e3\u529b", "shape": "dot", "title": "Community 10"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u65e7\u5f0f\u306e\u65e5\u672c\u306e\u5973\u3089\u3057\u3055", "label": "\u65e7\u5f0f\u306e\u65e5\u672c\u306e\u5973\u3089\u3057\u3055", "shape": "dot", "title": "Community 10"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u89aa\u53cb", "label": "\u89aa\u53cb", "shape": "dot", "title": "Community 0"}, {"color": "#59d337", "font": {"color": "#343434"}, "id": "\u624b\u7e54\u308a", "label": "\u624b\u7e54\u308a", "shape": "dot", "title": "Community 2"}, {"color": "#59d337", "font": {"color": "#343434"}, "id": "\u7740\u7269", "label": "\u7740\u7269", "shape": "dot", "title": "Community 2"}, {"color": "#59d337", "font": {"color": "#343434"}, "id": "\u7e2b\u3044\u60aa\u3044", "label": "\u7e2b\u3044\u60aa\u3044", "shape": "dot", "title": "Community 2"}, {"color": "#59d337", "font": {"color": "#343434"}, "id": "\u897f\u6d0b\u83d3\u5b50", "label": "\u897f\u6d0b\u83d3\u5b50", "shape": "dot", "title": "Community 2"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u51ac", "label": "\u51ac", "shape": "dot", "title": "Community 10"}, {"color": "#bec112", "font": {"color": "#343434"}, "id": "\u4e8b\u5b9f", "label": "\u4e8b\u5b9f", "shape": "dot", "title": "Community 29"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u30ab\u30b9\u30c6\u30e9", "label": "\u30ab\u30b9\u30c6\u30e9", "shape": "dot", "title": "Community 10"}, {"color": "#5de0e5", "font": {"color": "#343434"}, "id": "Winter", "label": "Winter", "shape": "dot", "title": "Community 30"}, {"color": "#c99a87", "font": {"color": "#343434"}, "id": "Father", "label": "Father", "shape": "dot", "title": "Community 31"}, {"color": "#696ac4", "font": {"color": "#343434"}, "id": "Mother", "label": "Mother", "shape": "dot", "title": "Community 19"}, {"color": "#c99a87", "font": {"color": "#343434"}, "id": "Letter", "label": "Letter", "shape": "dot", "title": "Community 31"}, {"color": "#c99a87", "font": {"color": "#343434"}, "id": "Doctor", "label": "Doctor", "shape": "dot", "title": "Community 31"}, {"color": "#c99a87", "font": {"color": "#343434"}, "id": "Protagonist", "label": "Protagonist", "shape": "dot", "title": "Community 31"}, {"color": "#6790de", "font": {"color": "#343434"}, "id": "Money", "label": "Money", "shape": "dot", "title": "Community 32"}, {"color": "#c99a87", "font": {"color": "#343434"}, "id": "Teacher", "label": "Teacher", "shape": "dot", "title": "Community 31"}, {"color": "#5b425d", "font": {"color": "#343434"}, "id": "Chronic Kidney Disease", "label": "Chronic Kidney Disease", "shape": "dot", "title": "Community 34"}, {"color": "#c99a87", "font": {"color": "#343434"}, "id": "Fainting Incident", "label": "Fainting Incident", "shape": "dot", "title": "Community 31"}, {"color": "#310b2a", "font": {"color": "#343434"}, "id": "\u7236", "label": "\u7236", "shape": "dot", "title": "Community 35"}, {"color": "#310b2a", "font": {"color": "#343434"}, "id": "\u6bcd", "label": "\u6bcd", "shape": "dot", "title": "Community 35"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u5144", "label": "\u5144", "shape": "dot", "title": "Community 10"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u59b9", "label": "\u59b9", "shape": "dot", "title": "Community 10"}, {"color": "#b6a900", "font": {"color": "#343434"}, "id": "\u4e5d\u5dde", "label": "\u4e5d\u5dde", "shape": "dot", "title": "Community 36"}, {"color": "#26ecbd", "font": {"color": "#343434"}, "id": "\u624b\u7d19", "label": "\u624b\u7d19", "shape": "dot", "title": "Community 37"}, {"color": "#310b2a", "font": {"color": "#343434"}, "id": "\u5e8a", "label": "\u5e8a", "shape": "dot", "title": "Community 35"}, {"color": "#310b2a", "font": {"color": "#343434"}, "id": "\u75c5\u6c17", "label": "\u75c5\u6c17", "shape": "dot", "title": "Community 35"}, {"color": "#696ac4", "font": {"color": "#343434"}, "id": "Speaker", "label": "Speaker", "shape": "dot", "title": "Community 19"}, {"color": "#310b2a", "font": {"color": "#343434"}, "id": "\u5c06\u7881\u76e4", "label": "\u5c06\u7881\u76e4", "shape": "dot", "title": "Community 35"}, {"color": "#f8a4ab", "font": {"color": "#343434"}, "id": "\u590f\u4f11\u307f", "label": "\u590f\u4f11\u307f", "shape": "dot", "title": "Community 9"}, {"color": "#310b2a", "font": {"color": "#343434"}, "id": "\u91d1", "label": "\u91d1", "shape": "dot", "title": "Community 35"}, {"color": "#310b2a", "font": {"color": "#343434"}, "id": "\u9999\u8eca", "label": "\u9999\u8eca", "shape": "dot", "title": "Community 35"}, {"color": "#d9120d", "font": {"color": "#343434"}, "id": "\u533b\u8005", "label": "\u533b\u8005", "shape": "dot", "title": "Community 38"}, {"color": "#6e80bf", "font": {"color": "#343434"}, "id": "\u51ac\u4f11\u307f", "label": "\u51ac\u4f11\u307f", "shape": "dot", "title": "Community 39"}, {"color": "#d9120d", "font": {"color": "#343434"}, "id": "\u56fd", "label": "\u56fd", "shape": "dot", "title": "Community 38"}, {"color": "#d9120d", "font": {"color": "#343434"}, "id": "character", "label": "character", "shape": "dot", "title": "Community 38"}, {"color": "#696ac4", "font": {"color": "#343434"}, "id": "Shiitake", "label": "Shiitake", "shape": "dot", "title": "Community 19"}, {"color": "#c99a87", "font": {"color": "#343434"}, "id": "Illness", "label": "Illness", "shape": "dot", "title": "Community 31"}, {"color": "#74c9a0", "font": {"color": "#343434"}, "id": "Natural Death", "label": "Natural Death", "shape": "dot", "title": "Community 40"}, {"color": "#74c9a0", "font": {"color": "#343434"}, "id": "Violent Death", "label": "Violent Death", "shape": "dot", "title": "Community 40"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u56db\u6708", "label": "\u56db\u6708", "shape": "dot", "title": "Community 0"}, {"color": "#fdf910", "font": {"color": "#343434"}, "id": "\u6577\u5c45", "label": "\u6577\u5c45", "shape": "dot", "title": "Community 41"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u66f8", "label": "\u66f8", "shape": "dot", "title": "Community 0"}, {"color": "#ff7407", "font": {"color": "#343434"}, "id": "June", "label": "June", "shape": "dot", "title": "Community 42"}, {"color": "#1c3065", "font": {"color": "#343434"}, "id": "The Thesis", "label": "The Thesis", "shape": "dot", "title": "Community 43"}, {"color": "#1c3065", "font": {"color": "#343434"}, "id": "Sensei", "label": "Sensei", "shape": "dot", "title": "Community 43"}, {"color": "#1c3065", "font": {"color": "#343434"}, "id": "The Reference Books", "label": "The Reference Books", "shape": "dot", "title": "Community 43"}, {"color": "#1c3065", "font": {"color": "#343434"}, "id": "The Narrator", "label": "The Narrator", "shape": "dot", "title": "Community 43"}, {"color": "#1c3065", "font": {"color": "#343434"}, "id": "Cherry Blossoms", "label": "Cherry Blossoms", "shape": "dot", "title": "Community 43"}, {"color": "#1c3065", "font": {"color": "#343434"}, "id": "The Professors", "label": "The Professors", "shape": "dot", "title": "Community 43"}, {"color": "#e9a5d1", "font": {"color": "#343434"}, "id": "April", "label": "April", "shape": "dot", "title": "Community 44"}, {"color": "#1c3065", "font": {"color": "#343434"}, "id": "The Deadline", "label": "The Deadline", "shape": "dot", "title": "Community 43"}, {"color": "#c99a87", "font": {"color": "#343434"}, "id": "Hat", "label": "Hat", "shape": "dot", "title": "Community 31"}, {"color": "#c99a87", "font": {"color": "#343434"}, "id": "Cedar Seedling", "label": "Cedar Seedling", "shape": "dot", "title": "Community 31"}, {"color": "#2d57fa", "font": {"color": "#343434"}, "id": "\u516b\u91cd\u685c", "label": "\u516b\u91cd\u685c", "shape": "dot", "title": "Community 45"}, {"color": "#2d57fa", "font": {"color": "#343434"}, "id": "\u521d\u590f\u306e\u5b63\u7bc0", "label": "\u521d\u590f\u306e\u5b63\u7bc0", "shape": "dot", "title": "Community 45"}, {"color": "#bf58cf", "font": {"color": "#343434"}, "id": "\u67b3\u6bbb\u306e\u57a3", "label": "\u67b3\u6bbb\u306e\u57a3", "shape": "dot", "title": "Community 46"}, {"color": "#932634", "font": {"color": "#343434"}, "id": "\u67d8\u69b4", "label": "\u67d8\u69b4", "shape": "dot", "title": "Community 47"}, {"color": "#d659dd", "font": {"color": "#343434"}, "id": "\u5e02", "label": "\u5e02", "shape": "dot", "title": "Community 48"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u91d1\u9b5a", "label": "\u91d1\u9b5a", "shape": "dot", "title": "Community 0"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u9727\u5cf6", "label": "\u9727\u5cf6", "shape": "dot", "title": "Community 0"}, {"color": "#40e162", "font": {"color": "#343434"}, "id": "\u828d\u85ac", "label": "\u828d\u85ac", "shape": "dot", "title": "Community 49"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u82e5\u3044\u67d4\u3089\u304b\u3044\u8449", "label": "\u82e5\u3044\u67d4\u3089\u304b\u3044\u8449", "shape": "dot", "title": "Community 10"}, {"color": "#a34070", "font": {"color": "#343434"}, "id": "\u5e02\u3092\u96e2\u308c\u3066", "label": "\u5e02\u3092\u96e2\u308c\u3066", "shape": "dot", "title": "Community 10"}, {"color": "#d659dd", "font": {"color": "#343434"}, "id": "\u90ca\u5916", "label": "\u90ca\u5916", "shape": "dot", "title": "Community 48"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u8ca1\u7523", "label": "\u8ca1\u7523", "shape": "dot", "title": "Community 0"}, {"color": "#02efa5", "font": {"color": "#343434"}, "id": "\u5bb6", "label": "\u5bb6", "shape": "dot", "title": "Community 50"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u8ca1\u7523\u5bb6", "label": "\u8ca1\u7523\u5bb6", "shape": "dot", "title": "Community 0"}, {"color": "#696ac4", "font": {"color": "#343434"}, "id": "World Athletics Championship", "label": "World Athletics Championship", "shape": "dot", "title": "Community 19"}, {"color": "#696ac4", "font": {"color": "#343434"}, "id": "Noah Carter", "label": "Noah Carter", "shape": "dot", "title": "Community 19"}, {"color": "#696ac4", "font": {"color": "#343434"}, "id": "100m Sprint Record", "label": "100m Sprint Record", "shape": "dot", "title": "Community 19"}, {"color": "#696ac4", "font": {"color": "#343434"}, "id": "Carbon-Fiber Spikes", "label": "Carbon-Fiber Spikes", "shape": "dot", "title": "Community 19"}, {"color": "#ca582a", "font": {"color": "#343434"}, "id": "World Athletics Federation", "label": "World Athletics Federation", "shape": "dot", "title": "Community 51"}, {"color": "#c99a87", "font": {"color": "#343434"}, "id": "Family Members", "label": "Family Members", "shape": "dot", "title": "Community 31"}, {"color": "#c99a87", "font": {"color": "#343434"}, "id": "Neighboring Children", "label": "Neighboring Children", "shape": "dot", "title": "Community 31"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u72ac", "label": "\u72ac", "shape": "dot", "title": "Community 0"}, {"color": "#a1d6c2", "font": {"color": "#343434"}, "id": "\u5c0f\u4f9b", "label": "\u5c0f\u4f9b", "shape": "dot", "title": "Community 52"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u5e83\u3044\u82e5\u8449\u306e\u5712", "label": "\u5e83\u3044\u82e5\u8449\u306e\u5712", "shape": "dot", "title": "Community 0"}, {"color": "#a1d6c2", "font": {"color": "#343434"}, "id": "\u91d1\u9b5a\u9262", "label": "\u91d1\u9b5a\u9262", "shape": "dot", "title": "Community 52"}, {"color": "#5fdfbc", "font": {"color": "#343434"}, "id": "\u8c4c\u8c46\u306e\u8513", "label": "\u8c4c\u8c46\u306e\u8513", "shape": "dot", "title": "Community 53"}, {"color": "#1ec0c7", "font": {"color": "#343434"}, "id": "\u91d1\u7db2", "label": "\u91d1\u7db2", "shape": "dot", "title": "Community 33"}, {"color": "#94e46a", "font": {"color": "#343434"}, "id": "\u89aa\u621a", "label": "\u89aa\u621a", "shape": "dot", "title": "Community 0"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "\u5148\u751f", "to": "\u53cb\u9054"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u66f8\u751f"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u897f\u6d0b\u4eba"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u9ea6\u85c1\u5e3d"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u7531\u4e95\u304c\u6d5c"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u30ca\u30ec\u30fc\u30bf\u30fc"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u773c\u93e1"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u5bfa\u306e\u5883\u5185"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u82e5\u3044\u79c1"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u6771\u4eac"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u5965\u3055\u3093"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u96d1\u53f8\u30f6\u8c37"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u938c\u5009"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u79c1"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u5893\u5730"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u5b89\u5f97\u70c8"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u6708\u306b\u4e00\u5ea6"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u5893\u53c2\u308a"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u59bb"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u3042\u306a\u305f"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u9280\u674f\u306e\u5927\u6a39"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u6dcb\u3057\u3055"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u5b66\u751f"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u5b85"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u7bb1\u6839"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u65e5\u5149"}, {"arrows": "to", "from": "\u5148\u751f", "to": "emotional conflict"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u9759"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u6a2a\u6d5c"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u66f8\u7269"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u5927\u5b66"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u60b2\u5287"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u82b1\u3084\u304b\u306a\u30ed\u30de\u30f3\u30b9"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u604b"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u96d1\u53f8\u30f6\u8c37\u306e\u5893\u5730"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u5ead"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u693f"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u89aa\u53cb"}, {"arrows": "to", "from": "\u5148\u751f", "to": "narrator"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u56db\u6708"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u66f8"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u521d\u590f\u306e\u5b63\u7bc0"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u91d1\u9b5a"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u9727\u5cf6"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u516b\u91cd\u685c"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u8ca1\u7523"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u75c5\u6c17"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u8ca1\u7523\u5bb6"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u72ac"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u5c0f\u4f9b"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u5e83\u3044\u82e5\u8449\u306e\u5712"}, {"arrows": "to", "from": "\u5148\u751f", "to": "\u89aa\u621a"}, {"arrows": "to", "from": "\u938c\u5009", "to": "\u5225\u8358"}, {"arrows": "to", "from": "\u938c\u5009", "to": "\u53cb\u9054"}, {"arrows": "to", "from": "\u53cb\u9054", "to": "\u6d77\u6c34\u6d74"}, {"arrows": "to", "from": "\u6d77\u6c34\u6d74", "to": "\u639b\u8336\u5c4b"}, {"arrows": "to", "from": "\u6d77\u6c34\u6d74", "to": "\u6d77"}, {"arrows": "to", "from": "\u639b\u8336\u5c4b", "to": "\u6d77"}, {"arrows": "to", "from": "\u639b\u8336\u5c4b", "to": "\u897f\u6d0b\u4eba"}, {"arrows": "to", "from": "\u639b\u8336\u5c4b", "to": "\u6c34"}, {"arrows": "to", "from": "\u66f8\u751f", "to": "\u5965\u3055\u3093"}, {"arrows": "to", "from": "\u6d77", "to": "\u7802"}, {"arrows": "to", "from": "\u6d77", "to": "\u30ca\u30ec\u30fc\u30bf\u30fc"}, {"arrows": "to", "from": "Tea House", "to": "I"}, {"arrows": "to", "from": "\u897f\u6d0b\u4eba", "to": "\u733f\u80a1"}, {"arrows": "to", "from": "\u6d5c", "to": "\u30ca\u30ec\u30fc\u30bf\u30fc"}, {"arrows": "to", "from": "\u6771\u4eac", "to": "\u79c1"}, {"arrows": "to", "from": "\u6771\u4eac", "to": "\u5965\u3055\u3093"}, {"arrows": "to", "from": "\u6771\u4eac", "to": "narrator"}, {"arrows": "to", "from": "\u96d1\u53f8\u30f6\u8c37", "to": "\u79c1"}, {"arrows": "to", "from": "\u5927\u90fd\u4f1a", "to": "\u79c1"}, {"arrows": "to", "from": "\u5965\u3055\u3093", "to": "narrator"}, {"arrows": "to", "from": "\u5965\u3055\u3093", "to": "\u66f8\u751f\u6642\u4ee3"}, {"arrows": "to", "from": "\u5965\u3055\u3093", "to": "\u79c1"}, {"arrows": "to", "from": "\u5965\u3055\u3093", "to": "\u65b0\u6f5f\u770c"}, {"arrows": "to", "from": "\u5965\u3055\u3093", "to": "\u79cb"}, {"arrows": "to", "from": "\u5965\u3055\u3093", "to": "\u66f8\u658e"}, {"arrows": "to", "from": "\u5965\u3055\u3093", "to": "\u8336\u306e\u9593"}, {"arrows": "to", "from": "\u5965\u3055\u3093", "to": "narrato"}, {"arrows": "to", "from": "\u5965\u3055\u3093", "to": "\u4e3b\u4eba"}, {"arrows": "to", "from": "\u5965\u3055\u3093", "to": "\u7d05\u8336\u8336\u7897"}, {"arrows": "to", "from": "\u5965\u3055\u3093", "to": "\u8336"}, {"arrows": "to", "from": "\u5965\u3055\u3093", "to": "\u4e0b\u5973"}, {"arrows": "to", "from": "\u5965\u3055\u3093", "to": "\u7740\u7269"}, {"arrows": "to", "from": "\u5965\u3055\u3093", "to": "\u624b\u7e54\u308a"}, {"arrows": "to", "from": "\u5965\u3055\u3093", "to": "\u7e2b\u3044\u60aa\u3044"}, {"arrows": "to", "from": "\u5965\u3055\u3093", "to": "\u897f\u6d0b\u83d3\u5b50"}, {"arrows": "to", "from": "\u79c1", "to": "\u5893\u53c2\u308a"}, {"arrows": "to", "from": "\u79c1", "to": "\u6dcb\u3057\u3055"}, {"arrows": "to", "from": "\u79c1", "to": "\u5b66\u751f"}, {"arrows": "to", "from": "\u79c1", "to": "\u59bb"}, {"arrows": "to", "from": "\u79c1", "to": "\u604b"}, {"arrows": "to", "from": "\u79c1", "to": "\u718a\u7b39"}, {"arrows": "to", "from": "\u79c1", "to": "\u6559\u6388"}, {"arrows": "to", "from": "\u79c1", "to": "\u53cb\u4eba"}, {"arrows": "to", "from": "\u79c1", "to": "\u7406\u89e3\u529b"}, {"arrows": "to", "from": "\u79c1", "to": "\u65e7\u5f0f\u306e\u65e5\u672c\u306e\u5973\u3089\u3057\u3055"}, {"arrows": "to", "from": "\u79c1", "to": "\u51ac"}, {"arrows": "to", "from": "\u79c1", "to": "\u30ab\u30b9\u30c6\u30e9"}, {"arrows": "to", "from": "\u79c1", "to": "\u7236"}, {"arrows": "to", "from": "\u79c1", "to": "\u6bcd"}, {"arrows": "to", "from": "\u79c1", "to": "\u5144"}, {"arrows": "to", "from": "\u79c1", "to": "\u59b9"}, {"arrows": "to", "from": "\u79c1", "to": "\u82e5\u3044\u67d4\u3089\u304b\u3044\u8449"}, {"arrows": "to", "from": "\u79c1", "to": "\u5e02\u3092\u96e2\u308c\u3066"}, {"arrows": "to", "from": "\u79c1", "to": "\u8ca1\u7523"}, {"arrows": "to", "from": "\u79c1", "to": "\u75c5\u6c17"}, {"arrows": "to", "from": "\u79c1", "to": "\u751f\u57a3"}, {"arrows": "to", "from": "\u5893\u5730", "to": "\u5148\u751f\u3089\u3057\u3044\u4eba"}, {"arrows": "to", "from": "\u5b85", "to": "\u9152"}, {"arrows": "to", "from": "noun", "to": "\u56f0\u96e3"}, {"arrows": "to", "from": "narrator", "to": "\u590f\u4f11\u307f"}, {"arrows": "to", "from": "\u65b0\u6a4b", "to": "\u6c7d\u8239"}, {"arrows": "to", "from": "\u66f8\u7269", "to": "\u66f8\u658e"}, {"arrows": "to", "from": "Tokyo", "to": "Speaker"}, {"arrows": "to", "from": "Tokyo", "to": "World Athletics Championship"}, {"arrows": "to", "from": "\u751f\u57a3", "to": "\u91d1\u9b5a\u58f2\u308a"}, {"arrows": "to", "from": "\u8336", "to": "\u89d2\u7802\u7cd6"}, {"arrows": "to", "from": "Father", "to": "Protagonist"}, {"arrows": "to", "from": "Father", "to": "Doctor"}, {"arrows": "to", "from": "Father", "to": "Fainting Incident"}, {"arrows": "to", "from": "Father", "to": "Illness"}, {"arrows": "to", "from": "Mother", "to": "Protagonist"}, {"arrows": "to", "from": "Mother", "to": "Shiitake"}, {"arrows": "to", "from": "Mother", "to": "Speaker"}, {"arrows": "to", "from": "Letter", "to": "Protagonist"}, {"arrows": "to", "from": "Protagonist", "to": "Teacher"}, {"arrows": "to", "from": "Teacher", "to": "Hat"}, {"arrows": "to", "from": "Teacher", "to": "Family Members"}, {"arrows": "to", "from": "Teacher", "to": "Neighboring Children"}, {"arrows": "to", "from": "\u7236", "to": "\u5e8a"}, {"arrows": "to", "from": "\u7236", "to": "\u5c06\u7881\u76e4"}, {"arrows": "to", "from": "\u7236", "to": "\u6bcd"}, {"arrows": "to", "from": "\u7236", "to": "\u91d1"}, {"arrows": "to", "from": "\u7236", "to": "\u9999\u8eca"}, {"arrows": "to", "from": "\u6bcd", "to": "\u75c5\u6c17"}, {"arrows": "to", "from": "\u533b\u8005", "to": "character"}, {"arrows": "to", "from": "\u56fd", "to": "character"}, {"arrows": "to", "from": "Natural Death", "to": "Violent Death"}, {"arrows": "to", "from": "The Thesis", "to": "The Narrator"}, {"arrows": "to", "from": "The Thesis", "to": "The Deadline"}, {"arrows": "to", "from": "Sensei", "to": "The Narrator"}, {"arrows": "to", "from": "Sensei", "to": "The Reference Books"}, {"arrows": "to", "from": "The Narrator", "to": "Cherry Blossoms"}, {"arrows": "to", "from": "The Narrator", "to": "The Professors"}, {"arrows": "to", "from": "Hat", "to": "Cedar Seedling"}, {"arrows": "to", "from": "\u516b\u91cd\u685c", "to": "\u521d\u590f\u306e\u5b63\u7bc0"}, {"arrows": "to", "from": "\u5e02", "to": "\u90ca\u5916"}, {"arrows": "to", "from": "World Athletics Championship", "to": "Noah Carter"}, {"arrows": "to", "from": "Noah Carter", "to": "100m Sprint Record"}, {"arrows": "to", "from": "Noah Carter", "to": "Carbon-Fiber Spikes"}, {"arrows": "to", "from": "\u5c0f\u4f9b", "to": "\u91d1\u9b5a\u9262"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
